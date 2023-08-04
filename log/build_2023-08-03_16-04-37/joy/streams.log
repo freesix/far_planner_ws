@@ -1,0 +1,59 @@
+[0.039s] Invoking command in '/home/freesix/far_planner_ws/build/joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/joystick_drivers/joy -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/joy
+[0.207s] -- The C compiler identification is GNU 11.4.0
+[0.468s] -- The CXX compiler identification is GNU 11.4.0
+[0.695s] -- Detecting C compiler ABI info
+[0.786s] -- Detecting C compiler ABI info - done
+[0.797s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.797s] -- Detecting C compile features
+[0.798s] -- Detecting C compile features - done
+[0.801s] -- Detecting CXX compiler ABI info
+[0.949s] -- Detecting CXX compiler ABI info - done
+[0.958s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.958s] -- Detecting CXX compile features
+[0.958s] -- Detecting CXX compile features - done
+[0.962s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.469s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.525s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.546s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[2.696s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.700s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.706s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.735s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.814s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.816s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.463s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.109s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.483s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.492s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.579s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.580s] -- Found Threads: TRUE  
+[5.847s] -- Found rclcpp_components: 16.0.5 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.974s] -- Found sdl2_vendor: 3.1.0 (/opt/ros/humble/share/sdl2_vendor/cmake)
+[5.978s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.111s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.210s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.210s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/joystick_drivers/joy/include>
+[6.210s] -- Configured cppcheck exclude dirs and/or files: 
+[6.211s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.211s] -- Configured cpplint exclude dirs and/or files: 
+[6.212s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.213s] -- Added test 'lint_cmake' to check CMake code style
+[6.213s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.215s] -- Added test 'uncrustify' to check C / C++ code style
+[6.215s] -- Configured uncrustify additional arguments: 
+[6.215s] -- Added test 'xmllint' to check XML markup files
+[6.217s] -- Configuring done (6.2s)
+[6.235s] -- Generating done (0.0s)
+[6.237s] -- Build files have been written to: /home/freesix/far_planner_ws/build/joy
+[6.257s] Invoked command in '/home/freesix/far_planner_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/joystick_drivers/joy -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/joy
+[6.258s] Invoking command in '/home/freesix/far_planner_ws/build/joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/joy -- -j16 -l16
+[6.363s] [ 33%] [32mBuilding CXX object CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o[0m
+[6.363s] [ 33%] [32mBuilding CXX object CMakeFiles/joy.dir/src/joy.cpp.o[0m
+[6.363s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_node.dir/rclcpp_components/node_main_joy_node.cpp.o[0m
+[6.953s] [ 66%] [32m[1mLinking CXX executable joy_enumerate_devices[0m
+[7.096s] [ 66%] Built target joy_enumerate_devices
+[9.551s] [ 83%] [32m[1mLinking CXX executable joy_node[0m
+[9.704s] [ 83%] Built target joy_node
+[16.176s] [100%] [32m[1mLinking CXX shared library libjoy.so[0m
+[16.339s] [100%] Built target joy

@@ -1,0 +1,1004 @@
+[0.211s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.211s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5b9401a3e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5b949abd30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5b949abd30>>)
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.229s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/freesix/far_planner_ws'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joy) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joy) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joy) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joy) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joy) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joy) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joy) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joy) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joy) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/joystick_drivers/joy' with type 'ros.ament_cmake' and name 'joy'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joystick_drivers) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joystick_drivers) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joystick_drivers) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joystick_drivers) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joystick_drivers) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joystick_drivers) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joystick_drivers) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joystick_drivers) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/joystick_drivers/joystick_drivers) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/loam_interface' with type 'ros.ament_cmake' and name 'loam_interface'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/local_planner' with type 'ros.ament_cmake' and name 'local_planner'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/sensor_scan_generation' with type 'ros.ament_cmake' and name 'sensor_scan_generation'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/terrain_analysis' with type 'ros.ament_cmake' and name 'terrain_analysis'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/terrain_analysis_ext' with type 'ros.ament_cmake' and name 'terrain_analysis_ext'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/vehicle_simulator' with type 'ros.ament_cmake' and name 'vehicle_simulator'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description' with type 'ros.ament_cmake' and name 'velodyne_description'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins' with type 'ros.ament_cmake' and name 'velodyne_gazebo_plugins'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator' with type 'ros.ament_cmake' and name 'velodyne_simulator'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/visualization_tools' with type 'ros.ament_cmake' and name 'visualization_tools'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/waypoint_example' with type 'ros.ament_cmake' and name 'waypoint_example'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin' with type 'ros.ament_cmake' and name 'waypoint_rviz_plugin'
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.267s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.300s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'joy' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding joy
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/freesix/far_planner_ws/build/joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/freesix/far_planner_ws/install/joy', 'merge_install': False, 'path': '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/joystick_drivers/joy', 'symlink_install': True, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'loam_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/freesix/far_planner_ws/build/loam_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/freesix/far_planner_ws/install/loam_interface', 'merge_install': False, 'path': '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/loam_interface', 'symlink_install': True, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'local_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/freesix/far_planner_ws/build/local_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/freesix/far_planner_ws/install/local_planner', 'merge_install': False, 'path': '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/local_planner', 'symlink_install': True, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_scan_generation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/freesix/far_planner_ws/build/sensor_scan_generation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/freesix/far_planner_ws/install/sensor_scan_generation', 'merge_install': False, 'path': '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/sensor_scan_generation', 'symlink_install': True, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'terrain_analysis' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/freesix/far_planner_ws/build/terrain_analysis', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/freesix/far_planner_ws/install/terrain_analysis', 'merge_install': False, 'path': '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis', 'symlink_install': True, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'terrain_analysis_ext' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/freesix/far_planner_ws/build/terrain_analysis_ext', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/freesix/far_planner_ws/install/terrain_analysis_ext', 'merge_install': False, 'path': '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext', 'symlink_install': True, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'vehicle_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/freesix/far_planner_ws/build/vehicle_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/freesix/far_planner_ws/install/vehicle_simulator', 'merge_install': False, 'path': '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/vehicle_simulator', 'symlink_install': True, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/freesix/far_planner_ws/build/velodyne_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/freesix/far_planner_ws/install/velodyne_description', 'merge_install': False, 'path': '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description', 'symlink_install': True, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/freesix/far_planner_ws/build/velodyne_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins', 'merge_install': False, 'path': '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins', 'symlink_install': True, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'visualization_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/freesix/far_planner_ws/build/visualization_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/freesix/far_planner_ws/install/visualization_tools', 'merge_install': False, 'path': '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/visualization_tools', 'symlink_install': True, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'waypoint_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/freesix/far_planner_ws/build/waypoint_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/freesix/far_planner_ws/install/waypoint_example', 'merge_install': False, 'path': '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_example', 'symlink_install': True, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'waypoint_rviz_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/freesix/far_planner_ws/build/waypoint_rviz_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin', 'merge_install': False, 'path': '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin', 'symlink_install': True, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/freesix/far_planner_ws/build/velodyne_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/freesix/far_planner_ws/install/velodyne_simulator', 'merge_install': False, 'path': '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator', 'symlink_install': True, 'test_result_base': None}
+[0.309s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.311s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description' with build type 'ament_cmake'
+[0.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description'
+[0.314s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins' with build type 'ament_cmake'
+[0.317s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.320s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/joystick_drivers/joy' with build type 'ament_cmake'
+[0.320s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/joystick_drivers/joy'
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/loam_interface' with build type 'ament_cmake'
+[0.323s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/loam_interface'
+[0.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/local_planner' with build type 'ament_cmake'
+[0.326s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/local_planner'
+[0.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.329s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/sensor_scan_generation' with build type 'ament_cmake'
+[0.329s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/sensor_scan_generation'
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis' with build type 'ament_cmake'
+[0.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis'
+[0.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.335s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext' with build type 'ament_cmake'
+[0.335s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext'
+[0.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.338s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/vehicle_simulator' with build type 'ament_cmake'
+[0.338s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/vehicle_simulator'
+[0.339s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.341s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/visualization_tools' with build type 'ament_cmake'
+[0.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/visualization_tools'
+[0.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_example' with build type 'ament_cmake'
+[0.345s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_example'
+[0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.347s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin' with build type 'ament_cmake'
+[0.347s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin'
+[0.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.348s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/velodyne_description -- -j16 -l16
+[0.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/velodyne_gazebo_plugins -- -j16 -l16
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/joy -- -j16 -l16
+[0.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/loam_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/loam_interface
+[0.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/local_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/local_planner -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/local_planner
+[0.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/sensor_scan_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/sensor_scan_generation
+[0.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/terrain_analysis': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/terrain_analysis
+[0.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/terrain_analysis_ext
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/vehicle_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/vehicle_simulator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/vehicle_simulator
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/visualization_tools -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/visualization_tools
+[0.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/waypoint_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_example -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/waypoint_example
+[0.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/waypoint_rviz_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/waypoint_rviz_plugin -- -j16 -l16
+[0.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/velodyne_description -- -j16 -l16
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/joy -- -j16 -l16
+[0.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/velodyne_description
+[0.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/joy
+[13.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/sensor_scan_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/sensor_scan_generation
+[13.500s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_description)
+[13.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/sensor_scan_generation -- -j16 -l16
+[13.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/velodyne_description
+[13.508s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_description' for CMake module files
+[13.509s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_description' for CMake config files
+[13.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_description', 'cmake_prefix_path')
+[13.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.ps1'
+[13.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.dsv'
+[13.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.sh'
+[13.515s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_description/bin'
+[13.515s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_description/lib/pkgconfig/velodyne_description.pc'
+[13.516s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_description/lib/python3.10/site-packages'
+[13.516s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_description/bin'
+[13.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/package.ps1'
+[13.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/package.dsv'
+[13.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/package.sh'
+[13.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/package.bash'
+[13.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/package.zsh'
+[13.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/velodyne_description/share/colcon-core/packages/velodyne_description)
+[13.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[13.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/joy
+[13.522s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy' for CMake module files
+[13.523s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy' for CMake config files
+[13.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[13.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[13.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[13.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[13.526s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy/lib'
+[13.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[13.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[13.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[13.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[13.527s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy/bin'
+[13.528s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy/lib/pkgconfig/joy.pc'
+[13.528s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy/lib/python3.10/site-packages'
+[13.528s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy/bin'
+[13.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/joy/share/joy/package.ps1'
+[13.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/joy/share/joy/package.dsv'
+[13.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/joy/share/joy/package.sh'
+[13.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/joy/share/joy/package.bash'
+[13.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/joy/share/joy/package.zsh'
+[13.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/joy/share/colcon-core/packages/joy)
+[13.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_description)
+[13.546s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_description' for CMake module files
+[13.546s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_description' for CMake config files
+[13.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_description', 'cmake_prefix_path')
+[13.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.ps1'
+[13.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.dsv'
+[13.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.sh'
+[13.551s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_description/bin'
+[13.551s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_description/lib/pkgconfig/velodyne_description.pc'
+[13.551s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_description/lib/python3.10/site-packages'
+[13.552s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_description/bin'
+[13.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/package.ps1'
+[13.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/package.dsv'
+[13.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/package.sh'
+[13.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/package.bash'
+[13.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_description/share/velodyne_description/package.zsh'
+[13.556s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/velodyne_description/share/colcon-core/packages/velodyne_description)
+[13.573s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[13.576s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy' for CMake module files
+[13.576s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy' for CMake config files
+[13.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[13.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[13.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[13.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[13.581s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy/lib'
+[13.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[13.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[13.583s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[13.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[13.584s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy/bin'
+[13.584s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy/lib/pkgconfig/joy.pc'
+[13.584s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy/lib/python3.10/site-packages'
+[13.585s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/joy/bin'
+[13.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/joy/share/joy/package.ps1'
+[13.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/joy/share/joy/package.dsv'
+[13.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/joy/share/joy/package.sh'
+[13.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/joy/share/joy/package.bash'
+[13.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/joy/share/joy/package.zsh'
+[13.589s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/joy/share/colcon-core/packages/joy)
+[13.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/visualization_tools -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/visualization_tools
+[13.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/visualization_tools -- -j16 -l16
+[14.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_example -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/waypoint_example
+[14.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/waypoint_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/waypoint_example -- -j16 -l16
+[14.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/local_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/local_planner -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/local_planner
+[14.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/local_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/local_planner -- -j16 -l16
+[14.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/terrain_analysis
+[14.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/terrain_analysis': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/terrain_analysis -- -j16 -l16
+[15.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/loam_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/loam_interface
+[15.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/loam_interface -- -j16 -l16
+[15.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/terrain_analysis_ext
+[15.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/terrain_analysis_ext -- -j16 -l16
+[15.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/waypoint_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/waypoint_rviz_plugin -- -j16 -l16
+[15.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/waypoint_rviz_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/waypoint_rviz_plugin
+[15.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_rviz_plugin)
+[15.465s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin' for CMake module files
+[15.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/waypoint_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/waypoint_rviz_plugin
+[15.466s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin' for CMake config files
+[15.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_rviz_plugin', 'cmake_prefix_path')
+[15.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/hook/cmake_prefix_path.ps1'
+[15.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/hook/cmake_prefix_path.dsv'
+[15.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/hook/cmake_prefix_path.sh'
+[15.470s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/lib'
+[15.470s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/bin'
+[15.470s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/lib/pkgconfig/waypoint_rviz_plugin.pc'
+[15.471s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/lib/python3.10/site-packages'
+[15.471s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/bin'
+[15.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.ps1'
+[15.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.dsv'
+[15.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.sh'
+[15.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.bash'
+[15.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.zsh'
+[15.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/colcon-core/packages/waypoint_rviz_plugin)
+[15.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_rviz_plugin)
+[15.500s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin' for CMake module files
+[15.500s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin' for CMake config files
+[15.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_rviz_plugin', 'cmake_prefix_path')
+[15.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/hook/cmake_prefix_path.ps1'
+[15.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/hook/cmake_prefix_path.dsv'
+[15.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/hook/cmake_prefix_path.sh'
+[15.504s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/lib'
+[15.504s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/bin'
+[15.504s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/lib/pkgconfig/waypoint_rviz_plugin.pc'
+[15.504s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/lib/python3.10/site-packages'
+[15.505s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/bin'
+[15.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.ps1'
+[15.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.dsv'
+[15.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.sh'
+[15.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.bash'
+[15.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.zsh'
+[15.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/waypoint_rviz_plugin/share/colcon-core/packages/waypoint_rviz_plugin)
+[22.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/velodyne_gazebo_plugins -- -j16 -l16
+[22.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/velodyne_gazebo_plugins
+[22.735s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_gazebo_plugins)
+[22.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/velodyne_gazebo_plugins
+[22.788s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins' for CMake module files
+[22.796s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins' for CMake config files
+[22.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'cmake_prefix_path')
+[22.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[22.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[22.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.sh'
+[22.837s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib'
+[22.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'ld_library_path_lib')
+[22.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[22.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[22.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.sh'
+[22.842s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/bin'
+[22.843s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib/pkgconfig/velodyne_gazebo_plugins.pc'
+[22.848s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib/python3.10/site-packages'
+[22.848s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/bin'
+[22.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.ps1'
+[22.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv'
+[22.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.sh'
+[22.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.bash'
+[22.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.zsh'
+[22.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/colcon-core/packages/velodyne_gazebo_plugins)
+[22.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_gazebo_plugins)
+[22.887s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins' for CMake module files
+[22.888s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins' for CMake config files
+[22.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'cmake_prefix_path')
+[22.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[22.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[22.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.sh'
+[22.892s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib'
+[22.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'ld_library_path_lib')
+[22.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[22.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[22.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.sh'
+[22.894s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/bin'
+[22.894s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib/pkgconfig/velodyne_gazebo_plugins.pc'
+[22.894s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib/python3.10/site-packages'
+[22.894s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/bin'
+[22.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.ps1'
+[22.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv'
+[22.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.sh'
+[22.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.bash'
+[22.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.zsh'
+[22.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/share/colcon-core/packages/velodyne_gazebo_plugins)
+[22.905s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator' with build type 'ament_cmake'
+[22.907s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator'
+[22.911s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.911s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/velodyne_simulator': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/opt/ros/humble LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/velodyne_simulator
+[26.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/velodyne_simulator' returned '0': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/opt/ros/humble LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_simulator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/velodyne_simulator
+[26.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/velodyne_simulator': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/opt/ros/humble LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/velodyne_simulator -- -j16 -l16
+[26.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/velodyne_simulator' returned '0': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/opt/ros/humble LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/velodyne_simulator -- -j16 -l16
+[26.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/velodyne_simulator': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/opt/ros/humble LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/velodyne_simulator
+[26.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_simulator)
+[26.449s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_simulator' for CMake module files
+[26.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/velodyne_simulator' returned '0': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/opt/ros/humble LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/velodyne_simulator
+[26.451s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_simulator' for CMake config files
+[26.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_simulator', 'cmake_prefix_path')
+[26.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.ps1'
+[26.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.dsv'
+[26.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.sh'
+[26.457s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_simulator/bin'
+[26.457s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_simulator/lib/pkgconfig/velodyne_simulator.pc'
+[26.457s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_simulator/lib/python3.10/site-packages'
+[26.458s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_simulator/bin'
+[26.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/package.ps1'
+[26.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/package.dsv'
+[26.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/package.sh'
+[26.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/package.bash'
+[26.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/package.zsh'
+[26.461s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/velodyne_simulator/share/colcon-core/packages/velodyne_simulator)
+[26.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_simulator)
+[26.486s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_simulator' for CMake module files
+[26.486s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_simulator' for CMake config files
+[26.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_simulator', 'cmake_prefix_path')
+[26.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.ps1'
+[26.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.dsv'
+[26.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.sh'
+[26.489s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_simulator/bin'
+[26.489s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_simulator/lib/pkgconfig/velodyne_simulator.pc'
+[26.489s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_simulator/lib/python3.10/site-packages'
+[26.490s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/velodyne_simulator/bin'
+[26.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/package.ps1'
+[26.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/package.dsv'
+[26.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/package.sh'
+[26.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/package.bash'
+[26.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/velodyne_simulator/share/velodyne_simulator/package.zsh'
+[26.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/velodyne_simulator/share/colcon-core/packages/velodyne_simulator)
+[65.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/vehicle_simulator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/vehicle_simulator
+[65.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/vehicle_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/vehicle_simulator -- -j16 -l16
+[67.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/waypoint_example -- -j16 -l16
+[67.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/waypoint_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/waypoint_example
+[67.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_example)
+[67.637s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example' for CMake module files
+[67.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/waypoint_example
+[67.639s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example' for CMake config files
+[67.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_example', 'cmake_prefix_path')
+[67.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/hook/cmake_prefix_path.ps1'
+[67.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/hook/cmake_prefix_path.dsv'
+[67.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/hook/cmake_prefix_path.sh'
+[67.646s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example/lib'
+[67.646s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example/bin'
+[67.646s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example/lib/pkgconfig/waypoint_example.pc'
+[67.647s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example/lib/python3.10/site-packages'
+[67.647s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example/bin'
+[67.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/package.ps1'
+[67.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/package.dsv'
+[67.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/package.sh'
+[67.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/package.bash'
+[67.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/package.zsh'
+[67.653s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/waypoint_example/share/colcon-core/packages/waypoint_example)
+[67.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_example)
+[67.674s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example' for CMake module files
+[67.675s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example' for CMake config files
+[67.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_example', 'cmake_prefix_path')
+[67.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/hook/cmake_prefix_path.ps1'
+[67.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/hook/cmake_prefix_path.dsv'
+[67.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/hook/cmake_prefix_path.sh'
+[67.677s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example/lib'
+[67.678s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example/bin'
+[67.678s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example/lib/pkgconfig/waypoint_example.pc'
+[67.678s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example/lib/python3.10/site-packages'
+[67.678s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/waypoint_example/bin'
+[67.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/package.ps1'
+[67.679s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/package.dsv'
+[67.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/package.sh'
+[67.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/package.bash'
+[67.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/package.zsh'
+[67.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/waypoint_example/share/colcon-core/packages/waypoint_example)
+[69.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/loam_interface -- -j16 -l16
+[69.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/loam_interface
+[70.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(loam_interface)
+[70.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/loam_interface
+[70.004s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface' for CMake module files
+[70.004s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface' for CMake config files
+[70.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('loam_interface', 'cmake_prefix_path')
+[70.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.ps1'
+[70.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.dsv'
+[70.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.sh'
+[70.006s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface/lib'
+[70.006s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface/bin'
+[70.006s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface/lib/pkgconfig/loam_interface.pc'
+[70.007s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface/lib/python3.10/site-packages'
+[70.007s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface/bin'
+[70.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.ps1'
+[70.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.dsv'
+[70.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.sh'
+[70.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.bash'
+[70.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.zsh'
+[70.009s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/loam_interface/share/colcon-core/packages/loam_interface)
+[70.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(loam_interface)
+[70.027s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface' for CMake module files
+[70.028s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface' for CMake config files
+[70.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('loam_interface', 'cmake_prefix_path')
+[70.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.ps1'
+[70.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.dsv'
+[70.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.sh'
+[70.030s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface/lib'
+[70.030s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface/bin'
+[70.030s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface/lib/pkgconfig/loam_interface.pc'
+[70.030s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface/lib/python3.10/site-packages'
+[70.030s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/loam_interface/bin'
+[70.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.ps1'
+[70.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.dsv'
+[70.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.sh'
+[70.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.bash'
+[70.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.zsh'
+[70.033s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/loam_interface/share/colcon-core/packages/loam_interface)
+[72.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/sensor_scan_generation -- -j16 -l16
+[72.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/sensor_scan_generation
+[72.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_scan_generation)
+[72.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/sensor_scan_generation
+[72.445s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation' for CMake module files
+[72.445s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation' for CMake config files
+[72.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_scan_generation', 'cmake_prefix_path')
+[72.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.ps1'
+[72.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.dsv'
+[72.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.sh'
+[72.447s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation/lib'
+[72.447s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation/bin'
+[72.447s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation/lib/pkgconfig/sensor_scan_generation.pc'
+[72.448s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation/lib/python3.10/site-packages'
+[72.448s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation/bin'
+[72.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.ps1'
+[72.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.dsv'
+[72.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.sh'
+[72.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.bash'
+[72.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.zsh'
+[72.450s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/sensor_scan_generation/share/colcon-core/packages/sensor_scan_generation)
+[72.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_scan_generation)
+[72.466s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation' for CMake module files
+[72.467s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation' for CMake config files
+[72.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_scan_generation', 'cmake_prefix_path')
+[72.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.ps1'
+[72.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.dsv'
+[72.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.sh'
+[72.468s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation/lib'
+[72.469s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation/bin'
+[72.469s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation/lib/pkgconfig/sensor_scan_generation.pc'
+[72.469s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation/lib/python3.10/site-packages'
+[72.469s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/sensor_scan_generation/bin'
+[72.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.ps1'
+[72.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.dsv'
+[72.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.sh'
+[72.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.bash'
+[72.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.zsh'
+[72.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/sensor_scan_generation/share/colcon-core/packages/sensor_scan_generation)
+[73.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/visualization_tools -- -j16 -l16
+[73.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/visualization_tools
+[73.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization_tools)
+[73.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/visualization_tools
+[73.420s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools' for CMake module files
+[73.420s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools' for CMake config files
+[73.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_tools', 'cmake_prefix_path')
+[73.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/hook/cmake_prefix_path.ps1'
+[73.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/hook/cmake_prefix_path.dsv'
+[73.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/hook/cmake_prefix_path.sh'
+[73.424s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools/lib'
+[73.424s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools/bin'
+[73.424s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools/lib/pkgconfig/visualization_tools.pc'
+[73.424s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools/lib/python3.10/site-packages'
+[73.424s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools/bin'
+[73.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/package.ps1'
+[73.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/package.dsv'
+[73.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/package.sh'
+[73.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/package.bash'
+[73.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/package.zsh'
+[73.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/visualization_tools/share/colcon-core/packages/visualization_tools)
+[73.442s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization_tools)
+[73.443s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools' for CMake module files
+[73.444s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools' for CMake config files
+[73.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_tools', 'cmake_prefix_path')
+[73.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/hook/cmake_prefix_path.ps1'
+[73.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/hook/cmake_prefix_path.dsv'
+[73.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/hook/cmake_prefix_path.sh'
+[73.445s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools/lib'
+[73.446s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools/bin'
+[73.446s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools/lib/pkgconfig/visualization_tools.pc'
+[73.446s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools/lib/python3.10/site-packages'
+[73.446s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/visualization_tools/bin'
+[73.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/package.ps1'
+[73.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/package.dsv'
+[73.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/package.sh'
+[73.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/package.bash'
+[73.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/package.zsh'
+[73.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/visualization_tools/share/colcon-core/packages/visualization_tools)
+[78.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/terrain_analysis -- -j16 -l16
+[78.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/terrain_analysis': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/terrain_analysis
+[78.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_analysis)
+[78.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/terrain_analysis
+[78.484s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis' for CMake module files
+[78.484s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis' for CMake config files
+[78.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_analysis', 'cmake_prefix_path')
+[78.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.ps1'
+[78.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.dsv'
+[78.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.sh'
+[78.487s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis/lib'
+[78.487s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis/bin'
+[78.487s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis/lib/pkgconfig/terrain_analysis.pc'
+[78.487s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis/lib/python3.10/site-packages'
+[78.487s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis/bin'
+[78.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/package.ps1'
+[78.488s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/package.dsv'
+[78.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/package.sh'
+[78.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/package.bash'
+[78.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/package.zsh'
+[78.489s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/terrain_analysis/share/colcon-core/packages/terrain_analysis)
+[78.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_analysis)
+[78.504s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis' for CMake module files
+[78.504s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis' for CMake config files
+[78.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_analysis', 'cmake_prefix_path')
+[78.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.ps1'
+[78.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.dsv'
+[78.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.sh'
+[78.506s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis/lib'
+[78.506s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis/bin'
+[78.506s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis/lib/pkgconfig/terrain_analysis.pc'
+[78.506s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis/lib/python3.10/site-packages'
+[78.506s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis/bin'
+[78.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/package.ps1'
+[78.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/package.dsv'
+[78.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/package.sh'
+[78.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/package.bash'
+[78.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis/share/terrain_analysis/package.zsh'
+[78.509s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/terrain_analysis/share/colcon-core/packages/terrain_analysis)
+[78.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/terrain_analysis_ext -- -j16 -l16
+[78.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/terrain_analysis_ext
+[78.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_analysis_ext)
+[78.975s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext' for CMake module files
+[78.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/terrain_analysis_ext
+[78.976s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext' for CMake config files
+[78.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_analysis_ext', 'cmake_prefix_path')
+[78.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/hook/cmake_prefix_path.ps1'
+[78.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/hook/cmake_prefix_path.dsv'
+[78.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/hook/cmake_prefix_path.sh'
+[78.977s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext/lib'
+[78.977s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext/bin'
+[78.977s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext/lib/pkgconfig/terrain_analysis_ext.pc'
+[78.978s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext/lib/python3.10/site-packages'
+[78.978s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext/bin'
+[78.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.ps1'
+[78.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.dsv'
+[78.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.sh'
+[78.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.bash'
+[78.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.zsh'
+[78.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/colcon-core/packages/terrain_analysis_ext)
+[78.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_analysis_ext)
+[78.995s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext' for CMake module files
+[78.995s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext' for CMake config files
+[78.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_analysis_ext', 'cmake_prefix_path')
+[78.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/hook/cmake_prefix_path.ps1'
+[78.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/hook/cmake_prefix_path.dsv'
+[78.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/hook/cmake_prefix_path.sh'
+[78.997s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext/lib'
+[78.997s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext/bin'
+[78.997s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext/lib/pkgconfig/terrain_analysis_ext.pc'
+[78.997s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext/lib/python3.10/site-packages'
+[78.997s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/terrain_analysis_ext/bin'
+[78.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.ps1'
+[78.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.dsv'
+[78.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.sh'
+[78.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.bash'
+[79.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.zsh'
+[79.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/terrain_analysis_ext/share/colcon-core/packages/terrain_analysis_ext)
+[84.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/vehicle_simulator -- -j16 -l16
+[84.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/freesix/far_planner_ws/build/vehicle_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/vehicle_simulator
+[84.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_simulator)
+[84.703s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator' for CMake module files
+[84.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/vehicle_simulator
+[84.703s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator' for CMake config files
+[84.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_simulator', 'cmake_prefix_path')
+[84.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/hook/cmake_prefix_path.ps1'
+[84.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/hook/cmake_prefix_path.dsv'
+[84.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/hook/cmake_prefix_path.sh'
+[84.705s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator/lib'
+[84.705s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator/bin'
+[84.705s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator/lib/pkgconfig/vehicle_simulator.pc'
+[84.705s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator/lib/python3.10/site-packages'
+[84.705s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator/bin'
+[84.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/package.ps1'
+[84.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/package.dsv'
+[84.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/package.sh'
+[84.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/package.bash'
+[84.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/package.zsh'
+[84.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/vehicle_simulator/share/colcon-core/packages/vehicle_simulator)
+[84.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_simulator)
+[84.725s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator' for CMake module files
+[84.725s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator' for CMake config files
+[84.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_simulator', 'cmake_prefix_path')
+[84.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/hook/cmake_prefix_path.ps1'
+[84.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/hook/cmake_prefix_path.dsv'
+[84.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/hook/cmake_prefix_path.sh'
+[84.727s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator/lib'
+[84.727s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator/bin'
+[84.727s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator/lib/pkgconfig/vehicle_simulator.pc'
+[84.727s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator/lib/python3.10/site-packages'
+[84.727s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/vehicle_simulator/bin'
+[84.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/package.ps1'
+[84.729s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/package.dsv'
+[84.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/package.sh'
+[84.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/package.bash'
+[84.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/package.zsh'
+[84.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/vehicle_simulator/share/colcon-core/packages/vehicle_simulator)
+[87.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/freesix/far_planner_ws/build/local_planner' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/local_planner -- -j16 -l16
+[87.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(local_planner)
+[87.504s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/local_planner' for CMake module files
+[87.504s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/local_planner' for CMake config files
+[87.504s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/local_planner/bin'
+[87.505s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/local_planner/lib/pkgconfig/local_planner.pc'
+[87.505s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/local_planner/lib/python3.10/site-packages'
+[87.505s] Level 1:colcon.colcon_core.environment:checking '/home/freesix/far_planner_ws/install/local_planner/bin'
+[87.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/local_planner/share/local_planner/package.ps1'
+[87.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/freesix/far_planner_ws/install/local_planner/share/local_planner/package.dsv'
+[87.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/local_planner/share/local_planner/package.sh'
+[87.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/local_planner/share/local_planner/package.bash'
+[87.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/freesix/far_planner_ws/install/local_planner/share/local_planner/package.zsh'
+[87.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/freesix/far_planner_ws/install/local_planner/share/colcon-core/packages/local_planner)
+[87.521s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[87.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[87.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[87.525s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[87.602s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[87.602s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[87.602s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[87.603s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[87.603s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[87.604s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[87.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/freesix/far_planner_ws/install/local_setup.ps1'
+[87.608s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/freesix/far_planner_ws/install/_local_setup_util_ps1.py'
+[87.609s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/freesix/far_planner_ws/install/setup.ps1'
+[87.610s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/freesix/far_planner_ws/install/local_setup.sh'
+[87.611s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/freesix/far_planner_ws/install/_local_setup_util_sh.py'
+[87.611s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/freesix/far_planner_ws/install/setup.sh'
+[87.612s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/freesix/far_planner_ws/install/local_setup.bash'
+[87.613s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/freesix/far_planner_ws/install/setup.bash'
+[87.614s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/freesix/far_planner_ws/install/local_setup.zsh'
+[87.614s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/freesix/far_planner_ws/install/setup.zsh'

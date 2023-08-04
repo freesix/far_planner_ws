@@ -1,0 +1,90 @@
+[0.038s] Invoking command in '/home/freesix/far_planner_ws/build/local_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/local_planner -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/local_planner
+[0.064s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.145s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.152s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.282s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.285s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.292s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.318s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.391s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.391s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.960s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.126s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.282s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.363s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.706s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.711s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.713s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.723s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.883s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[4.013s] -- Checking for module 'eigen3'
+[4.021s] --   Found eigen3, version 3.4.0
+[4.037s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.037s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.465s] -- Checking for module 'flann'
+[4.472s] --   Found flann, version 1.9.1
+[4.754s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.755s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[8.205s] -- Checking for module 'libusb-1.0'
+[8.212s] --   Found libusb-1.0, version 1.0.25
+[8.285s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[8.286s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.390s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.678s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.687s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.697s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.049s] -- Found Qhull version 8.0.2
+[12.344s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.734s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[13.735s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[13.736s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[13.737s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[13.738s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[13.739s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[13.739s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[13.740s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[13.741s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[13.742s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[13.743s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[13.744s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[13.745s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[13.746s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[13.748s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[13.749s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[13.751s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[13.752s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[13.754s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[13.755s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[13.757s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[13.757s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[13.758s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[13.760s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[13.761s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[13.889s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.977s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.978s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.979s] -- Configured cppcheck include dirs: 
+[13.979s] -- Configured cppcheck exclude dirs and/or files: 
+[13.980s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.980s] -- Configured cpplint exclude dirs and/or files: 
+[13.981s] -- Added test 'lint_cmake' to check CMake code style
+[13.982s] -- Added test 'uncrustify' to check C / C++ code style
+[13.982s] -- Configured uncrustify additional arguments: 
+[13.982s] -- Added test 'xmllint' to check XML markup files
+[13.984s] -- Configuring done (13.9s)
+[14.051s] -- Generating done (0.1s)
+[14.056s] -- Build files have been written to: /home/freesix/far_planner_ws/build/local_planner
+[14.085s] Invoked command in '/home/freesix/far_planner_ws/build/local_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/local_planner -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/local_planner
+[14.089s] Invoking command in '/home/freesix/far_planner_ws/build/local_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/local_planner -- -j16 -l16
+[14.129s] [ 25%] [32mBuilding CXX object CMakeFiles/localPlanner.dir/src/localPlanner.cpp.o[0m
+[14.132s] [ 50%] [32mBuilding CXX object CMakeFiles/pathFollower.dir/src/pathFollower.cpp.o[0m
+[60.474s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[60.475s] compilation terminated.
+[60.478s] gmake[2]: *** [CMakeFiles/pathFollower.dir/build.make:76: CMakeFiles/pathFollower.dir/src/pathFollower.cpp.o] Error 1
+[60.488s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pathFollower.dir/all] Error 2
+[60.489s] gmake[1]: *** Waiting for unfinished jobs....
+[86.617s] [ 75%] [32m[1mLinking CXX executable localPlanner[0m
+[87.129s] [ 75%] Built target localPlanner
+[87.138s] gmake: *** [Makefile:146: all] Error 2
+[87.162s] Invoked command in '/home/freesix/far_planner_ws/build/local_planner' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/local_planner -- -j16 -l16

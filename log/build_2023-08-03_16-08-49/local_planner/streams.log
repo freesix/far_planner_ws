@@ -1,0 +1,33 @@
+[0.012s] Invoking command in '/home/freesix/far_planner_ws/build/local_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/local_planner -- -j16 -l16
+[0.088s] [ 25%] [32mBuilding CXX object CMakeFiles/pathFollower.dir/src/pathFollower.cpp.o[0m
+[0.118s] [ 75%] Built target localPlanner
+[18.199s] [100%] [32m[1mLinking CXX executable pathFollower[0m
+[18.540s] [100%] Built target pathFollower
+[18.543s] Invoked command in '/home/freesix/far_planner_ws/build/local_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/local_planner -- -j16 -l16
+[18.561s] Invoking command in '/home/freesix/far_planner_ws/build/local_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/local_planner
+[18.562s] -- Install configuration: "Release"
+[18.563s] -- Execute custom install script
+[18.564s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/lib/local_planner/localPlanner
+[18.566s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/lib/local_planner/pathFollower
+[18.568s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/launch/local_planner.launch
+[18.570s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/correspondences.txt
+[18.572s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/pathList.ply
+[18.574s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/path_generator.m
+[18.575s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/paths.ply
+[18.577s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/startPaths.ply
+[18.579s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/ament_index/resource_index/package_run_dependencies/local_planner
+[18.581s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/ament_index/resource_index/parent_prefix_path/local_planner
+[18.583s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/environment/ament_prefix_path.sh
+[18.584s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/environment/ament_prefix_path.dsv
+[18.586s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/environment/path.sh
+[18.588s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/environment/path.dsv
+[18.589s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/local_setup.bash
+[18.591s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/local_setup.sh
+[18.593s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/local_setup.zsh
+[18.595s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/local_setup.dsv
+[18.596s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/package.dsv
+[18.598s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/ament_index/resource_index/packages/local_planner
+[18.600s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/cmake/local_plannerConfig.cmake
+[18.601s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/cmake/local_plannerConfig-version.cmake
+[18.603s] -- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/package.xml
+[18.606s] Invoked command in '/home/freesix/far_planner_ws/build/local_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/local_planner

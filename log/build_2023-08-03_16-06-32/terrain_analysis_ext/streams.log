@@ -1,0 +1,104 @@
+[0.033s] Invoking command in '/home/freesix/far_planner_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/terrain_analysis_ext
+[0.056s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.145s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.152s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.274s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.277s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.283s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.303s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.376s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.377s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.648s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.791s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.905s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.994s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.342s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.348s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.350s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.362s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[4.476s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[4.612s] -- Checking for module 'eigen3'
+[4.620s] --   Found eigen3, version 3.4.0
+[4.639s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.639s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.502s] -- Checking for module 'flann'
+[5.509s] --   Found flann, version 1.9.1
+[5.715s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.715s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[9.003s] -- Checking for module 'libusb-1.0'
+[9.011s] --   Found libusb-1.0, version 1.0.25
+[9.073s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[9.074s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.200s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.481s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.486s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.492s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.815s] -- Found Qhull version 8.0.2
+[13.072s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.639s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[14.640s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[14.641s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[14.642s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[14.642s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[14.644s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[14.644s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[14.644s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[14.645s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[14.646s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[14.647s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[14.648s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[14.649s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[14.650s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[14.650s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[14.651s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[14.652s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[14.653s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[14.654s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[14.655s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[14.656s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[14.656s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[14.656s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[14.657s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[14.658s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[14.734s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.817s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.819s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.819s] -- Configured cppcheck include dirs: 
+[14.819s] -- Configured cppcheck exclude dirs and/or files: 
+[14.820s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.820s] -- Configured cpplint exclude dirs and/or files: 
+[14.821s] -- Added test 'lint_cmake' to check CMake code style
+[14.822s] -- Added test 'uncrustify' to check C / C++ code style
+[14.822s] -- Configured uncrustify additional arguments: 
+[14.823s] -- Added test 'xmllint' to check XML markup files
+[14.824s] -- Configuring done (14.8s)
+[14.869s] -- Generating done (0.0s)
+[14.873s] -- Build files have been written to: /home/freesix/far_planner_ws/build/terrain_analysis_ext
+[14.915s] Invoked command in '/home/freesix/far_planner_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/terrain_analysis_ext
+[14.918s] Invoking command in '/home/freesix/far_planner_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/terrain_analysis_ext -- -j16 -l16
+[14.945s] [ 50%] [32mBuilding CXX object CMakeFiles/terrainAnalysisExt.dir/src/terrainAnalysisExt.cpp.o[0m
+[77.903s] [100%] [32m[1mLinking CXX executable terrainAnalysisExt[0m
+[78.523s] [100%] Built target terrainAnalysisExt
+[78.572s] Invoked command in '/home/freesix/far_planner_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/terrain_analysis_ext -- -j16 -l16
+[78.590s] Invoking command in '/home/freesix/far_planner_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/terrain_analysis_ext
+[78.592s] -- Install configuration: "Release"
+[78.593s] -- Execute custom install script
+[78.594s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/lib/terrain_analysis_ext/terrainAnalysisExt
+[78.597s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/launch/terrain_analysis_ext.launch
+[78.601s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/ament_index/resource_index/package_run_dependencies/terrain_analysis_ext
+[78.604s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/ament_index/resource_index/parent_prefix_path/terrain_analysis_ext
+[78.606s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/ament_prefix_path.sh
+[78.609s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/ament_prefix_path.dsv
+[78.611s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/path.sh
+[78.614s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/path.dsv
+[78.616s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.bash
+[78.618s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.sh
+[78.620s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.zsh
+[78.623s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.dsv
+[78.625s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.dsv
+[78.627s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/ament_index/resource_index/packages/terrain_analysis_ext
+[78.630s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/cmake/terrain_analysis_extConfig.cmake
+[78.632s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/cmake/terrain_analysis_extConfig-version.cmake
+[78.634s] -- Symlinking: /home/freesix/far_planner_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.xml
+[78.639s] Invoked command in '/home/freesix/far_planner_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/terrain_analysis_ext

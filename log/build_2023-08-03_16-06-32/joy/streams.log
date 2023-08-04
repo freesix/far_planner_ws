@@ -1,0 +1,37 @@
+[0.038s] Invoking command in '/home/freesix/far_planner_ws/build/joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/joy -- -j16 -l16
+[0.065s] [ 33%] Built target joy_enumerate_devices
+[0.065s] [ 66%] Built target joy
+[0.065s] [100%] Built target joy_node
+[0.077s] Invoked command in '/home/freesix/far_planner_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/joy -- -j16 -l16
+[0.098s] Invoking command in '/home/freesix/far_planner_ws/build/joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/joy
+[13.176s] -- Install configuration: "Release"
+[13.176s] -- Execute custom install script
+[13.176s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/lib/joy/joy_node
+[13.177s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/lib/joy/joy_enumerate_devices
+[13.177s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/include/joy/joy/joy.hpp
+[13.177s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/config/joy-params.yaml
+[13.177s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/launch/joy-composed-launch.py
+[13.177s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/launch/joy-launch.py
+[13.177s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[13.177s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[13.178s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/environment/ament_prefix_path.sh
+[13.178s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/environment/ament_prefix_path.dsv
+[13.178s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/environment/path.sh
+[13.178s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/environment/path.dsv
+[13.178s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/local_setup.bash
+[13.178s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/local_setup.sh
+[13.179s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/local_setup.zsh
+[13.180s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/local_setup.dsv
+[13.180s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/package.dsv
+[13.180s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/ament_index/resource_index/packages/joy
+[13.181s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+[13.181s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake
+[13.181s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.181s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/cmake/joyConfig.cmake
+[13.181s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/cmake/joyConfig-version.cmake
+[13.182s] -- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/package.xml
+[13.182s] -- Installing: /home/freesix/far_planner_ws/install/joy/lib/libjoy.so
+[13.182s] -- Set runtime path of "/home/freesix/far_planner_ws/install/joy/lib/libjoy.so" to ""
+[13.182s] -- Installing: /home/freesix/far_planner_ws/install/joy/share/joy/cmake/export_joyExport.cmake
+[13.182s] -- Installing: /home/freesix/far_planner_ws/install/joy/share/joy/cmake/export_joyExport-release.cmake
+[13.199s] Invoked command in '/home/freesix/far_planner_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/joy

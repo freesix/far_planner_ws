@@ -1,0 +1,56 @@
+[0.035s] Invoking command in '/home/freesix/far_planner_ws/build/waypoint_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_example -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/waypoint_example
+[2.288s] -- The C compiler identification is GNU 11.4.0
+[2.289s] -- The CXX compiler identification is GNU 11.4.0
+[2.289s] -- Detecting C compiler ABI info
+[2.289s] -- Detecting C compiler ABI info - done
+[2.289s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.289s] -- Detecting C compile features
+[2.289s] -- Detecting C compile features - done
+[2.289s] -- Detecting CXX compiler ABI info
+[2.290s] -- Detecting CXX compiler ABI info - done
+[2.290s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.290s] -- Detecting CXX compile features
+[2.290s] -- Detecting CXX compile features - done
+[2.290s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.356s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.409s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.428s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[2.579s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.582s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.589s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.604s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.683s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.685s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.432s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.076s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.458s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.465s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.558s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.559s] -- Found Threads: TRUE  
+[5.716s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.856s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.941s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.319s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.354s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.355s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.355s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.368s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[6.924s] [31mCMake Error at CMakeLists.txt:29 (find_package):
+[6.924s]   By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has
+[6.924s]   asked CMake to find a package configuration file provided by "pcl_ros", but
+[6.924s]   CMake did not find one.
+[6.924s] 
+[6.924s]   Could not find a package configuration file provided by "pcl_ros" with any
+[6.924s]   of the following names:
+[6.924s] 
+[6.925s]     pcl_rosConfig.cmake
+[6.925s]     pcl_ros-config.cmake
+[6.925s] 
+[6.925s]   Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set
+[6.925s]   "pcl_ros_DIR" to a directory containing one of the above files.  If
+[6.925s]   "pcl_ros" provides a separate development package or SDK, be sure it has
+[6.925s]   been installed.
+[6.925s] 
+[6.925s] [0m
+[6.925s] -- Configuring incomplete, errors occurred!

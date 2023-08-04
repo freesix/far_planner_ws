@@ -1,0 +1,1252 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (joy) JobQueued: {'identifier': 'joy', 'dependencies': OrderedDict()}
+[0.000116] (loam_interface) JobQueued: {'identifier': 'loam_interface', 'dependencies': OrderedDict()}
+[0.000127] (local_planner) JobQueued: {'identifier': 'local_planner', 'dependencies': OrderedDict()}
+[0.000136] (sensor_scan_generation) JobQueued: {'identifier': 'sensor_scan_generation', 'dependencies': OrderedDict()}
+[0.000145] (terrain_analysis) JobQueued: {'identifier': 'terrain_analysis', 'dependencies': OrderedDict()}
+[0.000154] (terrain_analysis_ext) JobQueued: {'identifier': 'terrain_analysis_ext', 'dependencies': OrderedDict()}
+[0.000162] (vehicle_simulator) JobQueued: {'identifier': 'vehicle_simulator', 'dependencies': OrderedDict()}
+[0.000170] (velodyne_description) JobQueued: {'identifier': 'velodyne_description', 'dependencies': OrderedDict()}
+[0.000178] (velodyne_gazebo_plugins) JobQueued: {'identifier': 'velodyne_gazebo_plugins', 'dependencies': OrderedDict()}
+[0.000186] (visualization_tools) JobQueued: {'identifier': 'visualization_tools', 'dependencies': OrderedDict()}
+[0.000194] (waypoint_example) JobQueued: {'identifier': 'waypoint_example', 'dependencies': OrderedDict()}
+[0.000201] (waypoint_rviz_plugin) JobQueued: {'identifier': 'waypoint_rviz_plugin', 'dependencies': OrderedDict()}
+[0.000209] (velodyne_simulator) JobQueued: {'identifier': 'velodyne_simulator', 'dependencies': OrderedDict([('velodyne_description', '/home/freesix/far_planner_ws/install/velodyne_description'), ('velodyne_gazebo_plugins', '/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins')])}
+[0.000221] (velodyne_description) JobStarted: {'identifier': 'velodyne_description'}
+[0.009549] (velodyne_gazebo_plugins) JobStarted: {'identifier': 'velodyne_gazebo_plugins'}
+[0.012413] (joy) JobStarted: {'identifier': 'joy'}
+[0.014929] (loam_interface) JobStarted: {'identifier': 'loam_interface'}
+[0.019043] (local_planner) JobStarted: {'identifier': 'local_planner'}
+[0.020714] (sensor_scan_generation) JobStarted: {'identifier': 'sensor_scan_generation'}
+[0.024625] (terrain_analysis) JobStarted: {'identifier': 'terrain_analysis'}
+[0.028427] (terrain_analysis_ext) JobStarted: {'identifier': 'terrain_analysis_ext'}
+[0.030837] (vehicle_simulator) JobStarted: {'identifier': 'vehicle_simulator'}
+[0.034124] (visualization_tools) JobStarted: {'identifier': 'visualization_tools'}
+[0.036792] (waypoint_example) JobStarted: {'identifier': 'waypoint_example'}
+[0.039181] (waypoint_rviz_plugin) JobStarted: {'identifier': 'waypoint_rviz_plugin'}
+[0.044003] (velodyne_description) JobProgress: {'identifier': 'velodyne_description', 'progress': 'cmake'}
+[0.044475] (velodyne_description) Command: {'cmd': ['/usr/local/bin/cmake', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_description', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/velodyne_description'], 'cwd': '/home/freesix/far_planner_ws/build/velodyne_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/velodyne_description'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.047424] (velodyne_gazebo_plugins) JobProgress: {'identifier': 'velodyne_gazebo_plugins', 'progress': 'cmake'}
+[0.047618] (velodyne_gazebo_plugins) Command: {'cmd': ['/usr/local/bin/cmake', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins'], 'cwd': '/home/freesix/far_planner_ws/build/velodyne_gazebo_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/velodyne_gazebo_plugins'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.049944] (joy) JobProgress: {'identifier': 'joy', 'progress': 'cmake'}
+[0.049978] (joy) Command: {'cmd': ['/usr/local/bin/cmake', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/joystick_drivers/joy', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/joy'], 'cwd': '/home/freesix/far_planner_ws/build/joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/joy'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051583] (loam_interface) JobProgress: {'identifier': 'loam_interface', 'progress': 'cmake'}
+[0.051630] (loam_interface) Command: {'cmd': ['/usr/local/bin/cmake', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/loam_interface', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/loam_interface'], 'cwd': '/home/freesix/far_planner_ws/build/loam_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/loam_interface'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.054120] (local_planner) JobProgress: {'identifier': 'local_planner', 'progress': 'cmake'}
+[0.054161] (local_planner) Command: {'cmd': ['/usr/local/bin/cmake', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/local_planner', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/local_planner'], 'cwd': '/home/freesix/far_planner_ws/build/local_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/local_planner'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.055930] (sensor_scan_generation) JobProgress: {'identifier': 'sensor_scan_generation', 'progress': 'cmake'}
+[0.055967] (sensor_scan_generation) Command: {'cmd': ['/usr/local/bin/cmake', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/sensor_scan_generation', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/sensor_scan_generation'], 'cwd': '/home/freesix/far_planner_ws/build/sensor_scan_generation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/sensor_scan_generation'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058483] (terrain_analysis) JobProgress: {'identifier': 'terrain_analysis', 'progress': 'cmake'}
+[0.058518] (terrain_analysis) Command: {'cmd': ['/usr/local/bin/cmake', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/terrain_analysis'], 'cwd': '/home/freesix/far_planner_ws/build/terrain_analysis', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/terrain_analysis'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060282] (terrain_analysis_ext) JobProgress: {'identifier': 'terrain_analysis_ext', 'progress': 'cmake'}
+[0.060314] (terrain_analysis_ext) Command: {'cmd': ['/usr/local/bin/cmake', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/terrain_analysis_ext'], 'cwd': '/home/freesix/far_planner_ws/build/terrain_analysis_ext', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/terrain_analysis_ext'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.062871] (vehicle_simulator) JobProgress: {'identifier': 'vehicle_simulator', 'progress': 'cmake'}
+[0.062912] (vehicle_simulator) Command: {'cmd': ['/usr/local/bin/cmake', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/vehicle_simulator', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/vehicle_simulator'], 'cwd': '/home/freesix/far_planner_ws/build/vehicle_simulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/vehicle_simulator'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.068532] (visualization_tools) JobProgress: {'identifier': 'visualization_tools', 'progress': 'cmake'}
+[0.068577] (visualization_tools) Command: {'cmd': ['/usr/local/bin/cmake', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/visualization_tools', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/visualization_tools'], 'cwd': '/home/freesix/far_planner_ws/build/visualization_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/visualization_tools'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.071300] (waypoint_example) JobProgress: {'identifier': 'waypoint_example', 'progress': 'cmake'}
+[0.071319] (waypoint_example) Command: {'cmd': ['/usr/local/bin/cmake', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_example', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/waypoint_example'], 'cwd': '/home/freesix/far_planner_ws/build/waypoint_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/waypoint_example'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.071701] (waypoint_rviz_plugin) JobProgress: {'identifier': 'waypoint_rviz_plugin', 'progress': 'cmake'}
+[0.071718] (waypoint_rviz_plugin) Command: {'cmd': ['/usr/local/bin/cmake', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/waypoint_rviz_plugin'], 'cwd': '/home/freesix/far_planner_ws/build/waypoint_rviz_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/waypoint_rviz_plugin'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099160] (-) TimerEvent: {}
+[0.199555] (-) TimerEvent: {}
+[0.217184] (loam_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.217577] (sensor_scan_generation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.217809] (velodyne_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.218541] (terrain_analysis_ext) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.218769] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.219077] (visualization_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.219197] (local_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.219840] (joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.220182] (vehicle_simulator) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.220847] (terrain_analysis) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299714] (-) TimerEvent: {}
+[0.400232] (-) TimerEvent: {}
+[0.419071] (terrain_analysis) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.419476] (loam_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.421933] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.426318] (vehicle_simulator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.426913] (terrain_analysis_ext) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.428989] (local_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.444148] (visualization_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.460477] (velodyne_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.461009] (sensor_scan_generation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.480881] (joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.500381] (-) TimerEvent: {}
+[0.534461] (loam_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.559886] (vehicle_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.564765] (terrain_analysis) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.565349] (sensor_scan_generation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.567247] (terrain_analysis_ext) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.570811] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.572047] (local_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.600580] (-) TimerEvent: {}
+[0.605533] (visualization_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.608195] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.629776] (loam_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.636307] (loam_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.637211] (loam_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.638716] (loam_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.642849] (loam_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.656935] (terrain_analysis) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.657448] (terrain_analysis_ext) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.658804] (vehicle_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.659326] (sensor_scan_generation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.660649] (local_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.666870] (terrain_analysis) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.667326] (terrain_analysis) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.667891] (sensor_scan_generation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.668085] (vehicle_simulator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.668309] (vehicle_simulator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.668453] (terrain_analysis) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.668598] (sensor_scan_generation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.668742] (vehicle_simulator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.668980] (sensor_scan_generation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.669243] (terrain_analysis_ext) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.669336] (terrain_analysis_ext) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.669579] (terrain_analysis_ext) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.670332] (terrain_analysis) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.670849] (sensor_scan_generation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.671333] (vehicle_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.671981] (local_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.672246] (local_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.672426] (terrain_analysis_ext) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.672593] (local_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.675953] (local_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.683971] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.695319] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.695898] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.696322] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.699666] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700643] (-) TimerEvent: {}
+[0.707385] (joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.710672] (visualization_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.718248] (visualization_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.718728] (visualization_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.718878] (visualization_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.719660] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.721567] (visualization_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.726711] (velodyne_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.727045] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.727173] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.730183] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.770368] (vehicle_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.770801] (terrain_analysis) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.778891] (terrain_analysis_ext) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.780507] (vehicle_simulator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.780911] (vehicle_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.781148] (terrain_analysis) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.781356] (terrain_analysis) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.781613] (vehicle_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.781915] (terrain_analysis) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.787637] (terrain_analysis_ext) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.788283] (vehicle_simulator) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.788555] (terrain_analysis) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.788669] (loam_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.788744] (local_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.788813] (terrain_analysis_ext) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.788877] (terrain_analysis_ext) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.790209] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.795120] (sensor_scan_generation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.797650] (local_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.798102] (loam_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.798279] (local_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.798624] (loam_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.798835] (loam_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.798903] (local_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.798964] (joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.800475] (loam_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.800604] (local_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.800666] (-) TimerEvent: {}
+[0.805993] (sensor_scan_generation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.806369] (sensor_scan_generation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.806844] (sensor_scan_generation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.808209] (sensor_scan_generation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.809397] (joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.809734] (joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.810250] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.810363] (joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.813713] (joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.821906] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.822289] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.822813] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.825086] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.833958] (visualization_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.834239] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.842253] (visualization_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.842761] (visualization_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.843010] (visualization_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.844791] (visualization_tools) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.846619] (velodyne_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.846949] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.847559] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.849273] (velodyne_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.900814] (-) TimerEvent: {}
+[0.961210] (joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.970091] (joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.970461] (joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.970680] (joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.973910] (joy) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.000977] (-) TimerEvent: {}
+[1.101506] (-) TimerEvent: {}
+[1.202124] (-) TimerEvent: {}
+[1.302752] (-) TimerEvent: {}
+[1.403450] (-) TimerEvent: {}
+[1.504057] (-) TimerEvent: {}
+[1.604653] (-) TimerEvent: {}
+[1.705248] (-) TimerEvent: {}
+[1.805763] (-) TimerEvent: {}
+[1.906444] (-) TimerEvent: {}
+[1.908702] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.946362] (terrain_analysis) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.004804] (loam_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.005924] (terrain_analysis_ext) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.006261] (vehicle_simulator) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.006539] (-) TimerEvent: {}
+[2.020536] (terrain_analysis) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.044942] (terrain_analysis) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.045387] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.085006] (vehicle_simulator) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.094838] (loam_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.099172] (local_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.103129] (vehicle_simulator) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.106706] (-) TimerEvent: {}
+[2.107795] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.112397] (loam_interface) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.167550] (velodyne_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.176720] (local_planner) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.177107] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.194735] (local_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.197251] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[2.203591] (terrain_analysis) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.203827] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.206859] (-) TimerEvent: {}
+[2.208230] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.210302] (terrain_analysis) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.210491] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.211279] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[2.222222] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[2.223397] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.223656] (terrain_analysis) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.234546] (velodyne_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.235804] (loam_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.240574] (loam_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.243947] (vehicle_simulator) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.245105] (terrain_analysis_ext) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.245382] (terrain_analysis) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.250025] (loam_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.251719] (vehicle_simulator) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.264732] (loam_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.267656] (vehicle_simulator) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.271527] (terrain_analysis) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.272785] (terrain_analysis_ext) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.284741] (loam_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.289239] (vehicle_simulator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.306996] (-) TimerEvent: {}
+[2.316321] (velodyne_description) StdoutLine: {'line': b'-- Configuring done (2.2s)\n'}
+[2.318906] (velodyne_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.319713] (velodyne_description) StdoutLine: {'line': b'-- Build files have been written to: /home/freesix/far_planner_ws/build/velodyne_description\n'}
+[2.323372] (waypoint_example) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.325210] (waypoint_example) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.325424] (waypoint_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.325581] (waypoint_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.325730] (waypoint_example) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.325878] (waypoint_example) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.326026] (waypoint_example) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.326169] (waypoint_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.326312] (waypoint_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.326453] (waypoint_example) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.326602] (waypoint_example) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.326748] (waypoint_example) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.326893] (waypoint_example) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.327045] (velodyne_description) CommandEnded: {'returncode': 0}
+[2.327463] (velodyne_description) JobProgress: {'identifier': 'velodyne_description', 'progress': 'build'}
+[2.327512] (velodyne_description) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/freesix/far_planner_ws/build/velodyne_description', '--', '-j16', '-l16'], 'cwd': '/home/freesix/far_planner_ws/build/velodyne_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/velodyne_description'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.328335] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[2.330278] (vehicle_simulator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.331227] (sensor_scan_generation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.333584] (local_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.338135] (local_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.345886] (local_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.347912] (visualization_tools) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.357466] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[2.359468] (local_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.363145] (terrain_analysis) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.363325] (loam_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.363398] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.366790] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.367138] (terrain_analysis) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.367215] (loam_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.383833] (local_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.384863] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.385604] (sensor_scan_generation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.393166] (waypoint_example) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.400376] (sensor_scan_generation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.407117] (-) TimerEvent: {}
+[2.407487] (visualization_tools) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.417110] (vehicle_simulator) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.420516] (vehicle_simulator) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.428138] (visualization_tools) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.445393] (waypoint_example) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.453419] (local_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.455679] (local_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.464912] (waypoint_example) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.481059] (joy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.507303] (-) TimerEvent: {}
+[2.527021] (sensor_scan_generation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.530743] (sensor_scan_generation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.532297] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.537504] (joy) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.538058] (sensor_scan_generation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.550259] (sensor_scan_generation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.558241] (joy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.567251] (sensor_scan_generation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.568988] (visualization_tools) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.572490] (visualization_tools) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.579596] (visualization_tools) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.591854] (visualization_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.607074] (visualization_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.607332] (-) TimerEvent: {}
+[2.615262] (waypoint_example) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.618521] (waypoint_example) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.625718] (waypoint_example) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.628536] (sensor_scan_generation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.630738] (sensor_scan_generation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.641015] (waypoint_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.657694] (waypoint_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.677155] (visualization_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.679506] (visualization_tools) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.707526] (-) TimerEvent: {}
+[2.708380] (joy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.711993] (joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.718622] (joy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.719349] (waypoint_example) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.721783] (waypoint_example) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.730678] (joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.747342] (joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.807728] (-) TimerEvent: {}
+[2.826590] (joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.828919] (joy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.893284] (terrain_analysis) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.895308] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.907877] (-) TimerEvent: {}
+[2.917969] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.925068] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[2.934724] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.937717] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.938110] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.941937] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.949447] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.969100] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.972259] (loam_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.998062] (vehicle_simulator) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.002432] (local_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.008008] (-) TimerEvent: {}
+[3.109206] (-) TimerEvent: {}
+[3.211468] (-) TimerEvent: {}
+[3.313472] (-) TimerEvent: {}
+[3.337314] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[3.347913] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[3.391145] (sensor_scan_generation) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.396136] (visualization_tools) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.415220] (-) TimerEvent: {}
+[3.468447] (waypoint_example) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.475195] (joy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.514705] (-) TimerEvent: {}
+[3.615365] (-) TimerEvent: {}
+[3.624613] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[3.624952] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[3.656367] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.686316] (loam_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.706212] (terrain_analysis) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.715513] (-) TimerEvent: {}
+[3.786976] (local_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.815678] (-) TimerEvent: {}
+[3.912589] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[3.912827] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[3.915811] (-) TimerEvent: {}
+[4.000276] (vehicle_simulator) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.015952] (-) TimerEvent: {}
+[4.029609] (sensor_scan_generation) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.086132] (visualization_tools) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.112535] (waypoint_example) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.116107] (-) TimerEvent: {}
+[4.121117] (joy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.146741] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[4.147135] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[4.216289] (-) TimerEvent: {}
+[4.316810] (-) TimerEvent: {}
+[4.417533] (-) TimerEvent: {}
+[4.512501] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[4.512758] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[4.517720] (-) TimerEvent: {}
+[4.618403] (-) TimerEvent: {}
+[4.718951] (-) TimerEvent: {}
+[4.819549] (-) TimerEvent: {}
+[4.838867] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[4.839245] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[4.858004] (terrain_analysis_ext) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.861276] (loam_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.871238] (terrain_analysis_ext) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.871550] (loam_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.919696] (-) TimerEvent: {}
+[4.982695] (terrain_analysis_ext) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.983157] (loam_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.983824] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.984114] (loam_interface) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.019917] (-) TimerEvent: {}
+[5.120580] (-) TimerEvent: {}
+[5.152950] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[5.173270] (loam_interface) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[5.173688] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[5.220816] (-) TimerEvent: {}
+[5.255522] (local_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.258260] (terrain_analysis) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.266399] (local_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.268773] (terrain_analysis) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.311550] (loam_interface) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.312226] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.321198] (-) TimerEvent: {}
+[5.333863] (vehicle_simulator) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.347520] (vehicle_simulator) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.348314] (sensor_scan_generation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.358550] (sensor_scan_generation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.369676] (local_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.370520] (local_planner) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.374320] (terrain_analysis) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.375767] (terrain_analysis) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.400265] (loam_interface) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.400597] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.421116] (-) TimerEvent: {}
+[5.467458] (vehicle_simulator) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.468714] (vehicle_simulator) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.486759] (sensor_scan_generation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.487755] (sensor_scan_generation) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.494736] (waypoint_example) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.495226] (joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.501718] (waypoint_example) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.504596] (joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.521579] (-) TimerEvent: {}
+[5.523825] (local_planner) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[5.545957] (terrain_analysis) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[5.591637] (joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.592736] (joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.595008] (waypoint_example) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.595876] (waypoint_example) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.621713] (-) TimerEvent: {}
+[5.627573] (vehicle_simulator) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[5.648245] (local_planner) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.649074] (sensor_scan_generation) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[5.674026] (terrain_analysis) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.721868] (-) TimerEvent: {}
+[5.736231] (local_planner) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.744320] (vehicle_simulator) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.752173] (waypoint_example) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[5.766422] (terrain_analysis) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.790196] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[5.804724] (sensor_scan_generation) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.809375] (loam_interface) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[5.814311] (vehicle_simulator) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.821986] (-) TimerEvent: {}
+[5.825143] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.827168] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.827434] (terrain_analysis_ext) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.840425] (terrain_analysis_ext) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[5.841850] (loam_interface) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.843403] (loam_interface) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.843641] (loam_interface) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.851172] (loam_interface) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[5.859582] (joy) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.5 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[5.892932] (waypoint_example) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.912836] (sensor_scan_generation) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.922130] (-) TimerEvent: {}
+[5.958151] (visualization_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.966191] (visualization_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.978062] (waypoint_example) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.986243] (joy) StdoutLine: {'line': b'-- Found sdl2_vendor: 3.1.0 (/opt/ros/humble/share/sdl2_vendor/cmake)\n'}
+[5.990813] (joy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.022272] (-) TimerEvent: {}
+[6.072562] (visualization_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.074230] (visualization_tools) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.122461] (-) TimerEvent: {}
+[6.123267] (local_planner) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[6.123568] (joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.156310] (vehicle_simulator) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[6.163203] (local_planner) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[6.164299] (terrain_analysis) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[6.165106] (local_planner) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[6.165332] (local_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.177805] (local_planner) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[6.200523] (vehicle_simulator) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[6.201768] (vehicle_simulator) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[6.202005] (vehicle_simulator) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.207286] (terrain_analysis) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[6.208778] (terrain_analysis) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[6.209046] (terrain_analysis) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.210584] (vehicle_simulator) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[6.221462] (terrain_analysis) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[6.222039] (joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.222214] (joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/joystick_drivers/joy/include>\n'}
+[6.222283] (joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.222512] (-) TimerEvent: {}
+[6.223262] (joy) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.223372] (joy) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.224139] (joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.225030] (joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.225847] (joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.227124] (joy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.227232] (joy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.227840] (joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.229539] (joy) StdoutLine: {'line': b'-- Configuring done (6.2s)\n'}
+[6.245555] (visualization_tools) StdoutLine: {'line': b'-- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[6.246556] (visualization_tools) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[6.247301] (joy) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.249103] (joy) StdoutLine: {'line': b'-- Build files have been written to: /home/freesix/far_planner_ws/build/joy\n'}
+[6.264129] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[6.264516] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.264657] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.264793] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.264933] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.265056] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.265166] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.265286] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.265431] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.265569] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.265702] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.265864] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.266014] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.266136] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[6.266623] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.266792] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[6.266901] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.267019] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.267136] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.267284] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.267410] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.267535] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.267661] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.268871] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.269082] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.269236] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.269486] (joy) CommandEnded: {'returncode': 0}
+[6.270232] (joy) JobProgress: {'identifier': 'joy', 'progress': 'build'}
+[6.270266] (joy) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/freesix/far_planner_ws/build/joy', '--', '-j16', '-l16'], 'cwd': '/home/freesix/far_planner_ws/build/joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/joy'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.312844] (sensor_scan_generation) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[6.322692] (-) TimerEvent: {}
+[6.355031] (sensor_scan_generation) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[6.355610] (waypoint_example) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[6.356790] (sensor_scan_generation) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[6.357063] (sensor_scan_generation) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.358471] (loam_interface) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:29 (find_package):\n'}
+[6.358766] (loam_interface) StderrLine: {'line': b'  By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[6.358927] (loam_interface) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "pcl_ros", but\n'}
+[6.359087] (loam_interface) StderrLine: {'line': b'  CMake did not find one.\n'}
+[6.359194] (loam_interface) StderrLine: {'line': b'\n'}
+[6.359306] (loam_interface) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_ros" with any\n'}
+[6.359451] (loam_interface) StderrLine: {'line': b'  of the following names:\n'}
+[6.359575] (loam_interface) StderrLine: {'line': b'\n'}
+[6.359725] (loam_interface) StderrLine: {'line': b'    pcl_rosConfig.cmake\n'}
+[6.359886] (loam_interface) StderrLine: {'line': b'    pcl_ros-config.cmake\n'}
+[6.360037] (loam_interface) StderrLine: {'line': b'\n'}
+[6.360193] (loam_interface) StderrLine: {'line': b'  Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set\n'}
+[6.360344] (loam_interface) StderrLine: {'line': b'  "pcl_ros_DIR" to a directory containing one of the above files.  If\n'}
+[6.360651] (loam_interface) StderrLine: {'line': b'  "pcl_ros" provides a separate development package or SDK, be sure it has\n'}
+[6.360830] (loam_interface) StderrLine: {'line': b'  been installed.\n'}
+[6.360980] (loam_interface) StderrLine: {'line': b'\n'}
+[6.361113] (loam_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[6.361263] (terrain_analysis_ext) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:29 (find_package):\n'}
+[6.361526] (terrain_analysis_ext) StderrLine: {'line': b'  By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[6.361611] (terrain_analysis_ext) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "pcl_ros", but\n'}
+[6.361665] (terrain_analysis_ext) StderrLine: {'line': b'  CMake did not find one.\n'}
+[6.361723] (terrain_analysis_ext) StderrLine: {'line': b'\n'}
+[6.361780] (terrain_analysis_ext) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_ros" with any\n'}
+[6.361842] (terrain_analysis_ext) StderrLine: {'line': b'  of the following names:\n'}
+[6.361901] (terrain_analysis_ext) StderrLine: {'line': b'\n'}
+[6.361962] (terrain_analysis_ext) StderrLine: {'line': b'    pcl_rosConfig.cmake\n'}
+[6.362024] (terrain_analysis_ext) StderrLine: {'line': b'    pcl_ros-config.cmake\n'}
+[6.362077] (terrain_analysis_ext) StderrLine: {'line': b'\n'}
+[6.362131] (terrain_analysis_ext) StderrLine: {'line': b'  Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set\n'}
+[6.362177] (terrain_analysis_ext) StderrLine: {'line': b'  "pcl_ros_DIR" to a directory containing one of the above files.  If\n'}
+[6.362230] (terrain_analysis_ext) StderrLine: {'line': b'  "pcl_ros" provides a separate development package or SDK, be sure it has\n'}
+[6.362296] (terrain_analysis_ext) StderrLine: {'line': b'  been installed.\n'}
+[6.362345] (terrain_analysis_ext) StderrLine: {'line': b'\n'}
+[6.362398] (terrain_analysis_ext) StderrLine: {'line': b'\x1b[0m\n'}
+[6.362457] (terrain_analysis_ext) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.362523] (loam_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.370230] (sensor_scan_generation) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[6.373484] (loam_interface) CommandEnded: {'returncode': 1}
+[6.375491] (joy) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o\x1b[0m\n'}
+[6.375778] (joy) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/joy.dir/src/joy.cpp.o\x1b[0m\n'}
+[6.375959] (joy) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_node.dir/rclcpp_components/node_main_joy_node.cpp.o\x1b[0m\n'}
+[6.378798] (velodyne_description) CommandEnded: {'returncode': 0}
+[6.381939] (terrain_analysis_ext) CommandEnded: {'returncode': 1}
+[6.390467] (waypoint_example) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[6.391899] (waypoint_example) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[6.392140] (waypoint_example) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.404533] (waypoint_example) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[6.408670] (visualization_tools) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.416416] (loam_interface) JobEnded: {'identifier': 'loam_interface', 'rc': 1}
+[6.418620] (velodyne_description) JobEnded: {'identifier': 'velodyne_description', 'rc': 'SIGINT'}
+[6.418852] (terrain_analysis_ext) JobEnded: {'identifier': 'terrain_analysis_ext', 'rc': 'SIGINT'}
+[6.420900] (waypoint_rviz_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.422767] (-) TimerEvent: {}
+[6.429595] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.466569] (vehicle_simulator) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[6.477105] (vehicle_simulator) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[6.478439] (vehicle_simulator) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[6.486634] (vehicle_simulator) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[6.503161] (visualization_tools) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[6.522967] (-) TimerEvent: {}
+[6.539495] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.540639] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.578624] (vehicle_simulator) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[6.610186] (vehicle_simulator) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[6.623136] (-) TimerEvent: {}
+[6.627005] (vehicle_simulator) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[6.650111] (vehicle_simulator) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[6.723317] (-) TimerEvent: {}
+[6.809676] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found rviz2: 11.2.6 (/opt/ros/humble/share/rviz2/cmake)\n'}
+[6.812414] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found rviz_common: 11.2.6 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[6.823486] (-) TimerEvent: {}
+[6.861531] (visualization_tools) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[6.866369] (waypoint_rviz_plugin) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[6.873553] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found OGRE\n'}
+[6.873831] (waypoint_rviz_plugin) StdoutLine: {'line': b'--   static     : OFF\n'}
+[6.873905] (waypoint_rviz_plugin) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[6.873971] (waypoint_rviz_plugin) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[6.874034] (waypoint_rviz_plugin) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[6.874095] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[6.874161] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[6.874312] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[6.874538] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[6.874592] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[6.874641] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[6.875056] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[6.875136] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[6.903331] (visualization_tools) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[6.904888] (visualization_tools) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[6.905181] (visualization_tools) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.916446] (visualization_tools) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[6.923680] (-) TimerEvent: {}
+[6.934776] (local_planner) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:29 (find_package):\n'}
+[6.935231] (local_planner) StderrLine: {'line': b'  By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[6.935387] (local_planner) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "pcl_ros", but\n'}
+[6.935690] (local_planner) StderrLine: {'line': b'  CMake did not find one.\n'}
+[6.935748] (local_planner) StderrLine: {'line': b'\n'}
+[6.935901] (local_planner) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_ros" with any\n'}
+[6.935968] (local_planner) StderrLine: {'line': b'  of the following names:\n'}
+[6.936015] (local_planner) StderrLine: {'line': b'\n'}
+[6.936050] (local_planner) StderrLine: {'line': b'    pcl_rosConfig.cmake\n'}
+[6.936085] (local_planner) StderrLine: {'line': b'    pcl_ros-config.cmake\n'}
+[6.936118] (local_planner) StderrLine: {'line': b'\n'}
+[6.936151] (local_planner) StderrLine: {'line': b'  Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set\n'}
+[6.936192] (local_planner) StderrLine: {'line': b'  "pcl_ros_DIR" to a directory containing one of the above files.  If\n'}
+[6.936225] (local_planner) StderrLine: {'line': b'  "pcl_ros" provides a separate development package or SDK, be sure it has\n'}
+[6.936258] (local_planner) StderrLine: {'line': b'  been installed.\n'}
+[6.936291] (local_planner) StderrLine: {'line': b'\n'}
+[6.936323] (local_planner) StderrLine: {'line': b'\x1b[0m\n'}
+[6.936356] (local_planner) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.936401] (terrain_analysis) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:29 (find_package):\n'}
+[6.936448] (terrain_analysis) StderrLine: {'line': b'  By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[6.936483] (terrain_analysis) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "pcl_ros", but\n'}
+[6.936517] (terrain_analysis) StderrLine: {'line': b'  CMake did not find one.\n'}
+[6.936554] (terrain_analysis) StderrLine: {'line': b'\n'}
+[6.936589] (terrain_analysis) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_ros" with any\n'}
+[6.936623] (terrain_analysis) StderrLine: {'line': b'  of the following names:\n'}
+[6.936656] (terrain_analysis) StderrLine: {'line': b'\n'}
+[6.936690] (terrain_analysis) StderrLine: {'line': b'    pcl_rosConfig.cmake\n'}
+[6.936723] (terrain_analysis) StderrLine: {'line': b'    pcl_ros-config.cmake\n'}
+[6.936757] (terrain_analysis) StderrLine: {'line': b'\n'}
+[6.936792] (terrain_analysis) StderrLine: {'line': b'  Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set\n'}
+[6.936828] (terrain_analysis) StderrLine: {'line': b'  "pcl_ros_DIR" to a directory containing one of the above files.  If\n'}
+[6.936867] (terrain_analysis) StderrLine: {'line': b'  "pcl_ros" provides a separate development package or SDK, be sure it has\n'}
+[6.936902] (terrain_analysis) StderrLine: {'line': b'  been installed.\n'}
+[6.936940] (terrain_analysis) StderrLine: {'line': b'\n'}
+[6.936977] (terrain_analysis) StderrLine: {'line': b'\x1b[0m\n'}
+[6.937013] (terrain_analysis) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.949047] (local_planner) JobEnded: {'identifier': 'local_planner', 'rc': 'SIGINT'}
+[6.950875] (terrain_analysis) JobEnded: {'identifier': 'terrain_analysis', 'rc': 'SIGINT'}
+[6.952471] (vehicle_simulator) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[6.955105] (sensor_scan_generation) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:29 (find_package):\n'}
+[6.955471] (sensor_scan_generation) StderrLine: {'line': b'  By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[6.955540] (sensor_scan_generation) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "pcl_ros", but\n'}
+[6.955598] (sensor_scan_generation) StderrLine: {'line': b'  CMake did not find one.\n'}
+[6.955650] (sensor_scan_generation) StderrLine: {'line': b'\n'}
+[6.955702] (sensor_scan_generation) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_ros" with any\n'}
+[6.955752] (sensor_scan_generation) StderrLine: {'line': b'  of the following names:\n'}
+[6.955803] (sensor_scan_generation) StderrLine: {'line': b'\n'}
+[6.955838] (sensor_scan_generation) StderrLine: {'line': b'    pcl_rosConfig.cmake\n'}
+[6.955873] (sensor_scan_generation) StderrLine: {'line': b'    pcl_ros-config.cmake\n'}
+[6.955908] (sensor_scan_generation) StderrLine: {'line': b'\n'}
+[6.955942] (sensor_scan_generation) StderrLine: {'line': b'  Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set\n'}
+[6.955976] (sensor_scan_generation) StderrLine: {'line': b'  "pcl_ros_DIR" to a directory containing one of the above files.  If\n'}
+[6.956009] (sensor_scan_generation) StderrLine: {'line': b'  "pcl_ros" provides a separate development package or SDK, be sure it has\n'}
+[6.956049] (sensor_scan_generation) StderrLine: {'line': b'  been installed.\n'}
+[6.956090] (sensor_scan_generation) StderrLine: {'line': b'\n'}
+[6.956122] (sensor_scan_generation) StderrLine: {'line': b'\x1b[0m\n'}
+[6.956156] (sensor_scan_generation) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.957705] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[6.960573] (waypoint_example) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:29 (find_package):\n'}
+[6.960975] (waypoint_example) StderrLine: {'line': b'  By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[6.961054] (waypoint_example) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "pcl_ros", but\n'}
+[6.961105] (waypoint_example) StderrLine: {'line': b'  CMake did not find one.\n'}
+[6.961158] (waypoint_example) StderrLine: {'line': b'\n'}
+[6.961211] (waypoint_example) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_ros" with any\n'}
+[6.961249] (waypoint_example) StderrLine: {'line': b'  of the following names:\n'}
+[6.961283] (waypoint_example) StderrLine: {'line': b'\n'}
+[6.961317] (waypoint_example) StderrLine: {'line': b'    pcl_rosConfig.cmake\n'}
+[6.961350] (waypoint_example) StderrLine: {'line': b'    pcl_ros-config.cmake\n'}
+[6.961384] (waypoint_example) StderrLine: {'line': b'\n'}
+[6.961418] (waypoint_example) StderrLine: {'line': b'  Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set\n'}
+[6.961452] (waypoint_example) StderrLine: {'line': b'  "pcl_ros_DIR" to a directory containing one of the above files.  If\n'}
+[6.961485] (waypoint_example) StderrLine: {'line': b'  "pcl_ros" provides a separate development package or SDK, be sure it has\n'}
+[6.961519] (waypoint_example) StderrLine: {'line': b'  been installed.\n'}
+[6.961552] (waypoint_example) StderrLine: {'line': b'\n'}
+[6.961586] (waypoint_example) StderrLine: {'line': b'\x1b[0m\n'}
+[6.961620] (waypoint_example) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.962900] (vehicle_simulator) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[6.964293] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[6.964720] (vehicle_simulator) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[6.965602] (joy) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable joy_enumerate_devices\x1b[0m\n'}
+[6.966953] (sensor_scan_generation) JobEnded: {'identifier': 'sensor_scan_generation', 'rc': 'SIGINT'}
+[6.969169] (vehicle_simulator) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[6.974742] (waypoint_example) JobEnded: {'identifier': 'waypoint_example', 'rc': 'SIGINT'}
+[6.978666] (vehicle_simulator) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[6.996073] (vehicle_simulator) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[7.023818] (-) TimerEvent: {}
+[7.108024] (joy) StdoutLine: {'line': b'[ 66%] Built target joy_enumerate_devices\n'}
+[7.123996] (-) TimerEvent: {}
+[7.224514] (-) TimerEvent: {}
+[7.288656] (vehicle_simulator) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[7.297000] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[7.324661] (-) TimerEvent: {}
+[7.425242] (-) TimerEvent: {}
+[7.525974] (-) TimerEvent: {}
+[7.558311] (vehicle_simulator) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[7.558726] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[7.626132] (-) TimerEvent: {}
+[7.726665] (-) TimerEvent: {}
+[7.743316] (visualization_tools) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:31 (find_package):\n'}
+[7.743615] (visualization_tools) StderrLine: {'line': b'  By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[7.743665] (visualization_tools) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "pcl_ros", but\n'}
+[7.743703] (visualization_tools) StderrLine: {'line': b'  CMake did not find one.\n'}
+[7.743737] (visualization_tools) StderrLine: {'line': b'\n'}
+[7.743772] (visualization_tools) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_ros" with any\n'}
+[7.743808] (visualization_tools) StderrLine: {'line': b'  of the following names:\n'}
+[7.743841] (visualization_tools) StderrLine: {'line': b'\n'}
+[7.743876] (visualization_tools) StderrLine: {'line': b'    pcl_rosConfig.cmake\n'}
+[7.743909] (visualization_tools) StderrLine: {'line': b'    pcl_ros-config.cmake\n'}
+[7.743943] (visualization_tools) StderrLine: {'line': b'\n'}
+[7.743977] (visualization_tools) StderrLine: {'line': b'  Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set\n'}
+[7.744011] (visualization_tools) StderrLine: {'line': b'  "pcl_ros_DIR" to a directory containing one of the above files.  If\n'}
+[7.744045] (visualization_tools) StderrLine: {'line': b'  "pcl_ros" provides a separate development package or SDK, be sure it has\n'}
+[7.744079] (visualization_tools) StderrLine: {'line': b'  been installed.\n'}
+[7.744112] (visualization_tools) StderrLine: {'line': b'\n'}
+[7.744145] (visualization_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[7.744179] (visualization_tools) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.752629] (visualization_tools) JobEnded: {'identifier': 'visualization_tools', 'rc': 'SIGINT'}
+[7.793295] (vehicle_simulator) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[7.793491] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[7.826805] (-) TimerEvent: {}
+[7.927259] (-) TimerEvent: {}
+[8.016700] (vehicle_simulator) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[8.016911] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[8.027392] (-) TimerEvent: {}
+[8.127781] (-) TimerEvent: {}
+[8.139562] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  \n'}
+[8.227994] (-) TimerEvent: {}
+[8.268368] (vehicle_simulator) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[8.268688] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[8.328150] (-) TimerEvent: {}
+[8.413245] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[8.428283] (-) TimerEvent: {}
+[8.516938] (vehicle_simulator) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[8.517135] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[8.528418] (-) TimerEvent: {}
+[8.628810] (-) TimerEvent: {}
+[8.729209] (-) TimerEvent: {}
+[8.763431] (vehicle_simulator) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[8.829337] (-) TimerEvent: {}
+[8.929695] (-) TimerEvent: {}
+[9.030094] (-) TimerEvent: {}
+[9.130519] (-) TimerEvent: {}
+[9.230974] (-) TimerEvent: {}
+[9.331477] (-) TimerEvent: {}
+[9.431867] (-) TimerEvent: {}
+[9.532282] (-) TimerEvent: {}
+[9.563680] (joy) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable joy_node\x1b[0m\n'}
+[9.632412] (-) TimerEvent: {}
+[9.716452] (joy) StdoutLine: {'line': b'[ 83%] Built target joy_node\n'}
+[9.732569] (-) TimerEvent: {}
+[9.833071] (-) TimerEvent: {}
+[9.933421] (-) TimerEvent: {}
+[10.033797] (-) TimerEvent: {}
+[10.134161] (-) TimerEvent: {}
+[10.234563] (-) TimerEvent: {}
+[10.335027] (-) TimerEvent: {}
+[10.429387] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[10.430110] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[10.435148] (-) TimerEvent: {}
+[10.521948] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[10.522128] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[10.535279] (-) TimerEvent: {}
+[10.601509] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[10.601715] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Looking for connect\n'}
+[10.635498] (-) TimerEvent: {}
+[10.695258] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[10.695774] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Looking for remove\n'}
+[10.735638] (-) TimerEvent: {}
+[10.786487] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[10.786722] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[10.835773] (-) TimerEvent: {}
+[10.871220] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[10.871414] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[10.935996] (-) TimerEvent: {}
+[10.949562] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[10.984245] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[10.984598] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[11.036195] (-) TimerEvent: {}
+[11.136721] (-) TimerEvent: {}
+[11.237321] (-) TimerEvent: {}
+[11.337720] (-) TimerEvent: {}
+[11.438126] (-) TimerEvent: {}
+[11.538477] (-) TimerEvent: {}
+[11.638928] (-) TimerEvent: {}
+[11.727910] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[11.739173] (-) TimerEvent: {}
+[11.839634] (-) TimerEvent: {}
+[11.940004] (-) TimerEvent: {}
+[11.959765] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[11.960198] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[12.040227] (-) TimerEvent: {}
+[12.140663] (-) TimerEvent: {}
+[12.241232] (-) TimerEvent: {}
+[12.341762] (-) TimerEvent: {}
+[12.425930] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found rviz_default_plugins: 11.2.6 (/opt/ros/humble/share/rviz_default_plugins/cmake)\n'}
+[12.441914] (-) TimerEvent: {}
+[12.542374] (-) TimerEvent: {}
+[12.642739] (-) TimerEvent: {}
+[12.743236] (-) TimerEvent: {}
+[12.843682] (-) TimerEvent: {}
+[12.944230] (-) TimerEvent: {}
+[13.044641] (-) TimerEvent: {}
+[13.087596] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.144779] (-) TimerEvent: {}
+[13.153980] (waypoint_rviz_plugin) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.155369] (waypoint_rviz_plugin) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.155826] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin/include\n'}
+[13.155915] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.156691] (waypoint_rviz_plugin) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[13.156742] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[13.157542] (waypoint_rviz_plugin) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.158586] (waypoint_rviz_plugin) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.158707] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.159556] (waypoint_rviz_plugin) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.161679] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Configuring done (13.1s)\n'}
+[13.213099] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[13.215214] (waypoint_rviz_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/freesix/far_planner_ws/build/waypoint_rviz_plugin\n'}
+[13.228914] (waypoint_rviz_plugin) JobEnded: {'identifier': 'waypoint_rviz_plugin', 'rc': 'SIGINT'}
+[13.244924] (-) TimerEvent: {}
+[13.345319] (-) TimerEvent: {}
+[13.445695] (-) TimerEvent: {}
+[13.546141] (-) TimerEvent: {}
+[13.646615] (-) TimerEvent: {}
+[13.747068] (-) TimerEvent: {}
+[13.847491] (-) TimerEvent: {}
+[13.947850] (-) TimerEvent: {}
+[14.048228] (-) TimerEvent: {}
+[14.148642] (-) TimerEvent: {}
+[14.249004] (-) TimerEvent: {}
+[14.349443] (-) TimerEvent: {}
+[14.449811] (-) TimerEvent: {}
+[14.550192] (-) TimerEvent: {}
+[14.650642] (-) TimerEvent: {}
+[14.751016] (-) TimerEvent: {}
+[14.851360] (-) TimerEvent: {}
+[14.951735] (-) TimerEvent: {}
+[15.052196] (-) TimerEvent: {}
+[15.152567] (-) TimerEvent: {}
+[15.253012] (-) TimerEvent: {}
+[15.353400] (-) TimerEvent: {}
+[15.453792] (-) TimerEvent: {}
+[15.554141] (-) TimerEvent: {}
+[15.654506] (-) TimerEvent: {}
+[15.754888] (-) TimerEvent: {}
+[15.855349] (-) TimerEvent: {}
+[15.955719] (-) TimerEvent: {}
+[16.056136] (-) TimerEvent: {}
+[16.156579] (-) TimerEvent: {}
+[16.188212] (joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libjoy.so\x1b[0m\n'}
+[16.256745] (-) TimerEvent: {}
+[16.331774] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[16.335063] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[16.335518] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[16.351832] (joy) StdoutLine: {'line': b'[100%] Built target joy\n'}
+[16.355478] (joy) JobEnded: {'identifier': 'joy', 'rc': 'SIGINT'}
+[16.356901] (-) TimerEvent: {}
+[16.457137] (-) TimerEvent: {}
+[16.557507] (-) TimerEvent: {}
+[16.657870] (-) TimerEvent: {}
+[16.758291] (-) TimerEvent: {}
+[16.858736] (-) TimerEvent: {}
+[16.959183] (-) TimerEvent: {}
+[16.960199] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[17.059418] (-) TimerEvent: {}
+[17.159851] (-) TimerEvent: {}
+[17.260263] (-) TimerEvent: {}
+[17.360599] (-) TimerEvent: {}
+[17.460936] (-) TimerEvent: {}
+[17.561275] (-) TimerEvent: {}
+[17.571940] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[17.574939] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[17.582647] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[17.597933] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[17.624176] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[17.629915] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[17.644593] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[17.648304] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[17.648466] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[17.661371] (-) TimerEvent: {}
+[17.761685] (-) TimerEvent: {}
+[17.862121] (-) TimerEvent: {}
+[17.962520] (-) TimerEvent: {}
+[18.062880] (-) TimerEvent: {}
+[18.174234] (-) TimerEvent: {}
+[18.224650] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[18.228629] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[18.234513] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[18.250287] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[18.253433] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[18.253639] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[18.274505] (-) TimerEvent: {}
+[18.276991] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[18.301524] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[18.302657] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[18.374341] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[18.374526] (-) TimerEvent: {}
+[18.375379] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[18.377928] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[18.378041] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[18.378321] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[18.382189] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[18.382369] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[18.474658] (-) TimerEvent: {}
+[18.575092] (-) TimerEvent: {}
+[18.675533] (-) TimerEvent: {}
+[18.775956] (-) TimerEvent: {}
+[18.876351] (-) TimerEvent: {}
+[18.976722] (-) TimerEvent: {}
+[19.077080] (-) TimerEvent: {}
+[19.102744] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[19.111635] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[19.118186] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[19.132127] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[19.136385] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[19.142137] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[19.156894] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[19.157158] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[19.157915] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[19.158152] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[19.163065] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[19.163230] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[19.169694] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[19.177185] (-) TimerEvent: {}
+[19.183420] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[19.231446] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[19.234171] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[19.239618] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[19.248536] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[19.260896] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[19.268481] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[19.270295] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[19.270667] (vehicle_simulator) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[19.277337] (-) TimerEvent: {}
+[19.305827] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[19.307205] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[19.377481] (-) TimerEvent: {}
+[19.477833] (-) TimerEvent: {}
+[19.578152] (-) TimerEvent: {}
+[19.678675] (-) TimerEvent: {}
+[19.779049] (-) TimerEvent: {}
+[19.810743] (vehicle_simulator) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[19.879176] (-) TimerEvent: {}
+[19.905894] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[19.979315] (-) TimerEvent: {}
+[20.079631] (-) TimerEvent: {}
+[20.180005] (-) TimerEvent: {}
+[20.280373] (-) TimerEvent: {}
+[20.349234] (vehicle_simulator) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[20.353073] (vehicle_simulator) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[20.359650] (vehicle_simulator) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[20.376754] (vehicle_simulator) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[20.380550] (-) TimerEvent: {}
+[20.402836] (vehicle_simulator) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[20.408999] (vehicle_simulator) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[20.425417] (vehicle_simulator) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[20.427837] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[20.427965] (vehicle_simulator) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[20.480670] (-) TimerEvent: {}
+[20.571239] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[20.580821] (-) TimerEvent: {}
+[20.681169] (-) TimerEvent: {}
+[20.781634] (-) TimerEvent: {}
+[20.881983] (-) TimerEvent: {}
+[20.982328] (-) TimerEvent: {}
+[20.992272] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[20.996109] (vehicle_simulator) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[21.002275] (vehicle_simulator) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[21.019346] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[21.021622] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[21.021843] (vehicle_simulator) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[21.043857] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[21.065898] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[21.067474] (vehicle_simulator) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[21.082449] (-) TimerEvent: {}
+[21.120599] (vehicle_simulator) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[21.121038] (vehicle_simulator) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[21.123488] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[21.123574] (vehicle_simulator) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[21.124043] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[21.126971] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[21.127097] (vehicle_simulator) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[21.182595] (-) TimerEvent: {}
+[21.282956] (-) TimerEvent: {}
+[21.383299] (-) TimerEvent: {}
+[21.483749] (-) TimerEvent: {}
+[21.501810] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[21.509105] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[21.517776] (vehicle_simulator) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[21.523553] (vehicle_simulator) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[21.529177] (vehicle_simulator) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[21.543535] (vehicle_simulator) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[21.546692] (vehicle_simulator) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[21.552155] (vehicle_simulator) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[21.565989] (vehicle_simulator) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[21.566253] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[21.566541] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[21.566815] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[21.569330] (vehicle_simulator) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[21.569498] (vehicle_simulator) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[21.575111] (vehicle_simulator) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[21.583906] (-) TimerEvent: {}
+[21.623235] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[21.684191] (-) TimerEvent: {}
+[21.784603] (-) TimerEvent: {}
+[21.790727] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[21.843858] (vehicle_simulator) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found suitable exact version "12.2") \n'}
+[21.875430] (vehicle_simulator) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.8.0") \n'}
+[21.884751] (-) TimerEvent: {}
+[21.886705] (vehicle_simulator) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[21.892148] (vehicle_simulator) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[21.907609] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Configuring done (21.8s)\n'}
+[21.907986] (vehicle_simulator) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[21.908055] (vehicle_simulator) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[21.914283] (vehicle_simulator) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[21.947012] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[21.948920] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Build files have been written to: /home/freesix/far_planner_ws/build/velodyne_gazebo_plugins\n'}
+[21.957918] (velodyne_gazebo_plugins) JobEnded: {'identifier': 'velodyne_gazebo_plugins', 'rc': 'SIGINT'}
+[21.984959] (-) TimerEvent: {}
+[22.085295] (-) TimerEvent: {}
+[22.185687] (-) TimerEvent: {}
+[22.286014] (-) TimerEvent: {}
+[22.386329] (-) TimerEvent: {}
+[22.485869] (vehicle_simulator) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[22.486498] (-) TimerEvent: {}
+[22.492843] (vehicle_simulator) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[22.586703] (-) TimerEvent: {}
+[22.678085] (vehicle_simulator) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[22.678236] (vehicle_simulator) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[22.686869] (-) TimerEvent: {}
+[22.710744] (vehicle_simulator) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[22.754028] (vehicle_simulator) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[22.786986] (-) TimerEvent: {}
+[22.887234] (-) TimerEvent: {}
+[22.890667] (vehicle_simulator) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[22.890860] (vehicle_simulator) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[22.893997] (vehicle_simulator) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[22.987428] (-) TimerEvent: {}
+[23.087764] (-) TimerEvent: {}
+[23.188141] (-) TimerEvent: {}
+[23.269253] (vehicle_simulator) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  \n'}
+[23.288272] (-) TimerEvent: {}
+[23.388644] (-) TimerEvent: {}
+[23.489101] (-) TimerEvent: {}
+[23.589451] (-) TimerEvent: {}
+[23.605233] (vehicle_simulator) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[23.614543] (vehicle_simulator) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[23.689679] (-) TimerEvent: {}
+[23.790044] (-) TimerEvent: {}
+[23.890514] (-) TimerEvent: {}
+[23.990994] (-) TimerEvent: {}
+[24.091317] (-) TimerEvent: {}
+[24.191687] (-) TimerEvent: {}
+[24.292009] (-) TimerEvent: {}
+[24.332471] (vehicle_simulator) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[24.332612] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[24.392116] (-) TimerEvent: {}
+[24.414824] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[24.414961] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[24.490197] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[24.490335] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for connect\n'}
+[24.492286] (-) TimerEvent: {}
+[24.568163] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[24.568306] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for remove\n'}
+[24.592468] (-) TimerEvent: {}
+[24.646099] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[24.646240] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[24.692596] (-) TimerEvent: {}
+[24.723118] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[24.723464] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[24.792841] (-) TimerEvent: {}
+[24.800448] (vehicle_simulator) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[24.892971] (-) TimerEvent: {}
+[24.993355] (-) TimerEvent: {}
+[25.093747] (-) TimerEvent: {}
+[25.194082] (-) TimerEvent: {}
+[25.294445] (-) TimerEvent: {}
+[25.353084] (vehicle_simulator) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[25.355033] (vehicle_simulator) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[25.357115] (vehicle_simulator) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[25.358827] (vehicle_simulator) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[25.394655] (-) TimerEvent: {}
+[25.483975] (vehicle_simulator) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[25.494774] (-) TimerEvent: {}
+[25.572121] (vehicle_simulator) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[25.575243] (vehicle_simulator) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[25.579394] (vehicle_simulator) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[25.594878] (-) TimerEvent: {}
+[25.628212] (vehicle_simulator) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[25.634610] (vehicle_simulator) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[25.692160] (vehicle_simulator) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[25.693541] (vehicle_simulator) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[25.693616] (vehicle_simulator) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[25.695045] (-) TimerEvent: {}
+[25.795362] (-) TimerEvent: {}
+[25.803405] (vehicle_simulator) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[25.803532] (vehicle_simulator) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[25.803673] (vehicle_simulator) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[25.895483] (-) TimerEvent: {}
+[25.995812] (-) TimerEvent: {}
+[26.096214] (-) TimerEvent: {}
+[26.196668] (-) TimerEvent: {}
+[26.296990] (-) TimerEvent: {}
+[26.397361] (-) TimerEvent: {}
+[26.497747] (-) TimerEvent: {}
+[26.598125] (-) TimerEvent: {}
+[26.698454] (-) TimerEvent: {}
+[26.798858] (-) TimerEvent: {}
+[26.841739] (vehicle_simulator) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[26.845366] (vehicle_simulator) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[26.848880] (vehicle_simulator) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[26.899057] (-) TimerEvent: {}
+[26.999364] (-) TimerEvent: {}
+[27.099687] (-) TimerEvent: {}
+[27.200057] (-) TimerEvent: {}
+[27.300376] (-) TimerEvent: {}
+[27.400771] (-) TimerEvent: {}
+[27.501168] (-) TimerEvent: {}
+[27.601547] (-) TimerEvent: {}
+[27.701920] (-) TimerEvent: {}
+[27.802246] (-) TimerEvent: {}
+[27.872304] (vehicle_simulator) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[27.902380] (-) TimerEvent: {}
+[28.002738] (-) TimerEvent: {}
+[28.103052] (-) TimerEvent: {}
+[28.203353] (-) TimerEvent: {}
+[28.303713] (-) TimerEvent: {}
+[28.404053] (-) TimerEvent: {}
+[28.504388] (-) TimerEvent: {}
+[28.604848] (-) TimerEvent: {}
+[28.705180] (-) TimerEvent: {}
+[28.805569] (-) TimerEvent: {}
+[28.887822] (vehicle_simulator) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[28.905711] (-) TimerEvent: {}
+[29.006025] (-) TimerEvent: {}
+[29.106433] (-) TimerEvent: {}
+[29.206826] (-) TimerEvent: {}
+[29.307161] (-) TimerEvent: {}
+[29.407572] (-) TimerEvent: {}
+[29.507947] (-) TimerEvent: {}
+[29.608376] (-) TimerEvent: {}
+[29.708779] (-) TimerEvent: {}
+[29.809145] (-) TimerEvent: {}
+[29.909543] (-) TimerEvent: {}
+[29.957936] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[29.958628] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[29.958879] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[29.959468] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[29.959539] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[29.960162] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[29.960284] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[29.960860] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[29.961115] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[29.961553] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[29.961662] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[29.962198] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[29.962312] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[29.962453] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[29.962608] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[29.962720] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[29.962828] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[29.963470] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[29.963692] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[29.964181] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[29.964360] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[29.964970] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[29.965058] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[29.965622] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[29.965751] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[29.966359] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[29.966475] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[29.967115] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[29.967204] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[29.967798] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[29.967867] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[29.968477] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[29.968581] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[29.969207] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[29.969290] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[29.969895] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[29.970047] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[29.970680] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[29.970753] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[29.971319] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[29.971722] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[29.971871] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[29.971971] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[29.972177] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[29.972272] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[29.973807] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[29.973942] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[29.974523] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[29.974654] (vehicle_simulator) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[29.975297] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[29.975877] (vehicle_simulator) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[29.976763] (vehicle_simulator) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[30.009684] (-) TimerEvent: {}
+[30.109949] (-) TimerEvent: {}
+[30.210267] (-) TimerEvent: {}
+[30.310765] (-) TimerEvent: {}
+[30.411276] (-) TimerEvent: {}
+[30.511667] (-) TimerEvent: {}
+[30.557536] (vehicle_simulator) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:42 (find_package):\n'}
+[30.557667] (vehicle_simulator) StderrLine: {'line': b'  By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[30.557703] (vehicle_simulator) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "pcl_ros", but\n'}
+[30.557735] (vehicle_simulator) StderrLine: {'line': b'  CMake did not find one.\n'}
+[30.557766] (vehicle_simulator) StderrLine: {'line': b'\n'}
+[30.557799] (vehicle_simulator) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_ros" with any\n'}
+[30.557829] (vehicle_simulator) StderrLine: {'line': b'  of the following names:\n'}
+[30.557864] (vehicle_simulator) StderrLine: {'line': b'\n'}
+[30.557894] (vehicle_simulator) StderrLine: {'line': b'    pcl_rosConfig.cmake\n'}
+[30.557924] (vehicle_simulator) StderrLine: {'line': b'    pcl_ros-config.cmake\n'}
+[30.557953] (vehicle_simulator) StderrLine: {'line': b'\n'}
+[30.557984] (vehicle_simulator) StderrLine: {'line': b'  Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set\n'}
+[30.558038] (vehicle_simulator) StderrLine: {'line': b'  "pcl_ros_DIR" to a directory containing one of the above files.  If\n'}
+[30.558079] (vehicle_simulator) StderrLine: {'line': b'  "pcl_ros" provides a separate development package or SDK, be sure it has\n'}
+[30.558111] (vehicle_simulator) StderrLine: {'line': b'  been installed.\n'}
+[30.558142] (vehicle_simulator) StderrLine: {'line': b'\n'}
+[30.558173] (vehicle_simulator) StderrLine: {'line': b'\x1b[0m\n'}
+[30.558204] (vehicle_simulator) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[30.573718] (vehicle_simulator) JobEnded: {'identifier': 'vehicle_simulator', 'rc': 'SIGINT'}
+[30.584288] (velodyne_simulator) JobSkipped: {'identifier': 'velodyne_simulator'}
+[30.584341] (-) EventReactorShutdown: {}

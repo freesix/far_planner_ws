@@ -1,0 +1,33 @@
+[ 33%] Built target joy_enumerate_devices
+[ 66%] Built target joy
+[100%] Built target joy_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/lib/joy/joy_node
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/lib/joy/joy_enumerate_devices
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/include/joy/joy/joy.hpp
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/config/joy-params.yaml
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/launch/joy-composed-launch.py
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/launch/joy-launch.py
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/environment/ament_prefix_path.sh
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/environment/ament_prefix_path.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/environment/path.sh
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/environment/path.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/local_setup.bash
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/local_setup.sh
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/local_setup.zsh
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/local_setup.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/package.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/ament_index/resource_index/packages/joy
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/cmake/joyConfig.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/cmake/joyConfig-version.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/joy/share/joy/package.xml
+-- Installing: /home/freesix/far_planner_ws/install/joy/lib/libjoy.so
+-- Set runtime path of "/home/freesix/far_planner_ws/install/joy/lib/libjoy.so" to ""
+-- Installing: /home/freesix/far_planner_ws/install/joy/share/joy/cmake/export_joyExport.cmake
+-- Installing: /home/freesix/far_planner_ws/install/joy/share/joy/cmake/export_joyExport-release.cmake

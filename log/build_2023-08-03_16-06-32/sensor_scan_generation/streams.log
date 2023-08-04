@@ -1,0 +1,104 @@
+[0.036s] Invoking command in '/home/freesix/far_planner_ws/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/sensor_scan_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/sensor_scan_generation
+[0.061s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.149s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.155s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.280s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.284s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.289s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.358s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.360s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.522s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.675s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.790s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.870s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.172s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.175s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.176s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.184s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.306s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[3.446s] -- Checking for module 'eigen3'
+[3.456s] --   Found eigen3, version 3.4.0
+[3.479s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.479s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.264s] -- Checking for module 'flann'
+[4.273s] --   Found flann, version 1.9.1
+[4.515s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.515s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[7.747s] -- Checking for module 'libusb-1.0'
+[7.757s] --   Found libusb-1.0, version 1.0.25
+[7.822s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[7.823s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.941s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.257s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.263s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.267s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.429s] -- Found Qhull version 8.0.2
+[11.656s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.875s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[12.876s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[12.876s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[12.877s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[12.878s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[12.879s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[12.879s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[12.879s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[12.880s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[12.881s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[12.882s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[12.883s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[12.884s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[12.885s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[12.886s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[12.887s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[12.887s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[12.888s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[12.889s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[12.890s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[12.891s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[12.891s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[12.891s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[12.892s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[12.893s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[12.946s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.033s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.034s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.034s] -- Configured cppcheck include dirs: 
+[13.035s] -- Configured cppcheck exclude dirs and/or files: 
+[13.035s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.035s] -- Configured cpplint exclude dirs and/or files: 
+[13.036s] -- Added test 'lint_cmake' to check CMake code style
+[13.037s] -- Added test 'uncrustify' to check C / C++ code style
+[13.037s] -- Configured uncrustify additional arguments: 
+[13.038s] -- Added test 'xmllint' to check XML markup files
+[13.039s] -- Configuring done (13.0s)
+[13.137s] -- Generating done (0.1s)
+[13.140s] -- Build files have been written to: /home/freesix/far_planner_ws/build/sensor_scan_generation
+[13.168s] Invoked command in '/home/freesix/far_planner_ws/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/sensor_scan_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/sensor_scan_generation
+[13.175s] Invoking command in '/home/freesix/far_planner_ws/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/sensor_scan_generation -- -j16 -l16
+[13.196s] [ 50%] [32mBuilding CXX object CMakeFiles/sensorScanGeneration.dir/src/sensorScanGeneration.cpp.o[0m
+[71.589s] [100%] [32m[1mLinking CXX executable sensorScanGeneration[0m
+[72.028s] [100%] Built target sensorScanGeneration
+[72.053s] Invoked command in '/home/freesix/far_planner_ws/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/sensor_scan_generation -- -j16 -l16
+[72.068s] Invoking command in '/home/freesix/far_planner_ws/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/sensor_scan_generation
+[72.070s] -- Install configuration: "Release"
+[72.071s] -- Execute custom install script
+[72.072s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/lib/sensor_scan_generation/sensorScanGeneration
+[72.076s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/launch/sensor_scan_generation.launch
+[72.080s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/ament_index/resource_index/package_run_dependencies/sensor_scan_generation
+[72.083s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/ament_index/resource_index/parent_prefix_path/sensor_scan_generation
+[72.086s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.sh
+[72.088s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.dsv
+[72.090s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.sh
+[72.092s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.dsv
+[72.095s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.bash
+[72.097s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.sh
+[72.099s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.zsh
+[72.100s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.dsv
+[72.102s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.dsv
+[72.105s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/ament_index/resource_index/packages/sensor_scan_generation
+[72.107s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig.cmake
+[72.109s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig-version.cmake
+[72.111s] -- Symlinking: /home/freesix/far_planner_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.xml
+[72.114s] Invoked command in '/home/freesix/far_planner_ws/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/sensor_scan_generation

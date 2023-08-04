@@ -1,0 +1,238 @@
+[0.000000] (-) TimerEvent: {}
+[0.001039] (-) JobUnselected: {'identifier': 'joy'}
+[0.001086] (-) JobUnselected: {'identifier': 'loam_interface'}
+[0.001100] (-) JobUnselected: {'identifier': 'sensor_scan_generation'}
+[0.001109] (-) JobUnselected: {'identifier': 'terrain_analysis'}
+[0.001117] (-) JobUnselected: {'identifier': 'terrain_analysis_ext'}
+[0.001125] (-) JobUnselected: {'identifier': 'vehicle_simulator'}
+[0.001178] (-) JobUnselected: {'identifier': 'velodyne_description'}
+[0.001194] (-) JobUnselected: {'identifier': 'velodyne_gazebo_plugins'}
+[0.001203] (-) JobUnselected: {'identifier': 'velodyne_simulator'}
+[0.001211] (-) JobUnselected: {'identifier': 'visualization_tools'}
+[0.001219] (-) JobUnselected: {'identifier': 'waypoint_example'}
+[0.001227] (-) JobUnselected: {'identifier': 'waypoint_rviz_plugin'}
+[0.001236] (local_planner) JobQueued: {'identifier': 'local_planner', 'dependencies': OrderedDict()}
+[0.001248] (local_planner) JobStarted: {'identifier': 'local_planner'}
+[0.011612] (local_planner) JobProgress: {'identifier': 'local_planner', 'progress': 'cmake'}
+[0.012930] (local_planner) JobProgress: {'identifier': 'local_planner', 'progress': 'build'}
+[0.012978] (local_planner) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/freesix/far_planner_ws/build/local_planner', '--', '-j16', '-l16'], 'cwd': '/home/freesix/far_planner_ws/build/local_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/local_planner'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.088706] (local_planner) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pathFollower.dir/src/pathFollower.cpp.o\x1b[0m\n'}
+[0.100034] (-) TimerEvent: {}
+[0.119198] (local_planner) StdoutLine: {'line': b'[ 75%] Built target localPlanner\n'}
+[0.200174] (-) TimerEvent: {}
+[0.300535] (-) TimerEvent: {}
+[0.400998] (-) TimerEvent: {}
+[0.501409] (-) TimerEvent: {}
+[0.601780] (-) TimerEvent: {}
+[0.702155] (-) TimerEvent: {}
+[0.802521] (-) TimerEvent: {}
+[0.902882] (-) TimerEvent: {}
+[1.003240] (-) TimerEvent: {}
+[1.103651] (-) TimerEvent: {}
+[1.204021] (-) TimerEvent: {}
+[1.304387] (-) TimerEvent: {}
+[1.404750] (-) TimerEvent: {}
+[1.505137] (-) TimerEvent: {}
+[1.605511] (-) TimerEvent: {}
+[1.705886] (-) TimerEvent: {}
+[1.806264] (-) TimerEvent: {}
+[1.906676] (-) TimerEvent: {}
+[2.007071] (-) TimerEvent: {}
+[2.107441] (-) TimerEvent: {}
+[2.207812] (-) TimerEvent: {}
+[2.308201] (-) TimerEvent: {}
+[2.408594] (-) TimerEvent: {}
+[2.508971] (-) TimerEvent: {}
+[2.609328] (-) TimerEvent: {}
+[2.709731] (-) TimerEvent: {}
+[2.810103] (-) TimerEvent: {}
+[2.910477] (-) TimerEvent: {}
+[3.010845] (-) TimerEvent: {}
+[3.111225] (-) TimerEvent: {}
+[3.211617] (-) TimerEvent: {}
+[3.312031] (-) TimerEvent: {}
+[3.412411] (-) TimerEvent: {}
+[3.512798] (-) TimerEvent: {}
+[3.613163] (-) TimerEvent: {}
+[3.713512] (-) TimerEvent: {}
+[3.813881] (-) TimerEvent: {}
+[3.914242] (-) TimerEvent: {}
+[4.014630] (-) TimerEvent: {}
+[4.115027] (-) TimerEvent: {}
+[4.215382] (-) TimerEvent: {}
+[4.315763] (-) TimerEvent: {}
+[4.416127] (-) TimerEvent: {}
+[4.516502] (-) TimerEvent: {}
+[4.616895] (-) TimerEvent: {}
+[4.717280] (-) TimerEvent: {}
+[4.817663] (-) TimerEvent: {}
+[4.918056] (-) TimerEvent: {}
+[5.018438] (-) TimerEvent: {}
+[5.118806] (-) TimerEvent: {}
+[5.219175] (-) TimerEvent: {}
+[5.319585] (-) TimerEvent: {}
+[5.419942] (-) TimerEvent: {}
+[5.520409] (-) TimerEvent: {}
+[5.620781] (-) TimerEvent: {}
+[5.721198] (-) TimerEvent: {}
+[5.821576] (-) TimerEvent: {}
+[5.921941] (-) TimerEvent: {}
+[6.022319] (-) TimerEvent: {}
+[6.122696] (-) TimerEvent: {}
+[6.223007] (-) TimerEvent: {}
+[6.323378] (-) TimerEvent: {}
+[6.423755] (-) TimerEvent: {}
+[6.524113] (-) TimerEvent: {}
+[6.624495] (-) TimerEvent: {}
+[6.724882] (-) TimerEvent: {}
+[6.825245] (-) TimerEvent: {}
+[6.925606] (-) TimerEvent: {}
+[7.025992] (-) TimerEvent: {}
+[7.126371] (-) TimerEvent: {}
+[7.226748] (-) TimerEvent: {}
+[7.327127] (-) TimerEvent: {}
+[7.427512] (-) TimerEvent: {}
+[7.527879] (-) TimerEvent: {}
+[7.628249] (-) TimerEvent: {}
+[7.728630] (-) TimerEvent: {}
+[7.829041] (-) TimerEvent: {}
+[7.929457] (-) TimerEvent: {}
+[8.029857] (-) TimerEvent: {}
+[8.130284] (-) TimerEvent: {}
+[8.230663] (-) TimerEvent: {}
+[8.331031] (-) TimerEvent: {}
+[8.431396] (-) TimerEvent: {}
+[8.531773] (-) TimerEvent: {}
+[8.632075] (-) TimerEvent: {}
+[8.732434] (-) TimerEvent: {}
+[8.832792] (-) TimerEvent: {}
+[8.933167] (-) TimerEvent: {}
+[9.033549] (-) TimerEvent: {}
+[9.133877] (-) TimerEvent: {}
+[9.234231] (-) TimerEvent: {}
+[9.334600] (-) TimerEvent: {}
+[9.434964] (-) TimerEvent: {}
+[9.535347] (-) TimerEvent: {}
+[9.635711] (-) TimerEvent: {}
+[9.736069] (-) TimerEvent: {}
+[9.836394] (-) TimerEvent: {}
+[9.936729] (-) TimerEvent: {}
+[10.037101] (-) TimerEvent: {}
+[10.137499] (-) TimerEvent: {}
+[10.237863] (-) TimerEvent: {}
+[10.338201] (-) TimerEvent: {}
+[10.438591] (-) TimerEvent: {}
+[10.539002] (-) TimerEvent: {}
+[10.639331] (-) TimerEvent: {}
+[10.739730] (-) TimerEvent: {}
+[10.840045] (-) TimerEvent: {}
+[10.940418] (-) TimerEvent: {}
+[11.040798] (-) TimerEvent: {}
+[11.141174] (-) TimerEvent: {}
+[11.241605] (-) TimerEvent: {}
+[11.341950] (-) TimerEvent: {}
+[11.442354] (-) TimerEvent: {}
+[11.542715] (-) TimerEvent: {}
+[11.643082] (-) TimerEvent: {}
+[11.743394] (-) TimerEvent: {}
+[11.843723] (-) TimerEvent: {}
+[11.944101] (-) TimerEvent: {}
+[12.044495] (-) TimerEvent: {}
+[12.144899] (-) TimerEvent: {}
+[12.245371] (-) TimerEvent: {}
+[12.345703] (-) TimerEvent: {}
+[12.446032] (-) TimerEvent: {}
+[12.546347] (-) TimerEvent: {}
+[12.646669] (-) TimerEvent: {}
+[12.747032] (-) TimerEvent: {}
+[12.847367] (-) TimerEvent: {}
+[12.947748] (-) TimerEvent: {}
+[13.048068] (-) TimerEvent: {}
+[13.148413] (-) TimerEvent: {}
+[13.248773] (-) TimerEvent: {}
+[13.349124] (-) TimerEvent: {}
+[13.449471] (-) TimerEvent: {}
+[13.549860] (-) TimerEvent: {}
+[13.650193] (-) TimerEvent: {}
+[13.750534] (-) TimerEvent: {}
+[13.850883] (-) TimerEvent: {}
+[13.951321] (-) TimerEvent: {}
+[14.051705] (-) TimerEvent: {}
+[14.152112] (-) TimerEvent: {}
+[14.252502] (-) TimerEvent: {}
+[14.352846] (-) TimerEvent: {}
+[14.453255] (-) TimerEvent: {}
+[14.553622] (-) TimerEvent: {}
+[14.653997] (-) TimerEvent: {}
+[14.754409] (-) TimerEvent: {}
+[14.854732] (-) TimerEvent: {}
+[14.955154] (-) TimerEvent: {}
+[15.055525] (-) TimerEvent: {}
+[15.155896] (-) TimerEvent: {}
+[15.256224] (-) TimerEvent: {}
+[15.356615] (-) TimerEvent: {}
+[15.456995] (-) TimerEvent: {}
+[15.557393] (-) TimerEvent: {}
+[15.657721] (-) TimerEvent: {}
+[15.758095] (-) TimerEvent: {}
+[15.858480] (-) TimerEvent: {}
+[15.958788] (-) TimerEvent: {}
+[16.059151] (-) TimerEvent: {}
+[16.159514] (-) TimerEvent: {}
+[16.259884] (-) TimerEvent: {}
+[16.360241] (-) TimerEvent: {}
+[16.460605] (-) TimerEvent: {}
+[16.560970] (-) TimerEvent: {}
+[16.661373] (-) TimerEvent: {}
+[16.761738] (-) TimerEvent: {}
+[16.862113] (-) TimerEvent: {}
+[16.962471] (-) TimerEvent: {}
+[17.062847] (-) TimerEvent: {}
+[17.163203] (-) TimerEvent: {}
+[17.263501] (-) TimerEvent: {}
+[17.363861] (-) TimerEvent: {}
+[17.464225] (-) TimerEvent: {}
+[17.564584] (-) TimerEvent: {}
+[17.664953] (-) TimerEvent: {}
+[17.765293] (-) TimerEvent: {}
+[17.865651] (-) TimerEvent: {}
+[17.966064] (-) TimerEvent: {}
+[18.066425] (-) TimerEvent: {}
+[18.166800] (-) TimerEvent: {}
+[18.199722] (local_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pathFollower\x1b[0m\n'}
+[18.266954] (-) TimerEvent: {}
+[18.367505] (-) TimerEvent: {}
+[18.467889] (-) TimerEvent: {}
+[18.541057] (local_planner) StdoutLine: {'line': b'[100%] Built target pathFollower\n'}
+[18.544343] (local_planner) CommandEnded: {'returncode': 0}
+[18.558231] (local_planner) JobProgress: {'identifier': 'local_planner', 'progress': 'install'}
+[18.561460] (local_planner) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/freesix/far_planner_ws/build/local_planner'], 'cwd': '/home/freesix/far_planner_ws/build/local_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'freesix'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/freesix'), ('OLDPWD', '/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment'), ('NVM_BIN', '/home/freesix/.nvm/versions/node/v18.17.0/bin'), ('NVM_INC', '/home/freesix/.nvm/versions/node/v18.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/freesix/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.28.192.1:7890'), ('INFOPATH', '/usr/local/texlive/2023/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'freesix'), ('NAME', 'freesix7'), ('WSL_INTEROP', '/run/WSL/379_interop'), ('http_proxy', 'http://172.28.192.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/freesix/.local/bin:/opt/ros/humble/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/freesix/.local/bin:/home/freesix/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Microsoft VS Code/bin:/mnt/d/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/37696/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '96d8f9ee-b25e-4454-9218-ccaa02da6b48'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/freesix/far_planner_ws/build/local_planner'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2023/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.563362] (local_planner) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[18.564164] (local_planner) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.564820] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/lib/local_planner/localPlanner\n'}
+[18.566876] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/lib/local_planner/pathFollower\n'}
+[18.568049] (-) TimerEvent: {}
+[18.569192] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/launch/local_planner.launch\n'}
+[18.571320] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/correspondences.txt\n'}
+[18.573159] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/pathList.ply\n'}
+[18.574799] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/path_generator.m\n'}
+[18.576582] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/paths.ply\n'}
+[18.578217] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/startPaths.ply\n'}
+[18.580011] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/ament_index/resource_index/package_run_dependencies/local_planner\n'}
+[18.581931] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/ament_index/resource_index/parent_prefix_path/local_planner\n'}
+[18.583801] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/environment/ament_prefix_path.sh\n'}
+[18.585611] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/environment/ament_prefix_path.dsv\n'}
+[18.587218] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/environment/path.sh\n'}
+[18.588859] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/environment/path.dsv\n'}
+[18.590566] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/local_setup.bash\n'}
+[18.592336] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/local_setup.sh\n'}
+[18.594067] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/local_setup.zsh\n'}
+[18.595788] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/local_setup.dsv\n'}
+[18.597394] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/package.dsv\n'}
+[18.599120] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/ament_index/resource_index/packages/local_planner\n'}
+[18.600959] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/cmake/local_plannerConfig.cmake\n'}
+[18.602600] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/cmake/local_plannerConfig-version.cmake\n'}
+[18.604191] (local_planner) StdoutLine: {'line': b'-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/package.xml\n'}
+[18.607497] (local_planner) CommandEnded: {'returncode': 0}
+[18.644173] (local_planner) JobEnded: {'identifier': 'local_planner', 'rc': 0}
+[18.644520] (-) EventReactorShutdown: {}

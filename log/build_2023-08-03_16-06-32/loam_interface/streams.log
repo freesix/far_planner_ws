@@ -1,0 +1,104 @@
+[0.037s] Invoking command in '/home/freesix/far_planner_ws/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/loam_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/loam_interface
+[0.065s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.141s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.152s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.282s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.283s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.288s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.383s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.385s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.458s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.609s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.743s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.847s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.205s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.209s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.210s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.220s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[4.364s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[4.485s] -- Checking for module 'eigen3'
+[4.492s] --   Found eigen3, version 3.4.0
+[4.506s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.506s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.333s] -- Checking for module 'flann'
+[5.341s] --   Found flann, version 1.9.1
+[5.529s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.529s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[9.040s] -- Checking for module 'libusb-1.0'
+[9.048s] --   Found libusb-1.0, version 1.0.25
+[9.122s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[9.123s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.248s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.487s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.493s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.497s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.737s] -- Found Qhull version 8.0.2
+[12.971s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.440s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[14.442s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[14.443s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[14.445s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[14.446s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[14.448s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[14.448s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[14.449s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[14.450s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[14.452s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[14.454s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[14.455s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[14.457s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[14.459s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[14.460s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[14.462s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[14.463s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[14.464s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[14.466s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[14.467s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[14.469s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[14.469s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[14.470s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[14.472s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[14.473s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[14.561s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.646s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.647s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.648s] -- Configured cppcheck include dirs: 
+[14.648s] -- Configured cppcheck exclude dirs and/or files: 
+[14.649s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.649s] -- Configured cpplint exclude dirs and/or files: 
+[14.649s] -- Added test 'lint_cmake' to check CMake code style
+[14.651s] -- Added test 'uncrustify' to check C / C++ code style
+[14.651s] -- Configured uncrustify additional arguments: 
+[14.651s] -- Added test 'xmllint' to check XML markup files
+[14.653s] -- Configuring done (14.6s)
+[14.703s] -- Generating done (0.0s)
+[14.707s] -- Build files have been written to: /home/freesix/far_planner_ws/build/loam_interface
+[14.737s] Invoked command in '/home/freesix/far_planner_ws/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/loam_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/loam_interface
+[14.739s] Invoking command in '/home/freesix/far_planner_ws/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/loam_interface -- -j16 -l16
+[14.765s] [ 50%] [32mBuilding CXX object CMakeFiles/loamInterface.dir/src/loamInterface.cpp.o[0m
+[69.128s] [100%] [32m[1mLinking CXX executable loamInterface[0m
+[69.574s] [100%] Built target loamInterface
+[69.610s] Invoked command in '/home/freesix/far_planner_ws/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/loam_interface -- -j16 -l16
+[69.624s] Invoking command in '/home/freesix/far_planner_ws/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/loam_interface
+[69.626s] -- Install configuration: "Release"
+[69.627s] -- Execute custom install script
+[69.628s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/lib/loam_interface/loamInterface
+[69.632s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/launch/loam_interface.launch
+[69.636s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/ament_index/resource_index/package_run_dependencies/loam_interface
+[69.639s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/ament_index/resource_index/parent_prefix_path/loam_interface
+[69.642s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/environment/ament_prefix_path.sh
+[69.645s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/environment/ament_prefix_path.dsv
+[69.648s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/environment/path.sh
+[69.651s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/environment/path.dsv
+[69.653s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/local_setup.bash
+[69.655s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/local_setup.sh
+[69.658s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/local_setup.zsh
+[69.660s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/local_setup.dsv
+[69.663s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.dsv
+[69.667s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/ament_index/resource_index/packages/loam_interface
+[69.669s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig.cmake
+[69.671s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig-version.cmake
+[69.674s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.xml
+[69.678s] Invoked command in '/home/freesix/far_planner_ws/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/loam_interface

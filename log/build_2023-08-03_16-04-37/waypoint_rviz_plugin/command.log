@@ -1,0 +1,1 @@
+Invoking command in '/home/freesix/far_planner_ws/build/waypoint_rviz_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/waypoint_rviz_plugin

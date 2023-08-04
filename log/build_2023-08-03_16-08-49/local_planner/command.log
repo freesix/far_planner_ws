@@ -1,0 +1,4 @@
+Invoking command in '/home/freesix/far_planner_ws/build/local_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/local_planner -- -j16 -l16
+Invoked command in '/home/freesix/far_planner_ws/build/local_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/local_planner -- -j16 -l16
+Invoking command in '/home/freesix/far_planner_ws/build/local_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/local_planner
+Invoked command in '/home/freesix/far_planner_ws/build/local_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/local_planner

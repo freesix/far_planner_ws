@@ -1,0 +1,29 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/pathFollower.dir/src/pathFollower.cpp.o[0m
+[ 75%] Built target localPlanner
+[100%] [32m[1mLinking CXX executable pathFollower[0m
+[100%] Built target pathFollower
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/lib/local_planner/localPlanner
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/lib/local_planner/pathFollower
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/launch/local_planner.launch
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/correspondences.txt
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/pathList.ply
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/path_generator.m
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/paths.ply
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/paths/startPaths.ply
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/ament_index/resource_index/package_run_dependencies/local_planner
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/ament_index/resource_index/parent_prefix_path/local_planner
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/environment/ament_prefix_path.sh
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/environment/ament_prefix_path.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/environment/path.sh
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/environment/path.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/local_setup.bash
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/local_setup.sh
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/local_setup.zsh
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/local_setup.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/package.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/ament_index/resource_index/packages/local_planner
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/cmake/local_plannerConfig.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/cmake/local_plannerConfig-version.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/local_planner/share/local_planner/package.xml
