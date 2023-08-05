@@ -1,0 +1,1 @@
+Invoking command in '/home/freesix/far_planner_ws/src/build/vehicle_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/vehicle_simulator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/vehicle_simulator

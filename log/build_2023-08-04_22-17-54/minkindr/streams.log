@@ -1,0 +1,35 @@
+[0.090s] Invoking command in '/home/freesix/far_planner_ws/build/minkindr': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/minkindr -- -j16 -l16
+[0.190s] Invoked command in '/home/freesix/far_planner_ws/build/minkindr' returned '0': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/minkindr -- -j16 -l16
+[0.303s] Invoking command in '/home/freesix/far_planner_ws/build/minkindr': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/minkindr
+[0.325s] -- Install configuration: "Release"
+[0.325s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include
+[0.326s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include/kindr
+[0.326s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal
+[0.326s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/angle-axis.h
+[0.326s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/quat-sim-transform.h
+[0.326s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/position.h
+[0.327s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/rotation-quaternion.h
+[0.327s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/implementation
+[0.327s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/implementation/angle-axis-inl.h
+[0.327s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/implementation/rotation-quaternion-inl.h
+[0.327s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/implementation/quat-transformation-inl.h
+[0.327s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/implementation/quat-sim-transform-inl.h
+[0.327s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/common.h
+[0.327s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/quat-transformation.h
+[0.327s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/ament_index/resource_index/package_run_dependencies/minkindr
+[0.328s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/ament_index/resource_index/parent_prefix_path/minkindr
+[0.328s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/environment/ament_prefix_path.sh
+[0.328s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/environment/ament_prefix_path.dsv
+[0.328s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/environment/path.sh
+[0.328s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/environment/path.dsv
+[0.328s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/local_setup.bash
+[0.328s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/local_setup.sh
+[0.330s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/local_setup.zsh
+[0.330s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/local_setup.dsv
+[0.330s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/package.dsv
+[0.330s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/ament_index/resource_index/packages/minkindr
+[0.330s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.330s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/cmake/minkindrConfig.cmake
+[0.330s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/cmake/minkindrConfig-version.cmake
+[0.331s] -- Up-to-date: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/package.xml
+[0.439s] Invoked command in '/home/freesix/far_planner_ws/build/minkindr' returned '0': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/minkindr

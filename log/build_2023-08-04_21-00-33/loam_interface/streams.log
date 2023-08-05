@@ -1,0 +1,24 @@
+[0.046s] Invoking command in '/home/freesix/far_planner_ws/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/loam_interface -- -j16 -l16
+[0.182s] [100%] Built target loamInterface
+[0.187s] Invoked command in '/home/freesix/far_planner_ws/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/loam_interface -- -j16 -l16
+[0.254s] Invoking command in '/home/freesix/far_planner_ws/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/loam_interface
+[0.259s] -- Install configuration: "Release"
+[0.260s] -- Execute custom install script
+[0.262s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/lib/loam_interface/loamInterface
+[0.262s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/launch/loam_interface.launch
+[0.262s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/ament_index/resource_index/package_run_dependencies/loam_interface
+[0.262s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/ament_index/resource_index/parent_prefix_path/loam_interface
+[0.262s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/environment/ament_prefix_path.sh
+[0.262s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/environment/ament_prefix_path.dsv
+[0.263s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/environment/path.sh
+[0.263s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/environment/path.dsv
+[0.263s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/local_setup.bash
+[0.263s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/local_setup.sh
+[0.264s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/local_setup.zsh
+[0.264s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/local_setup.dsv
+[0.265s] -- Symlinking: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.dsv
+[0.266s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/ament_index/resource_index/packages/loam_interface
+[0.266s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig.cmake
+[0.266s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig-version.cmake
+[0.267s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/loam_interface/share/loam_interface/package.xml
+[0.315s] Invoked command in '/home/freesix/far_planner_ws/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/loam_interface

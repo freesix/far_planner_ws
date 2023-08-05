@@ -1,0 +1,64 @@
+[0.059s] Invoking command in '/home/freesix/far_planner_ws/build/minkindr': /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/minkindr/minkindr -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/minkindr
+[0.230s] -- The C compiler identification is GNU 11.4.0
+[0.636s] -- The CXX compiler identification is GNU 11.4.0
+[0.893s] -- Detecting C compiler ABI info
+[0.964s] -- Detecting C compiler ABI info - done
+[0.971s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.971s] -- Detecting C compile features
+[0.971s] -- Detecting C compile features - done
+[0.973s] -- Detecting CXX compiler ABI info
+[1.048s] -- Detecting CXX compiler ABI info - done
+[1.055s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.055s] -- Detecting CXX compile features
+[1.056s] -- Detecting CXX compile features - done
+[1.057s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.557s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.614s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.702s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.703s] -- Found Threads: TRUE  
+[2.747s] -- Configuring done (2.7s)
+[2.749s] -- Generating done (0.0s)
+[2.750s] [33mCMake Warning:
+[2.750s]   Manually-specified variables were not used by the project:
+[2.750s] 
+[2.750s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[2.751s]     CATKIN_SYMLINK_INSTALL
+[2.751s] 
+[2.751s] [0m
+[2.751s] -- Build files have been written to: /home/freesix/far_planner_ws/build/minkindr
+[2.753s] Invoked command in '/home/freesix/far_planner_ws/build/minkindr' returned '0': /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/minkindr/minkindr -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/minkindr
+[2.755s] Invoking command in '/home/freesix/far_planner_ws/build/minkindr': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/minkindr -- -j16 -l16
+[2.769s] Invoked command in '/home/freesix/far_planner_ws/build/minkindr' returned '0': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/minkindr -- -j16 -l16
+[2.788s] Invoking command in '/home/freesix/far_planner_ws/build/minkindr': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/minkindr
+[2.789s] -- Install configuration: "Release"
+[2.790s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include
+[2.790s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include/kindr
+[2.790s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal
+[2.790s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/angle-axis.h
+[2.791s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/quat-sim-transform.h
+[2.791s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/position.h
+[2.791s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/rotation-quaternion.h
+[2.791s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/implementation
+[2.791s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/implementation/angle-axis-inl.h
+[2.792s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/implementation/rotation-quaternion-inl.h
+[2.792s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/implementation/quat-transformation-inl.h
+[2.792s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/implementation/quat-sim-transform-inl.h
+[2.793s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/common.h
+[2.793s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/include/kindr/minimal/quat-transformation.h
+[2.793s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/ament_index/resource_index/package_run_dependencies/minkindr
+[2.793s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/ament_index/resource_index/parent_prefix_path/minkindr
+[2.794s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/environment/ament_prefix_path.sh
+[2.794s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/environment/ament_prefix_path.dsv
+[2.794s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/environment/path.sh
+[2.794s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/environment/path.dsv
+[2.794s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/local_setup.bash
+[2.794s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/local_setup.sh
+[2.794s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/local_setup.zsh
+[2.794s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/local_setup.dsv
+[2.795s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/package.dsv
+[2.795s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/ament_index/resource_index/packages/minkindr
+[2.795s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.795s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/cmake/minkindrConfig.cmake
+[2.795s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/cmake/minkindrConfig-version.cmake
+[2.795s] -- Installing: /home/freesix/far_planner_ws/install/minkindr/share/minkindr/package.xml
+[2.796s] Invoked command in '/home/freesix/far_planner_ws/build/minkindr' returned '0': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/minkindr

@@ -1,0 +1,120 @@
+[0.085s] Invoking command in '/home/freesix/far_planner_ws/build/volumetric_map_base': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/volumetric_mapping/volumetric_map_base -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/volumetric_map_base
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.414s] -- The CXX compiler identification is GNU 11.4.0
+[0.612s] -- Detecting C compiler ABI info
+[0.710s] -- Detecting C compiler ABI info - done
+[0.717s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.718s] -- Detecting C compile features
+[0.718s] -- Detecting C compile features - done
+[0.720s] -- Detecting CXX compiler ABI info
+[0.809s] -- Detecting CXX compiler ABI info - done
+[0.815s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.816s] -- Detecting CXX compile features
+[0.816s] -- Detecting CXX compile features - done
+[0.817s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.963s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.475s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.643s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.643s] -- Found Threads: TRUE  
+[2.815s] -- Found CUDA: /usr/local/cuda (found suitable exact version "12.2") 
+[2.915s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.921s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.931s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.245s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.247s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.026s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.877s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.296s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.618s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.619s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.619s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.903s] -- Checking for module 'eigen3'
+[6.909s] --   Found eigen3, version 3.4.0
+[6.922s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.922s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.628s] -- Checking for module 'flann'
+[7.634s] --   Found flann, version 1.9.1
+[7.895s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[7.895s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[11.336s] -- Checking for module 'libusb-1.0'
+[11.342s] --   Found libusb-1.0, version 1.0.25
+[11.415s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[11.416s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.547s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.912s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[12.915s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.919s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[14.271s] -- Found Qhull version 8.0.2
+[15.592s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[16.934s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[16.935s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[16.936s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[16.936s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[16.937s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[16.938s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[16.938s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[16.938s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[16.939s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[16.940s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[16.940s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[16.941s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[16.942s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[16.943s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[16.943s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[16.944s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[16.945s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[16.945s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[16.946s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[16.947s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[16.947s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[16.948s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[16.949s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[16.950s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[16.950s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[17.088s] -- Configuring done (17.0s)
+[17.142s] -- Generating done (0.0s)
+[17.144s] [33mCMake Warning:
+[17.144s]   Manually-specified variables were not used by the project:
+[17.144s] 
+[17.145s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[17.145s]     CATKIN_SYMLINK_INSTALL
+[17.145s] 
+[17.145s] [0m
+[17.146s] -- Build files have been written to: /home/freesix/far_planner_ws/build/volumetric_map_base
+[17.165s] Invoked command in '/home/freesix/far_planner_ws/build/volumetric_map_base' returned '0': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/volumetric_mapping/volumetric_map_base -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/volumetric_map_base
+[17.167s] Invoking command in '/home/freesix/far_planner_ws/build/volumetric_map_base': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/volumetric_map_base -- -j16 -l16
+[17.193s] [ 50%] [32mBuilding CXX object CMakeFiles/volumetric_map_base.dir/src/world_base.cc.o[0m
+[24.280s] [100%] [32m[1mLinking CXX shared library libvolumetric_map_base.so[0m
+[24.645s] [100%] Built target volumetric_map_base
+[24.648s] Invoked command in '/home/freesix/far_planner_ws/build/volumetric_map_base' returned '0': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/volumetric_map_base -- -j16 -l16
+[24.675s] Invoking command in '/home/freesix/far_planner_ws/build/volumetric_map_base': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/volumetric_map_base
+[24.676s] -- Install configuration: "Release"
+[24.676s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/include
+[24.677s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/include/volumetric_map_base
+[24.677s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/include/volumetric_map_base/world_base.h
+[24.677s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/include/volumetric_map_base/point_weighing.h
+[24.677s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/environment/library_path.sh
+[24.677s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/environment/library_path.dsv
+[24.677s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/lib/libvolumetric_map_base.so
+[24.678s] -- Set runtime path of "/home/freesix/far_planner_ws/install/volumetric_map_base/lib/libvolumetric_map_base.so" to ""
+[24.678s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/ament_index/resource_index/package_run_dependencies/volumetric_map_base
+[24.678s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/ament_index/resource_index/parent_prefix_path/volumetric_map_base
+[24.678s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/environment/ament_prefix_path.sh
+[24.678s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/environment/ament_prefix_path.dsv
+[24.678s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/environment/path.sh
+[24.679s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/environment/path.dsv
+[24.679s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/local_setup.bash
+[24.679s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/local_setup.sh
+[24.679s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/local_setup.zsh
+[24.679s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/local_setup.dsv
+[24.679s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/package.dsv
+[24.679s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/ament_index/resource_index/packages/volumetric_map_base
+[24.679s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.679s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.679s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/cmake/ament_cmake_export_libraries-extras.cmake
+[24.680s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/cmake/volumetric_map_baseConfig.cmake
+[24.680s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/cmake/volumetric_map_baseConfig-version.cmake
+[24.680s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/package.xml
+[24.680s] Invoked command in '/home/freesix/far_planner_ws/build/volumetric_map_base' returned '0': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/volumetric_map_base

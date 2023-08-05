@@ -1,0 +1,174 @@
+[0.056s] Invoking command in '/home/freesix/far_planner_ws/build/volumetric_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/volumetric_msgs -- -j16 -l16
+[0.118s] [  1%] Built target volumetric_msgs__cpp
+[0.118s] [  1%] Built target ament_cmake_python_symlink_volumetric_msgs
+[0.118s] [ 12%] Built target volumetric_msgs__rosidl_generator_c
+[0.119s] [ 23%] Built target volumetric_msgs__rosidl_typesupport_cpp
+[0.119s] [ 41%] Built target volumetric_msgs__rosidl_typesupport_introspection_cpp
+[0.119s] [ 45%] Built target volumetric_msgs__rosidl_typesupport_introspection_c
+[0.119s] [ 56%] Built target volumetric_msgs__rosidl_typesupport_fastrtps_cpp
+[0.119s] [ 67%] Built target volumetric_msgs__rosidl_typesupport_c
+[0.120s] [ 78%] Built target volumetric_msgs__rosidl_typesupport_fastrtps_c
+[0.128s] [ 78%] Built target volumetric_msgs
+[0.138s] [ 80%] Built target volumetric_msgs__py
+[0.154s] [ 89%] Built target volumetric_msgs__rosidl_generator_py
+[0.168s] [ 92%] Built target volumetric_msgs__rosidl_typesupport_c__pyext
+[0.168s] [ 96%] Built target volumetric_msgs__rosidl_typesupport_introspection_c__pyext
+[0.169s] [100%] Built target volumetric_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.272s] running egg_info
+[0.272s] writing volumetric_msgs.egg-info/PKG-INFO
+[0.272s] writing dependency_links to volumetric_msgs.egg-info/dependency_links.txt
+[0.272s] writing top-level names to volumetric_msgs.egg-info/top_level.txt
+[0.274s] reading manifest file 'volumetric_msgs.egg-info/SOURCES.txt'
+[0.274s] writing manifest file 'volumetric_msgs.egg-info/SOURCES.txt'
+[0.290s] [100%] Built target ament_cmake_python_build_volumetric_msgs_egg
+[0.369s] Invoked command in '/home/freesix/far_planner_ws/build/volumetric_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/volumetric_msgs -- -j16 -l16
+[0.499s] Invoking command in '/home/freesix/far_planner_ws/build/volumetric_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/volumetric_msgs
+[0.512s] -- Install configuration: "Release"
+[0.513s] -- Execute custom install script
+[0.513s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/ament_index/resource_index/rosidl_interfaces/volumetric_msgs
+[0.513s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.513s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/load_map__functions.h
+[0.513s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/load_map__struct.h
+[0.513s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/load_map__type_support.h
+[0.514s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/save_map__functions.h
+[0.514s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/save_map__struct.h
+[0.514s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/save_map__type_support.h
+[0.514s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_box_occupancy__functions.h
+[0.514s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_box_occupancy__struct.h
+[0.514s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_box_occupancy__type_support.h
+[0.514s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_display_bounds__functions.h
+[0.515s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_display_bounds__struct.h
+[0.515s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_display_bounds__type_support.h
+[0.515s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/load_map.h
+[0.515s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/save_map.h
+[0.515s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/set_box_occupancy.h
+[0.515s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/set_display_bounds.h
+[0.516s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/environment/library_path.sh
+[0.516s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/environment/library_path.dsv
+[0.516s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.517s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[0.518s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[0.518s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_box_occupancy__rosidl_typesupport_fastrtps_c.h
+[0.519s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_display_bounds__rosidl_typesupport_fastrtps_c.h
+[0.519s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/load_map__builder.hpp
+[0.519s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/load_map__struct.hpp
+[0.519s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/load_map__traits.hpp
+[0.519s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/save_map__builder.hpp
+[0.519s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/save_map__struct.hpp
+[0.520s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/save_map__traits.hpp
+[0.520s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_box_occupancy__builder.hpp
+[0.522s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_box_occupancy__struct.hpp
+[0.522s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_box_occupancy__traits.hpp
+[0.523s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_display_bounds__builder.hpp
+[0.523s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_display_bounds__struct.hpp
+[0.523s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_display_bounds__traits.hpp
+[0.523s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/load_map.hpp
+[0.523s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/save_map.hpp
+[0.524s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/set_box_occupancy.hpp
+[0.524s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/set_display_bounds.hpp
+[0.525s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.526s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[0.526s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[0.526s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_box_occupancy__rosidl_typesupport_fastrtps_cpp.hpp
+[0.526s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_display_bounds__rosidl_typesupport_fastrtps_cpp.hpp
+[0.526s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.526s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[0.526s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[0.527s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_box_occupancy__rosidl_typesupport_introspection_c.h
+[0.527s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_display_bounds__rosidl_typesupport_introspection_c.h
+[0.527s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[0.527s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[0.527s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_box_occupancy__rosidl_typesupport_introspection_cpp.hpp
+[0.528s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/include/volumetric_msgs/volumetric_msgs/srv/detail/set_display_bounds__rosidl_typesupport_introspection_cpp.hpp
+[0.528s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/environment/pythonpath.sh
+[0.528s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/environment/pythonpath.dsv
+[0.528s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.529s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.529s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.529s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.529s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/__init__.py
+[0.529s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/_volumetric_msgs_s.ep.rosidl_typesupport_c.c
+[0.529s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/_volumetric_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.529s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/_volumetric_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.531s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/libvolumetric_msgs__rosidl_generator_py.so
+[0.531s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/srv/__init__.py
+[0.532s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/srv/_load_map.py
+[0.532s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/srv/_load_map_s.c
+[0.532s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/srv/_save_map.py
+[0.532s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/srv/_save_map_s.c
+[0.532s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/srv/_set_box_occupancy.py
+[0.533s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/srv/_set_box_occupancy_s.c
+[0.533s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/srv/_set_display_bounds.py
+[0.533s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/srv/_set_display_bounds_s.c
+[0.533s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/volumetric_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.533s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/volumetric_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.534s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/volumetric_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.534s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/volumetric_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.534s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/volumetric_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.534s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/volumetric_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.534s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/LoadMap.idl
+[0.535s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/SaveMap.idl
+[0.535s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/SetBoxOccupancy.idl
+[0.535s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/SetDisplayBounds.idl
+[0.535s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/LoadMap.srv
+[0.535s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/LoadMap_Request.msg
+[0.535s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/LoadMap_Response.msg
+[0.535s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/SaveMap.srv
+[0.536s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/SaveMap_Request.msg
+[0.536s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/SaveMap_Response.msg
+[0.536s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/SetBoxOccupancy.srv
+[0.536s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/SetBoxOccupancy_Request.msg
+[0.536s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/SetBoxOccupancy_Response.msg
+[0.536s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/SetDisplayBounds.srv
+[0.536s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/SetDisplayBounds_Request.msg
+[0.537s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/srv/SetDisplayBounds_Response.msg
+[0.537s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/ament_index/resource_index/package_run_dependencies/volumetric_msgs
+[0.537s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/ament_index/resource_index/parent_prefix_path/volumetric_msgs
+[0.537s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/environment/ament_prefix_path.sh
+[0.537s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/environment/ament_prefix_path.dsv
+[0.537s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/environment/path.sh
+[0.538s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/environment/path.dsv
+[0.538s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/local_setup.bash
+[0.538s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/local_setup.sh
+[0.538s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/local_setup.zsh
+[0.538s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/local_setup.dsv
+[0.538s] -- Symlinking: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/package.dsv
+[0.538s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/ament_index/resource_index/packages/volumetric_msgs
+[0.539s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/rosidl_cmake-extras.cmake
+[0.539s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.539s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.539s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.539s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.539s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.539s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.539s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/volumetric_msgsConfig.cmake
+[0.539s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/volumetric_msgsConfig-version.cmake
+[0.539s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/package.xml
+[0.539s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/lib/libvolumetric_msgs__rosidl_generator_c.so
+[0.539s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/lib/libvolumetric_msgs__rosidl_typesupport_fastrtps_c.so
+[0.540s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/lib/libvolumetric_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.540s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/lib/libvolumetric_msgs__rosidl_typesupport_introspection_c.so
+[0.540s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/lib/libvolumetric_msgs__rosidl_typesupport_c.so
+[0.540s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/lib/libvolumetric_msgs__rosidl_typesupport_introspection_cpp.so
+[0.540s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/lib/libvolumetric_msgs__rosidl_typesupport_cpp.so
+[0.582s] Listing '/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs'...
+[0.582s] Listing '/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages/volumetric_msgs/srv'...
+[0.583s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/lib/libvolumetric_msgs__rosidl_generator_py.so
+[0.583s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/export_volumetric_msgs__rosidl_generator_cExport.cmake
+[0.583s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/export_volumetric_msgs__rosidl_generator_cExport-release.cmake
+[0.583s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/export_volumetric_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.583s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/export_volumetric_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[0.584s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/export_volumetric_msgs__rosidl_generator_cppExport.cmake
+[0.584s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/export_volumetric_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.584s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/export_volumetric_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[0.585s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/volumetric_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.585s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/volumetric_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[0.585s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/volumetric_msgs__rosidl_typesupport_cExport.cmake
+[0.585s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/volumetric_msgs__rosidl_typesupport_cExport-release.cmake
+[0.585s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/volumetric_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.585s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/volumetric_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.586s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/volumetric_msgs__rosidl_typesupport_cppExport.cmake
+[0.586s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/volumetric_msgs__rosidl_typesupport_cppExport-release.cmake
+[0.586s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/export_volumetric_msgs__rosidl_generator_pyExport.cmake
+[0.586s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake/export_volumetric_msgs__rosidl_generator_pyExport-release.cmake
+[0.615s] Invoked command in '/home/freesix/far_planner_ws/build/volumetric_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/volumetric_msgs

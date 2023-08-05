@@ -1,0 +1,30 @@
+[0.056s] Invoking command in '/home/freesix/far_planner_ws/build/kdtree': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/kdtree -- -j16 -l16
+[0.119s] [100%] Built target kdtree
+[0.138s] Invoked command in '/home/freesix/far_planner_ws/build/kdtree' returned '0': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/kdtree -- -j16 -l16
+[0.249s] Invoking command in '/home/freesix/far_planner_ws/build/kdtree': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/kdtree
+[0.262s] -- Install configuration: "Release"
+[0.262s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/environment/library_path.sh
+[0.262s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/environment/library_path.dsv
+[0.262s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/include
+[0.262s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/include/kdtree
+[0.262s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/include/kdtree/kdtree.h
+[0.262s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/lib/libkdtree.so
+[0.262s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/ament_index/resource_index/package_run_dependencies/kdtree
+[0.262s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/ament_index/resource_index/parent_prefix_path/kdtree
+[0.262s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/environment/ament_prefix_path.sh
+[0.263s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/environment/ament_prefix_path.dsv
+[0.263s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/environment/path.sh
+[0.263s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/environment/path.dsv
+[0.263s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/local_setup.bash
+[0.263s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/local_setup.sh
+[0.263s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/local_setup.zsh
+[0.263s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/local_setup.dsv
+[0.263s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/package.dsv
+[0.263s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/ament_index/resource_index/packages/kdtree
+[0.263s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/cmake/kdtreeExport.cmake
+[0.264s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/cmake/kdtreeExport-release.cmake
+[0.264s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/cmake/ament_cmake_export_targets-extras.cmake
+[0.264s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/cmake/kdtreeConfig.cmake
+[0.264s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/cmake/kdtreeConfig-version.cmake
+[0.264s] -- Up-to-date: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/package.xml
+[0.360s] Invoked command in '/home/freesix/far_planner_ws/build/kdtree' returned '0': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/kdtree

@@ -1,0 +1,125 @@
+[0.366s] Invoking command in '/home/freesix/far_planner_ws/build/octomap_world': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/volumetric_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/minkindr LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/volumetric_mapping/octomap_world -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/octomap_world
+[0.465s] -- The C compiler identification is GNU 11.4.0
+[0.806s] -- The CXX compiler identification is GNU 11.4.0
+[1.046s] -- Detecting C compiler ABI info
+[1.132s] -- Detecting C compiler ABI info - done
+[1.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.142s] -- Detecting C compile features
+[1.142s] -- Detecting C compile features - done
+[1.145s] -- Detecting CXX compiler ABI info
+[1.240s] -- Detecting CXX compiler ABI info - done
+[1.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.246s] -- Detecting CXX compile features
+[1.246s] -- Detecting CXX compile features - done
+[1.247s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.697s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.735s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.753s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[2.856s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.858s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.864s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.872s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.884s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.928s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.930s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.661s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.403s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.775s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.781s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.867s] -- Found Threads: TRUE  
+[5.971s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[5.989s] -- Found minkindr_conversions: 0.0.0 (/home/freesix/far_planner_ws/install/minkindr_conversions/share/minkindr_conversions/cmake)
+[6.326s] -- Found octomap_msgs: 2.0.0 (/opt/ros/humble/share/octomap_msgs/cmake)
+[6.380s] -- Found octomap_ros: 0.4.3 (/opt/ros/humble/share/octomap_ros/cmake)
+[6.454s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[6.535s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[6.624s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.625s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.625s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.646s] -- Checking for module 'eigen3'
+[6.651s] --   Found eigen3, version 3.4.0
+[6.665s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.665s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.280s] -- Checking for module 'flann'
+[7.286s] --   Found flann, version 1.9.1
+[7.517s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[7.517s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[10.823s] -- Checking for module 'libusb-1.0'
+[10.830s] --   Found libusb-1.0, version 1.0.25
+[10.894s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[10.894s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.020s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.373s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[12.377s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.381s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[13.759s] -- Found Qhull version 8.0.2
+[15.089s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[16.268s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[16.269s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[16.270s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[16.271s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[16.271s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[16.272s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[16.273s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[16.273s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[16.274s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[16.275s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[16.276s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[16.277s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[16.278s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[16.279s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[16.280s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[16.281s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[16.283s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[16.284s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[16.285s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[16.286s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[16.287s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[16.287s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[16.287s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[16.288s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[16.289s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[16.298s] -- Found volumetric_map_base: 0.0.0 (/home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/cmake)
+[16.527s] -- Found CUDA: /usr/local/cuda (found suitable exact version "12.2") 
+[16.737s] -- Found volumetric_msgs: 0.0.0 (/home/freesix/far_planner_ws/install/volumetric_msgs/share/volumetric_msgs/cmake)
+[16.774s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[17.284s] -- Configuring done (16.9s)
+[17.345s] -- Generating done (0.0s)
+[17.348s] -- Build files have been written to: /home/freesix/far_planner_ws/build/octomap_world
+[17.365s] Invoked command in '/home/freesix/far_planner_ws/build/octomap_world' returned '0': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/volumetric_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/minkindr LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/volumetric_mapping/octomap_world -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/octomap_world
+[17.367s] Invoking command in '/home/freesix/far_planner_ws/build/octomap_world': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/volumetric_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/minkindr LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/octomap_world -- -j16 -l16
+[17.385s] [ 33%] [32mBuilding CXX object CMakeFiles/octomap_world.dir/src/octomap_world.cc.o[0m
+[17.386s] [ 66%] [32mBuilding CXX object CMakeFiles/octomap_world.dir/src/octomap_manager.cc.o[0m
+[39.304s] [100%] [32m[1mLinking CXX shared library liboctomap_world.so[0m
+[40.029s] [100%] Built target octomap_world
+[40.033s] Invoked command in '/home/freesix/far_planner_ws/build/octomap_world' returned '0': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/volumetric_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/minkindr LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/octomap_world -- -j16 -l16
+[40.048s] Invoking command in '/home/freesix/far_planner_ws/build/octomap_world': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/volumetric_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/minkindr LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/octomap_world
+[40.049s] -- Install configuration: "Release"
+[40.049s] -- Execute custom install script
+[40.050s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/environment/library_path.sh
+[40.052s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/environment/library_path.dsv
+[40.054s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/include/octomap_world/octomap_manager.h
+[40.056s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/include/octomap_world/octomap_world.h
+[40.057s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/ament_index/resource_index/package_run_dependencies/octomap_world
+[40.060s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/ament_index/resource_index/parent_prefix_path/octomap_world
+[40.061s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/environment/ament_prefix_path.sh
+[40.063s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/environment/ament_prefix_path.dsv
+[40.065s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/environment/path.sh
+[40.066s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/environment/path.dsv
+[40.068s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/local_setup.bash
+[40.070s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/local_setup.sh
+[40.071s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/local_setup.zsh
+[40.073s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/local_setup.dsv
+[40.075s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/package.dsv
+[40.077s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/ament_index/resource_index/packages/octomap_world
+[40.078s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/cmake/ament_cmake_export_targets-extras.cmake
+[40.080s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.082s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/cmake/octomap_worldConfig.cmake
+[40.083s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/cmake/octomap_worldConfig-version.cmake
+[40.085s] -- Symlinking: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/package.xml
+[40.087s] -- Installing: /home/freesix/far_planner_ws/install/octomap_world/lib/liboctomap_world.so
+[40.088s] -- Set runtime path of "/home/freesix/far_planner_ws/install/octomap_world/lib/liboctomap_world.so" to ""
+[40.088s] -- Installing: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/cmake/octomap_worldExport.cmake
+[40.088s] -- Installing: /home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/cmake/octomap_worldExport-release.cmake
+[40.091s] Invoked command in '/home/freesix/far_planner_ws/build/octomap_world' returned '0': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/volumetric_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/minkindr LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/octomap_world

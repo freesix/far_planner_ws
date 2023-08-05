@@ -1,0 +1,58 @@
+[0.048s] Invoking command in '/home/freesix/far_planner_ws/build/kdtree': /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/kdtree -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/kdtree
+[0.213s] -- The C compiler identification is GNU 11.4.0
+[0.573s] -- The CXX compiler identification is GNU 11.4.0
+[0.845s] -- Detecting C compiler ABI info
+[0.924s] -- Detecting C compiler ABI info - done
+[0.931s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.932s] -- Detecting C compile features
+[0.933s] -- Detecting C compile features - done
+[0.936s] -- Detecting CXX compiler ABI info
+[1.017s] -- Detecting CXX compiler ABI info - done
+[1.024s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.024s] -- Detecting CXX compile features
+[1.024s] -- Detecting CXX compile features - done
+[1.028s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.060s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.164s] -- Configuring done (2.1s)
+[2.168s] -- Generating done (0.0s)
+[2.168s] [33mCMake Warning:
+[2.168s]   Manually-specified variables were not used by the project:
+[2.168s] 
+[2.168s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[2.168s]     CATKIN_SYMLINK_INSTALL
+[2.168s] 
+[2.168s] [0m
+[2.168s] -- Build files have been written to: /home/freesix/far_planner_ws/build/kdtree
+[2.172s] Invoked command in '/home/freesix/far_planner_ws/build/kdtree' returned '0': /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/kdtree -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/kdtree
+[2.173s] Invoking command in '/home/freesix/far_planner_ws/build/kdtree': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/kdtree -- -j16 -l16
+[2.188s] [ 50%] [32mBuilding C object CMakeFiles/kdtree.dir/src/kdtree.c.o[0m
+[2.377s] [100%] [32m[1mLinking C shared library libkdtree.so[0m
+[2.456s] [100%] Built target kdtree
+[2.460s] Invoked command in '/home/freesix/far_planner_ws/build/kdtree' returned '0': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/kdtree -- -j16 -l16
+[2.485s] Invoking command in '/home/freesix/far_planner_ws/build/kdtree': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/kdtree
+[2.487s] -- Install configuration: "Release"
+[2.487s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/environment/library_path.sh
+[2.487s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/environment/library_path.dsv
+[2.487s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/include
+[2.487s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/include/kdtree
+[2.488s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/include/kdtree/kdtree.h
+[2.488s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/lib/libkdtree.so
+[2.488s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/ament_index/resource_index/package_run_dependencies/kdtree
+[2.488s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/ament_index/resource_index/parent_prefix_path/kdtree
+[2.488s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/environment/ament_prefix_path.sh
+[2.488s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/environment/ament_prefix_path.dsv
+[2.489s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/environment/path.sh
+[2.489s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/environment/path.dsv
+[2.489s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/local_setup.bash
+[2.489s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/local_setup.sh
+[2.489s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/local_setup.zsh
+[2.489s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/local_setup.dsv
+[2.489s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/package.dsv
+[2.489s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/ament_index/resource_index/packages/kdtree
+[2.489s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/cmake/kdtreeExport.cmake
+[2.490s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/cmake/kdtreeExport-release.cmake
+[2.490s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/cmake/ament_cmake_export_targets-extras.cmake
+[2.490s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/cmake/kdtreeConfig.cmake
+[2.490s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/cmake/kdtreeConfig-version.cmake
+[2.490s] -- Installing: /home/freesix/far_planner_ws/install/kdtree/share/kdtree/package.xml
+[2.491s] Invoked command in '/home/freesix/far_planner_ws/build/kdtree' returned '0': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/kdtree

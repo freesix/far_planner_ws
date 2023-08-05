@@ -1,0 +1,192 @@
+[0.621s] Invoking command in '/home/freesix/far_planner_ws/build/dsvplanner': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share:/home/freesix/far_planner_ws/install/kdtree/share /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/dsvplanner/dsvplanner -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/dsvplanner
+[0.696s] -- The C compiler identification is GNU 11.4.0
+[0.964s] -- The CXX compiler identification is GNU 11.4.0
+[1.175s] -- Detecting C compiler ABI info
+[1.260s] -- Detecting C compiler ABI info - done
+[1.266s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.266s] -- Detecting C compile features
+[1.267s] -- Detecting C compile features - done
+[1.268s] -- Detecting CXX compiler ABI info
+[1.360s] -- Detecting CXX compiler ABI info - done
+[1.366s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.366s] -- Detecting CXX compile features
+[1.367s] -- Detecting CXX compile features - done
+[1.368s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.670s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.709s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.724s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[2.818s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.821s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.829s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.838s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.850s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.894s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.895s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.476s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.096s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.202s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.208s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.290s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.291s] -- Found Threads: TRUE  
+[5.391s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.419s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.473s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.527s] -- Found misc_utils: 0.0.1 (/home/freesix/far_planner_ws/install/misc_utils/share/misc_utils/cmake)
+[5.547s] -- Found graph_utils: 0.0.1 (/home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake)
+[5.598s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[5.674s] -- Found octomap_world: 0.0.0 (/home/freesix/far_planner_ws/install/octomap_world/share/octomap_world/cmake)
+[6.197s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.198s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.198s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.219s] -- Checking for module 'eigen3'
+[6.225s] --   Found eigen3, version 3.4.0
+[6.240s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.240s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.790s] -- Checking for module 'flann'
+[6.798s] --   Found flann, version 1.9.1
+[7.032s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[7.032s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[10.105s] -- Checking for module 'libusb-1.0'
+[10.112s] --   Found libusb-1.0, version 1.0.25
+[10.176s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[10.177s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.308s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.576s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.580s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.583s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.842s] -- Found Qhull version 8.0.2
+[14.095s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.354s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[15.354s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[15.355s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[15.356s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[15.356s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[15.357s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[15.357s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[15.357s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[15.358s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[15.359s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[15.359s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[15.360s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[15.361s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[15.361s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[15.362s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[15.363s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[15.363s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[15.364s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[15.365s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[15.365s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[15.366s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[15.366s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[15.366s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[15.367s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[15.368s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[15.668s] -- Found CUDA: /usr/local/cuda (found suitable exact version "12.2") 
+[16.085s] -- Found kdtree: 0.0.0 (/home/freesix/far_planner_ws/install/kdtree/share/kdtree/cmake)
+[16.086s] -- Found graph_planner: 0.0.1 (/home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake)
+[16.126s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[16.287s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[16.460s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.617s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[16.618s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[16.870s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[16.871s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.871s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[16.871s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[16.885s] -- Found PythonExtra: .so  
+[16.973s] -- Configuring done (16.4s)
+[17.058s] -- Generating done (0.1s)
+[17.062s] -- Build files have been written to: /home/freesix/far_planner_ws/build/dsvplanner
+[17.081s] Invoked command in '/home/freesix/far_planner_ws/build/dsvplanner' returned '0': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share:/home/freesix/far_planner_ws/install/kdtree/share /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/dsvplanner/dsvplanner -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/dsvplanner
+[17.083s] Invoking command in '/home/freesix/far_planner_ws/build/dsvplanner': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share:/home/freesix/far_planner_ws/install/kdtree/share /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/dsvplanner -- -j16 -l16
+[17.099s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[17.102s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[17.104s] [  3%] Built target ament_cmake_python_symlink_dsvplanner
+[17.239s] running egg_info
+[17.240s] creating dsvplanner.egg-info
+[17.240s] writing dsvplanner.egg-info/PKG-INFO
+[17.240s] writing dependency_links to dsvplanner.egg-info/dependency_links.txt
+[17.241s] writing top-level names to dsvplanner.egg-info/top_level.txt
+[17.241s] writing manifest file 'dsvplanner.egg-info/SOURCES.txt'
+[17.242s] reading manifest file 'dsvplanner.egg-info/SOURCES.txt'
+[17.243s] writing manifest file 'dsvplanner.egg-info/SOURCES.txt'
+[17.259s] [  3%] Built target ament_cmake_python_build_dsvplanner_egg
+[17.360s] [  5%] [32mBuilding C object CMakeFiles/dsvplanner__rosidl_generator_c.dir/rosidl_generator_c/dsvplanner/srv/detail/dsvplanner__functions.c.o[0m
+[17.360s] [  7%] [32mBuilding C object CMakeFiles/dsvplanner__rosidl_generator_c.dir/rosidl_generator_c/dsvplanner/srv/detail/clean_frontier__functions.c.o[0m
+[17.371s] [  7%] Built target dsvplanner__cpp
+[17.375s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.375s] [ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.375s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.443s] [ 15%] [32m[1mLinking C shared library libdsvplanner__rosidl_generator_c.so[0m
+[17.513s] [ 15%] Built target dsvplanner__rosidl_generator_c
+[17.517s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[17.518s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[17.518s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.580s] [ 23%] [32mBuilding CXX object CMakeFiles/dsvplanner__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dsvplanner/srv/dsvplanner__type_support.cpp.o[0m
+[17.580s] [ 25%] [32mBuilding CXX object CMakeFiles/dsvplanner__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dsvplanner/srv/clean_frontier__type_support.cpp.o[0m
+[17.593s] [ 26%] [32mBuilding CXX object CMakeFiles/dsvplanner__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dsvplanner/srv/detail/dsvplanner__type_support.cpp.o[0m
+[17.593s] [ 28%] [32mBuilding CXX object CMakeFiles/dsvplanner__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dsvplanner/srv/detail/clean_frontier__type_support.cpp.o[0m
+[17.620s] [ 30%] [32mBuilding CXX object CMakeFiles/dsvplanner__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dsvplanner/srv/detail/dds_fastrtps/dsvplanner__type_support.cpp.o[0m
+[17.620s] [ 32%] [32mBuilding CXX object CMakeFiles/dsvplanner__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dsvplanner/srv/detail/dds_fastrtps/clean_frontier__type_support.cpp.o[0m
+[17.733s] [ 34%] [32mBuilding CXX object CMakeFiles/dsvplanner__rosidl_typesupport_c.dir/rosidl_typesupport_c/dsvplanner/srv/dsvplanner__type_support.cpp.o[0m
+[17.734s] [ 36%] [32mBuilding CXX object CMakeFiles/dsvplanner__rosidl_typesupport_c.dir/rosidl_typesupport_c/dsvplanner/srv/clean_frontier__type_support.cpp.o[0m
+[17.752s] [ 38%] [32m[1mLinking CXX shared library libdsvplanner__rosidl_typesupport_c.so[0m
+[17.785s] [ 40%] [32mBuilding C object CMakeFiles/dsvplanner__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dsvplanner/srv/detail/dsvplanner__type_support.c.o[0m
+[17.785s] [ 42%] [32mBuilding C object CMakeFiles/dsvplanner__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dsvplanner/srv/detail/clean_frontier__type_support.c.o[0m
+[17.789s] [ 46%] [32mBuilding CXX object CMakeFiles/dsvplanner__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dsvplanner/srv/detail/dsvplanner__type_support_c.cpp.o[0m
+[17.789s] [ 46%] [32mBuilding CXX object CMakeFiles/dsvplanner__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dsvplanner/srv/detail/clean_frontier__type_support_c.cpp.o[0m
+[17.821s] [ 48%] [32m[1mLinking CXX shared library libdsvplanner__rosidl_typesupport_cpp.so[0m
+[17.823s] [ 50%] [32m[1mLinking C shared library libdsvplanner__rosidl_typesupport_introspection_c.so[0m
+[17.848s] [ 50%] Built target dsvplanner__rosidl_typesupport_c
+[17.876s] [ 50%] Built target dsvplanner__rosidl_typesupport_introspection_c
+[17.881s] [ 50%] Built target dsvplanner__rosidl_typesupport_cpp
+[17.890s] [ 51%] [32mBuilding CXX object CMakeFiles/dsvPlannerLib.dir/src/drrtp.cpp.o[0m
+[17.891s] [ 53%] [32mBuilding CXX object CMakeFiles/dsvPlannerLib.dir/src/drrt.cpp.o[0m
+[17.891s] [ 55%] [32mBuilding CXX object CMakeFiles/dsvPlannerLib.dir/src/dual_state_frontier.cpp.o[0m
+[17.891s] [ 59%] [32mBuilding CXX object CMakeFiles/dsvPlannerLib.dir/src/dual_state_graph.cpp.o[0m
+[17.891s] [ 59%] [32mBuilding CXX object CMakeFiles/dsvplanner_exe.dir/src/drrtp.cpp.o[0m
+[17.891s] [ 61%] [32mBuilding CXX object CMakeFiles/dsvPlannerLib.dir/src/grid.cpp.o[0m
+[17.891s] [ 63%] [32mBuilding CXX object CMakeFiles/dsvplanner_exe.dir/src/drrt.cpp.o[0m
+[17.891s] [ 67%] [32mBuilding CXX object CMakeFiles/dsvplanner_exe.dir/src/dual_state_graph.cpp.o[0m
+[17.891s] [ 67%] [32mBuilding CXX object CMakeFiles/dsvplanner_exe.dir/src/dual_state_frontier.cpp.o[0m
+[17.893s] [ 69%] [32mBuilding CXX object CMakeFiles/dsvplanner_exe.dir/src/grid.cpp.o[0m
+[17.943s] [ 71%] [32mBuilding CXX object CMakeFiles/dsvplanner_exe.dir/src/drrtp_node.cpp.o[0m
+[18.031s] [ 73%] [32m[1mLinking CXX shared library libdsvplanner__rosidl_typesupport_introspection_cpp.so[0m
+[18.104s] [ 75%] [32m[1mLinking CXX shared library libdsvplanner__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.180s] [ 75%] Built target dsvplanner__rosidl_typesupport_introspection_cpp
+[18.187s] [ 76%] [32m[1mLinking CXX shared library libdsvplanner__rosidl_typesupport_fastrtps_c.so[0m
+[18.261s] [ 76%] Built target dsvplanner__rosidl_typesupport_fastrtps_cpp
+[18.327s] [ 76%] Built target dsvplanner__rosidl_typesupport_fastrtps_c
+[18.341s] [ 76%] Built target dsvplanner
+[18.355s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.976s] [ 78%] Built target dsvplanner__py
+[18.985s] [ 80%] [32mBuilding C object CMakeFiles/dsvplanner__rosidl_generator_py.dir/rosidl_generator_py/dsvplanner/srv/_dsvplanner_s.c.o[0m
+[18.985s] [ 82%] [32mBuilding C object CMakeFiles/dsvplanner__rosidl_generator_py.dir/rosidl_generator_py/dsvplanner/srv/_clean_frontier_s.c.o[0m
+[19.165s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/dsvplanner/libdsvplanner__rosidl_generator_py.so[0m
+[19.286s] [ 84%] Built target dsvplanner__rosidl_generator_py
+[19.298s] [ 86%] [32mBuilding C object CMakeFiles/dsvplanner__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dsvplanner/_dsvplanner_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.298s] [ 88%] [32mBuilding C object CMakeFiles/dsvplanner__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dsvplanner/_dsvplanner_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.298s] [ 90%] [32mBuilding C object CMakeFiles/dsvplanner__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dsvplanner/_dsvplanner_s.ep.rosidl_typesupport_c.c.o[0m
+[19.515s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/dsvplanner/dsvplanner_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.526s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/dsvplanner/dsvplanner_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.526s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/dsvplanner/dsvplanner_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.592s] [ 96%] Built target dsvplanner__rosidl_typesupport_introspection_c__pyext
+[19.597s] [ 96%] Built target dsvplanner__rosidl_typesupport_c__pyext
+[19.598s] [ 96%] Built target dsvplanner__rosidl_typesupport_fastrtps_c__pyext
+[29.609s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[29.619s] compilation terminated.
+[29.619s] gmake[2]: *** [CMakeFiles/dsvplanner_exe.dir/build.make:132: CMakeFiles/dsvplanner_exe.dir/src/grid.cpp.o] Error 1
+[29.619s] gmake[2]: *** Waiting for unfinished jobs....
+[33.971s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[33.972s] compilation terminated.
+[33.973s] gmake[2]: *** [CMakeFiles/dsvplanner_exe.dir/build.make:76: CMakeFiles/dsvplanner_exe.dir/src/drrtp.cpp.o] Error 1
+[48.384s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[48.386s] compilation terminated.
+[48.391s] gmake[2]: *** [CMakeFiles/dsvPlannerLib.dir/build.make:104: CMakeFiles/dsvPlannerLib.dir/src/dual_state_graph.cpp.o] Error 1
+[48.393s] gmake[2]: *** Waiting for unfinished jobs....
+[64.953s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/dsvPlannerLib.dir/all] Error 2
+[64.954s] gmake[1]: *** Waiting for unfinished jobs....
+[65.410s] gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/dsvplanner_exe.dir/all] Error 2
+[65.419s] gmake: *** [Makefile:146: all] Error 2
+[65.546s] Invoked command in '/home/freesix/far_planner_ws/build/dsvplanner' returned '2': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share:/home/freesix/far_planner_ws/install/kdtree/share /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/dsvplanner -- -j16 -l16

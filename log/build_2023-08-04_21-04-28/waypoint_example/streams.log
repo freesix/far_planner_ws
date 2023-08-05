@@ -1,0 +1,26 @@
+[0.070s] Invoking command in '/home/freesix/far_planner_ws/build/waypoint_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/waypoint_example -- -j16 -l16
+[0.119s] [100%] Built target waypointExample
+[0.137s] Invoked command in '/home/freesix/far_planner_ws/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/waypoint_example -- -j16 -l16
+[0.213s] Invoking command in '/home/freesix/far_planner_ws/build/waypoint_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/waypoint_example
+[0.247s] -- Install configuration: "Release"
+[0.247s] -- Execute custom install script
+[0.248s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/lib/waypoint_example/waypointExample
+[0.248s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/launch/waypoint_example_garage.launch
+[0.248s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/data/boundary_garage.ply
+[0.248s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/data/waypoints_garage.ply
+[0.248s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/ament_index/resource_index/package_run_dependencies/waypoint_example
+[0.248s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/ament_index/resource_index/parent_prefix_path/waypoint_example
+[0.248s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/environment/ament_prefix_path.sh
+[0.248s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/environment/ament_prefix_path.dsv
+[0.248s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/environment/path.sh
+[0.248s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/environment/path.dsv
+[0.249s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/local_setup.bash
+[0.249s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/local_setup.sh
+[0.249s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/local_setup.zsh
+[0.249s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/local_setup.dsv
+[0.249s] -- Symlinking: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/package.dsv
+[0.249s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/ament_index/resource_index/packages/waypoint_example
+[0.249s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/cmake/waypoint_exampleConfig.cmake
+[0.249s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/cmake/waypoint_exampleConfig-version.cmake
+[0.250s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/waypoint_example/share/waypoint_example/package.xml
+[0.325s] Invoked command in '/home/freesix/far_planner_ws/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/waypoint_example

@@ -1,0 +1,156 @@
+[  1%] Built target dsvplanner__cpp
+[  1%] Built target ament_cmake_python_symlink_dsvplanner
+[  9%] Built target dsvplanner__rosidl_generator_c
+[ 25%] Built target dsvplanner__rosidl_typesupport_cpp
+[ 25%] Built target dsvplanner__rosidl_typesupport_introspection_cpp
+[ 32%] Built target dsvplanner__rosidl_typesupport_fastrtps_cpp
+[ 40%] Built target dsvplanner__rosidl_typesupport_c
+[ 48%] Built target dsvplanner__rosidl_typesupport_introspection_c
+[ 55%] Built target dsvplanner__rosidl_typesupport_fastrtps_c
+[ 55%] Built target dsvplanner
+[ 57%] Built target dsvplanner__py
+[ 59%] [32mBuilding CXX object CMakeFiles/dsvplanner_exe.dir/src/drrtp.cpp.o[0m
+[ 65%] Built target dsvplanner__rosidl_generator_py
+[ 69%] Built target dsvplanner__rosidl_typesupport_introspection_c__pyext
+[ 73%] Built target dsvplanner__rosidl_typesupport_c__pyext
+[ 76%] Built target dsvplanner__rosidl_typesupport_fastrtps_c__pyext
+[ 78%] [32mBuilding CXX object CMakeFiles/dsvPlannerLib.dir/src/dual_state_graph.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/dsvplanner_exe.dir/src/grid.cpp.o[0m
+running egg_info
+writing dsvplanner.egg-info/PKG-INFO
+writing dependency_links to dsvplanner.egg-info/dependency_links.txt
+writing top-level names to dsvplanner.egg-info/top_level.txt
+reading manifest file 'dsvplanner.egg-info/SOURCES.txt'
+writing manifest file 'dsvplanner.egg-info/SOURCES.txt'
+[ 80%] Built target ament_cmake_python_build_dsvplanner_egg
+[ 82%] [32m[1mLinking CXX executable dsvplanner_exe[0m
+[ 84%] [32m[1mLinking CXX shared library libdsvPlannerLib.so[0m
+[ 92%] Built target dsvplanner_exe
+[100%] Built target dsvPlannerLib
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/ament_index/resource_index/rosidl_interfaces/dsvplanner
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/clean_frontier.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__functions.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__struct.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__type_support.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__functions.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__struct.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__type_support.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/dsvplanner.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/library_path.sh
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/library_path.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/clean_frontier.hpp
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__builder.hpp
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__struct.hpp
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__traits.hpp
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__builder.hpp
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__struct.hpp
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__traits.hpp
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/dsvplanner.hpp
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/pythonpath.sh
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/pythonpath.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner-0.0.1-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner-0.0.1-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner-0.0.1-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner-0.0.1-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/__init__.py
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/_dsvplanner_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/_dsvplanner_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/_dsvplanner_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/dsvplanner_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/dsvplanner_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/dsvplanner_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/libdsvplanner__rosidl_generator_py.so
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv/__init__.py
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv/_clean_frontier.py
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv/_clean_frontier_s.c
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv/_dsvplanner.py
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv/_dsvplanner_s.c
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/dsvplanner_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/dsvplanner_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/dsvplanner_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/Dsvplanner.idl
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/CleanFrontier.idl
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/Dsvplanner.srv
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/Dsvplanner_Request.msg
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/Dsvplanner_Response.msg
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/CleanFrontier.srv
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/CleanFrontier_Request.msg
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/CleanFrontier_Response.msg
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/lib/dsvplanner/dsvplanner_exe
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/ament_index/resource_index/package_run_dependencies/dsvplanner
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/ament_index/resource_index/parent_prefix_path/dsvplanner
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/ament_prefix_path.sh
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/ament_prefix_path.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/path.sh
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/path.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/local_setup.bash
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/local_setup.sh
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/local_setup.zsh
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/local_setup.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/package.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/ament_index/resource_index/packages/dsvplanner
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplannerConfig.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplannerConfig-version.cmake
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/package.xml
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_generator_c.so
+-- Set runtime path of "/home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_generator_c.so" to ""
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_c.so
+-- Set runtime path of "/home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_c.so" to ""
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_cpp.so" to ""
+Listing '/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner'...
+Compiling '/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/__init__.py'...
+Listing '/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv'...
+Compiling '/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv/__init__.py'...
+Compiling '/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv/_clean_frontier.py'...
+Compiling '/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv/_dsvplanner.py'...
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_generator_py.so
+-- Set runtime path of "/home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_generator_py.so" to ""
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvPlannerLib.so
+-- Set runtime path of "/home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvPlannerLib.so" to ""
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_generator_cExport.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_generator_cExport-release.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_generator_cppExport.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_cExport.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_generator_pyExport.cmake
+-- Installing: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_generator_pyExport-release.cmake

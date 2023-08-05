@@ -1,0 +1,15 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/dsvplanner_exe.dir/build.make:132: CMakeFiles/dsvplanner_exe.dir/src/grid.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/dsvplanner_exe.dir/build.make:76: CMakeFiles/dsvplanner_exe.dir/src/drrtp.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/dsvPlannerLib.dir/build.make:104: CMakeFiles/dsvPlannerLib.dir/src/dual_state_graph.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/dsvPlannerLib.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/dsvplanner_exe.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

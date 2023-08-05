@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/freesix/far_planner_ws/install/dsvplanner/include/**",
+        "/home/freesix/far_planner_ws/install/octomap_world/include/**",
+        "/home/freesix/far_planner_ws/install/volumetric_msgs/include/**",
+        "/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/include/**",
+        "/home/freesix/far_planner_ws/install/graph_planner/include/**",
+        "/home/freesix/far_planner_ws/install/graph_utils/include/**",
+        "/home/freesix/far_planner_ws/install/misc_utils/include/**",
+        "/home/freesix/far_planner_ws/install/minkindr_conversions/include/**",
+        "/home/freesix/far_planner_ws/install/joy/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/freesix/far_planner_ws/src/dsv_planner/src/dsvplanner/dsvplanner/include/**",
+        "/home/freesix/far_planner_ws/src/dsv_planner/src/dsvplanner/graph_planner/include/**",
+        "/home/freesix/far_planner_ws/src/dsv_planner/src/dsvplanner/graph_utils/include/**",
+        "/home/freesix/far_planner_ws/src/dsv_planner/src/dsvplanner/misc_utils/include/**",
+        "/home/freesix/far_planner_ws/src/dsv_planner/src/kdtree/include/**",
+        "/home/freesix/far_planner_ws/src/dsv_planner/src/minkindr/minkindr/include/**",
+        "/home/freesix/far_planner_ws/src/dsv_planner/src/minkindr_ros/minkindr_conversions/include/**",
+        "/home/freesix/far_planner_ws/src/dsv_planner/src/volumetric_mapping/octomap_world/include/**",
+        "/home/freesix/far_planner_ws/src/dsv_planner/src/volumetric_mapping/volumetric_map_base/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

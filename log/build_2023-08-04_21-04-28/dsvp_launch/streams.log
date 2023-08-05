@@ -1,0 +1,140 @@
+[0.643s] Invoking command in '/home/freesix/far_planner_ws/build/dsvp_launch': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share:/home/freesix/far_planner_ws/install/kdtree/share /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/dsvplanner/dsvp_launch -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/dsvp_launch
+[0.760s] -- The C compiler identification is GNU 11.4.0
+[1.043s] -- The CXX compiler identification is GNU 11.4.0
+[1.261s] -- Detecting C compiler ABI info
+[1.350s] -- Detecting C compiler ABI info - done
+[1.356s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.357s] -- Detecting C compile features
+[1.358s] -- Detecting C compile features - done
+[1.362s] -- Detecting CXX compiler ABI info
+[1.448s] -- Detecting CXX compiler ABI info - done
+[1.454s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.454s] -- Detecting CXX compile features
+[1.454s] -- Detecting CXX compile features - done
+[1.457s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.850s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.896s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.923s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[3.040s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.044s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.052s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.065s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.081s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.140s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.143s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.816s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.519s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.722s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.734s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.820s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.821s] -- Found Threads: TRUE  
+[5.952s] -- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)
+[6.001s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[6.188s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[6.304s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.305s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.305s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.586s] -- Checking for module 'eigen3'
+[6.593s] --   Found eigen3, version 3.4.0
+[6.609s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.609s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.223s] -- Checking for module 'flann'
+[7.231s] --   Found flann, version 1.9.1
+[7.452s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[7.452s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[10.596s] -- Checking for module 'libusb-1.0'
+[10.604s] --   Found libusb-1.0, version 1.0.25
+[10.665s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[10.666s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.781s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.042s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[12.045s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.049s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[13.170s] -- Found Qhull version 8.0.2
+[14.255s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.338s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[15.339s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[15.340s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[15.340s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[15.341s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[15.342s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[15.342s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[15.342s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[15.343s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[15.343s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[15.344s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[15.345s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[15.345s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[15.346s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[15.347s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[15.347s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[15.348s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[15.349s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[15.350s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[15.350s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[15.351s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[15.351s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[15.352s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[15.353s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[15.354s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[15.365s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[15.449s] -- Found dsvplanner: 0.0.1 (/home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake)
+[15.495s] -- Found graph_planner: 0.0.1 (/home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake)
+[15.541s] -- Found Eigen: /usr/include/eigen3  
+[15.541s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[15.639s] -- Configuring done (15.0s)
+[15.678s] -- Generating done (0.0s)
+[15.679s] -- Build files have been written to: /home/freesix/far_planner_ws/build/dsvp_launch
+[15.691s] Invoked command in '/home/freesix/far_planner_ws/build/dsvp_launch' returned '0': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share:/home/freesix/far_planner_ws/install/kdtree/share /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/dsvplanner/dsvp_launch -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/dsvp_launch
+[15.693s] Invoking command in '/home/freesix/far_planner_ws/build/dsvp_launch': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share:/home/freesix/far_planner_ws/install/kdtree/share /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/dsvp_launch -- -j16 -l16
+[15.711s] [ 25%] [32mBuilding CXX object CMakeFiles/exploration.dir/src/exploration.cpp.o[0m
+[15.711s] [ 50%] [32mBuilding CXX object CMakeFiles/navigationBoundary.dir/src/navigationBoundary.cpp.o[0m
+[20.942s] [ 75%] [32m[1mLinking CXX executable navigationBoundary[0m
+[21.215s] [ 75%] Built target navigationBoundary
+[31.346s] [100%] [32m[1mLinking CXX executable exploration[0m
+[31.535s] [100%] Built target exploration
+[31.539s] Invoked command in '/home/freesix/far_planner_ws/build/dsvp_launch' returned '0': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share:/home/freesix/far_planner_ws/install/kdtree/share /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/dsvp_launch -- -j16 -l16
+[31.554s] Invoking command in '/home/freesix/far_planner_ws/build/dsvp_launch': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share:/home/freesix/far_planner_ws/install/kdtree/share /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/dsvp_launch
+[31.555s] -- Install configuration: "Release"
+[31.555s] -- Execute custom install script
+[31.556s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/lib/dsvp_launch/exploration
+[31.558s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/lib/dsvp_launch/navigationBoundary
+[31.560s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/dsvp.launch
+[31.562s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/explore_campus.launch
+[31.564s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/explore_forest.launch
+[31.566s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/explore_garage.launch
+[31.568s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/explore_indoor.launch
+[31.569s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/explore_matterport.launch
+[31.571s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/explore_tunnel.launch
+[31.573s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/rosbag_record.launch
+[31.575s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/default.rviz
+[31.577s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration.yaml
+[31.579s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration_campus.yaml
+[31.581s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration_forest.yaml
+[31.582s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration_garage.yaml
+[31.584s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration_indoor.yaml
+[31.586s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration_matterport.yaml
+[31.588s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration_tunnel.yaml
+[31.590s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap.yaml
+[31.591s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap_campus.yaml
+[31.593s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap_forest.yaml
+[31.595s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap_garage.yaml
+[31.597s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap_indoor.yaml
+[31.599s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap_matterport.yaml
+[31.600s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap_tunnel.yaml
+[31.602s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/ament_index/resource_index/package_run_dependencies/dsvp_launch
+[31.604s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/ament_index/resource_index/parent_prefix_path/dsvp_launch
+[31.606s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/environment/ament_prefix_path.sh
+[31.608s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/environment/ament_prefix_path.dsv
+[31.610s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/environment/path.sh
+[31.612s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/environment/path.dsv
+[31.614s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/local_setup.bash
+[31.616s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/local_setup.sh
+[31.618s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/local_setup.zsh
+[31.619s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/local_setup.dsv
+[31.621s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/package.dsv
+[31.623s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/ament_index/resource_index/packages/dsvp_launch
+[31.625s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/cmake/dsvp_launchConfig.cmake
+[31.627s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/cmake/dsvp_launchConfig-version.cmake
+[31.629s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/package.xml
+[31.633s] Invoked command in '/home/freesix/far_planner_ws/build/dsvp_launch' returned '0': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/volumetric_map_base/lib/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/kdtree/lib/pkgconfig PYTHONPATH=/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:/home/freesix/far_planner_ws/install/volumetric_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/volumetric_map_base/share:/home/freesix/far_planner_ws/install/minkindr/share:/home/freesix/far_planner_ws/install/kdtree/share /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/dsvp_launch

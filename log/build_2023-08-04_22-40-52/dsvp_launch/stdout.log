@@ -1,0 +1,46 @@
+[ 50%] Built target navigationBoundary
+[ 75%] [32mBuilding CXX object CMakeFiles/exploration.dir/src/exploration.cpp.o[0m
+[100%] [32m[1mLinking CXX executable exploration[0m
+[100%] Built target exploration
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/lib/dsvp_launch/exploration
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/lib/dsvp_launch/navigationBoundary
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/dsvp.launch
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/explore_campus.launch
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/explore_forest.launch
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/explore_garage.launch
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/explore_indoor.launch
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/explore_matterport.launch
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/explore_tunnel.launch
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/launch/rosbag_record.launch
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/default.rviz
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration_campus.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration_forest.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration_garage.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration_indoor.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration_matterport.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/exploration_tunnel.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap_campus.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap_forest.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap_garage.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap_indoor.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap_matterport.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/config/octomap_tunnel.yaml
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/ament_index/resource_index/package_run_dependencies/dsvp_launch
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/ament_index/resource_index/parent_prefix_path/dsvp_launch
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/environment/path.sh
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/environment/path.dsv
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/local_setup.bash
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/local_setup.sh
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/local_setup.zsh
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/local_setup.dsv
+-- Symlinking: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/package.dsv
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/ament_index/resource_index/packages/dsvp_launch
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/cmake/dsvp_launchConfig.cmake
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/cmake/dsvp_launchConfig-version.cmake
+-- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvp_launch/share/dsvp_launch/package.xml

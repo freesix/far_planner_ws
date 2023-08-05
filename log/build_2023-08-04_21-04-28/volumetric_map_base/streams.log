@@ -1,0 +1,31 @@
+[0.119s] Invoking command in '/home/freesix/far_planner_ws/build/volumetric_map_base': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/volumetric_map_base -- -j16 -l16
+[0.156s] [100%] Built target volumetric_map_base
+[0.160s] Invoked command in '/home/freesix/far_planner_ws/build/volumetric_map_base' returned '0': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/volumetric_map_base -- -j16 -l16
+[0.203s] Invoking command in '/home/freesix/far_planner_ws/build/volumetric_map_base': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/volumetric_map_base
+[0.212s] -- Install configuration: "Release"
+[0.212s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/include
+[0.212s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/include/volumetric_map_base
+[0.213s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/include/volumetric_map_base/world_base.h
+[0.213s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/include/volumetric_map_base/point_weighing.h
+[0.213s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/environment/library_path.sh
+[0.213s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/environment/library_path.dsv
+[0.213s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/lib/libvolumetric_map_base.so
+[0.213s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/ament_index/resource_index/package_run_dependencies/volumetric_map_base
+[0.213s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/ament_index/resource_index/parent_prefix_path/volumetric_map_base
+[0.213s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/environment/ament_prefix_path.sh
+[0.213s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/environment/ament_prefix_path.dsv
+[0.214s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/environment/path.sh
+[0.214s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/environment/path.dsv
+[0.214s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/local_setup.bash
+[0.214s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/local_setup.sh
+[0.214s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/local_setup.zsh
+[0.214s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/local_setup.dsv
+[0.214s] -- Installing: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/package.dsv
+[0.214s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/ament_index/resource_index/packages/volumetric_map_base
+[0.214s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.214s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.215s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/cmake/ament_cmake_export_libraries-extras.cmake
+[0.215s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/cmake/volumetric_map_baseConfig.cmake
+[0.215s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/cmake/volumetric_map_baseConfig-version.cmake
+[0.215s] -- Up-to-date: /home/freesix/far_planner_ws/install/volumetric_map_base/share/volumetric_map_base/package.xml
+[0.223s] Invoked command in '/home/freesix/far_planner_ws/build/volumetric_map_base' returned '0': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/minkindr PKG_CONFIG_PATH=/home/freesix/far_planner_ws/install/minkindr/lib/x86_64-linux-gnu/pkgconfig:/home/freesix/far_planner_ws/install/minkindr/lib/pkgconfig ROS_PACKAGE_PATH=/home/freesix/far_planner_ws/install/minkindr/share /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/volumetric_map_base

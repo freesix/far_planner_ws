@@ -1,0 +1,4 @@
+Invoking command in '/home/freesix/far_planner_ws/build/kdtree': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/kdtree -- -j16 -l16
+Invoked command in '/home/freesix/far_planner_ws/build/kdtree' returned '0': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/kdtree -- -j16 -l16
+Invoking command in '/home/freesix/far_planner_ws/build/kdtree': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/kdtree
+Invoked command in '/home/freesix/far_planner_ws/build/kdtree' returned '0': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/kdtree

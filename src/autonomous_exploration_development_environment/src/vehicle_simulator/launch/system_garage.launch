@@ -8,7 +8,7 @@ from launch_ros.actions import Node
 from launch.substitutions import LaunchConfiguration 
 
 def generate_launch_description():
-  world_name = LaunchConfiguration('world_name')
+  world_name = LaunchConfiguration('world_name') # 设定参数值，如外部传入则以外部为准
   vehicleHeight = LaunchConfiguration('vehicleHeight')
   cameraOffsetZ = LaunchConfiguration('cameraOffsetZ')
   vehicleX = LaunchConfiguration('vehicleX')

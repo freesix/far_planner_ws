@@ -1,0 +1,310 @@
+[0.112s] Invoking command in '/home/freesix/far_planner_ws/build/graph_planner': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/misc_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/dsvplanner/graph_planner -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/graph_planner
+[0.201s] -- The C compiler identification is GNU 11.4.0
+[0.514s] -- The CXX compiler identification is GNU 11.4.0
+[0.732s] -- Detecting C compiler ABI info
+[0.806s] -- Detecting C compiler ABI info - done
+[0.813s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.813s] -- Detecting C compile features
+[0.814s] -- Detecting C compile features - done
+[0.816s] -- Detecting CXX compiler ABI info
+[0.910s] -- Detecting CXX compiler ABI info - done
+[0.916s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.916s] -- Detecting CXX compile features
+[0.917s] -- Detecting CXX compile features - done
+[0.918s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.443s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.481s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.494s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[2.608s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.610s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.616s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.638s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.683s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.684s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.403s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.204s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.627s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.633s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.725s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.725s] -- Found Threads: TRUE  
+[5.836s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.866s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.922s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.979s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[6.067s] -- Found misc_utils: 0.0.1 (/home/freesix/far_planner_ws/install/misc_utils/share/misc_utils/cmake)
+[6.089s] -- Found graph_utils: 0.0.1 (/home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake)
+[6.143s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.158s] -- Checking for module 'eigen3'
+[6.164s] --   Found eigen3, version 3.4.0
+[6.179s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.180s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.192s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[6.220s] -- Checking for module 'libusb-1.0'
+[6.226s] --   Found libusb-1.0, version 1.0.25
+[6.275s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[6.276s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[6.276s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.394s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[6.394s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.394s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[6.394s] [0m** WARNING ** io features related to png will be disabled[0m
+[6.419s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[6.460s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[6.604s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[6.604s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[6.606s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[7.076s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[7.453s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[7.460s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[8.043s] -- Found X11: /usr/include   
+[8.043s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[8.136s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[8.136s] -- Looking for gethostbyname
+[8.211s] -- Looking for gethostbyname - found
+[8.211s] -- Looking for connect
+[8.294s] -- Looking for connect - found
+[8.294s] -- Looking for remove
+[8.383s] -- Looking for remove - found
+[8.383s] -- Looking for shmat
+[8.467s] -- Looking for shmat - found
+[8.467s] -- Looking for IceConnectionNumber in ICE
+[8.554s] -- Looking for IceConnectionNumber in ICE - found
+[9.171s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[9.172s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[9.174s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[9.175s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[9.280s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[9.396s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[9.399s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[9.403s] -- Found utf8cpp: /usr/include/utf8cpp  
+[9.433s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.082s] -- Checking for module 'flann'
+[10.089s] --   Found flann, version 1.9.1
+[10.321s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[10.321s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[10.322s] -- looking for PCL_COMMON
+[10.323s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[10.323s] -- looking for PCL_OCTREE
+[10.324s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[10.324s] -- looking for PCL_IO
+[10.324s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[10.324s] -- looking for PCL_KDTREE
+[10.325s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[10.325s] -- looking for PCL_SEARCH
+[10.326s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[10.326s] -- looking for PCL_SAMPLE_CONSENSUS
+[10.326s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[10.327s] -- looking for PCL_FILTERS
+[10.327s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[10.328s] -- Found PCL: pcl_common;pcl_octree;pcl_io;pcl_kdtree;pcl_search;pcl_sample_consensus;pcl_filters;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN  
+[10.467s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.635s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.794s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.795s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.078s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.078s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.078s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.078s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.092s] -- Found PythonExtra: .so  
+[11.222s] -- Configuring done (11.1s)
+[11.279s] -- Generating done (0.0s)
+[11.281s] -- Build files have been written to: /home/freesix/far_planner_ws/build/graph_planner
+[11.294s] Invoked command in '/home/freesix/far_planner_ws/build/graph_planner' returned '0': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/misc_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/dsvplanner/graph_planner -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/install/graph_planner
+[11.295s] Invoking command in '/home/freesix/far_planner_ws/build/graph_planner': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/misc_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/graph_planner -- -j16 -l16
+[11.311s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.315s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.317s] [  4%] Built target ament_cmake_python_symlink_graph_planner
+[11.480s] running egg_info
+[11.481s] creating graph_planner.egg-info
+[11.481s] writing graph_planner.egg-info/PKG-INFO
+[11.481s] writing dependency_links to graph_planner.egg-info/dependency_links.txt
+[11.481s] writing top-level names to graph_planner.egg-info/top_level.txt
+[11.481s] writing manifest file 'graph_planner.egg-info/SOURCES.txt'
+[11.483s] reading manifest file 'graph_planner.egg-info/SOURCES.txt'
+[11.483s] writing manifest file 'graph_planner.egg-info/SOURCES.txt'
+[11.497s] [  4%] Built target ament_cmake_python_build_graph_planner_egg
+[11.647s] [  4%] Built target graph_planner__cpp
+[11.651s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.651s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.651s] [ 11%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.651s] [ 14%] [32mBuilding C object CMakeFiles/graph_planner__rosidl_generator_c.dir/rosidl_generator_c/graph_planner/msg/detail/graph_planner_command__functions.c.o[0m
+[11.652s] [ 16%] [32mBuilding C object CMakeFiles/graph_planner__rosidl_generator_c.dir/rosidl_generator_c/graph_planner/msg/detail/graph_planner_status__functions.c.o[0m
+[11.704s] [ 19%] [32m[1mLinking C shared library libgraph_planner__rosidl_generator_c.so[0m
+[11.772s] [ 19%] Built target graph_planner__rosidl_generator_c
+[11.776s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.776s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.776s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.843s] [ 28%] [32mBuilding CXX object CMakeFiles/graph_planner__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/graph_planner/msg/graph_planner_status__type_support.cpp.o[0m
+[11.843s] [ 30%] [32mBuilding CXX object CMakeFiles/graph_planner__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/graph_planner/msg/graph_planner_command__type_support.cpp.o[0m
+[11.857s] [ 33%] [32mBuilding CXX object CMakeFiles/graph_planner__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/graph_planner/msg/detail/graph_planner_command__type_support.cpp.o[0m
+[11.857s] [ 35%] [32mBuilding CXX object CMakeFiles/graph_planner__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/graph_planner/msg/detail/graph_planner_status__type_support.cpp.o[0m
+[11.939s] [ 38%] [32mBuilding CXX object CMakeFiles/graph_planner__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/graph_planner/msg/detail/dds_fastrtps/graph_planner_status__type_support.cpp.o[0m
+[11.939s] [ 40%] [32mBuilding CXX object CMakeFiles/graph_planner__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/graph_planner/msg/detail/dds_fastrtps/graph_planner_command__type_support.cpp.o[0m
+[12.027s] [ 42%] [32mBuilding CXX object CMakeFiles/graph_planner__rosidl_typesupport_c.dir/rosidl_typesupport_c/graph_planner/msg/graph_planner_command__type_support.cpp.o[0m
+[12.027s] [ 45%] [32mBuilding CXX object CMakeFiles/graph_planner__rosidl_typesupport_c.dir/rosidl_typesupport_c/graph_planner/msg/graph_planner_status__type_support.cpp.o[0m
+[12.048s] [ 50%] [32mBuilding CXX object CMakeFiles/graph_planner__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/graph_planner/msg/detail/graph_planner_status__type_support_c.cpp.o[0m
+[12.048s] [ 50%] [32mBuilding CXX object CMakeFiles/graph_planner__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/graph_planner/msg/detail/graph_planner_command__type_support_c.cpp.o[0m
+[12.048s] [ 52%] [32mBuilding C object CMakeFiles/graph_planner__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/graph_planner/msg/detail/graph_planner_status__type_support.c.o[0m
+[12.049s] [ 54%] [32mBuilding C object CMakeFiles/graph_planner__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/graph_planner/msg/detail/graph_planner_command__type_support.c.o[0m
+[12.050s] [ 57%] [32m[1mLinking CXX shared library libgraph_planner__rosidl_typesupport_c.so[0m
+[12.079s] [ 59%] [32m[1mLinking C shared library libgraph_planner__rosidl_typesupport_introspection_c.so[0m
+[12.120s] [ 61%] [32m[1mLinking CXX shared library libgraph_planner__rosidl_typesupport_cpp.so[0m
+[12.132s] [ 61%] Built target graph_planner__rosidl_typesupport_c
+[12.160s] [ 61%] Built target graph_planner__rosidl_typesupport_introspection_c
+[12.206s] [ 61%] Built target graph_planner__rosidl_typesupport_cpp
+[12.216s] [ 64%] [32mBuilding CXX object CMakeFiles/graph_planner_exe.dir/src/graph_planner_node.cpp.o[0m
+[12.216s] [ 66%] [32mBuilding CXX object CMakeFiles/graph_planner_exe.dir/src/graph_planner.cpp.o[0m
+[12.237s] [ 69%] [32m[1mLinking CXX shared library libgraph_planner__rosidl_typesupport_introspection_cpp.so[0m
+[12.309s] [ 69%] Built target graph_planner__rosidl_typesupport_introspection_cpp
+[12.351s] [ 71%] [32m[1mLinking CXX shared library libgraph_planner__rosidl_typesupport_fastrtps_c.so[0m
+[12.352s] [ 73%] [32m[1mLinking CXX shared library libgraph_planner__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.433s] [ 73%] Built target graph_planner__rosidl_typesupport_fastrtps_c
+[12.437s] [ 73%] Built target graph_planner__rosidl_typesupport_fastrtps_cpp
+[12.443s] [ 73%] Built target graph_planner
+[12.449s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.770s] [ 76%] Built target graph_planner__py
+[12.776s] [ 78%] [32mBuilding C object CMakeFiles/graph_planner__rosidl_generator_py.dir/rosidl_generator_py/graph_planner/msg/_graph_planner_command_s.c.o[0m
+[12.776s] [ 80%] [32mBuilding C object CMakeFiles/graph_planner__rosidl_generator_py.dir/rosidl_generator_py/graph_planner/msg/_graph_planner_status_s.c.o[0m
+[12.851s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/graph_planner/libgraph_planner__rosidl_generator_py.so[0m
+[12.921s] [ 83%] Built target graph_planner__rosidl_generator_py
+[12.928s] [ 85%] [32mBuilding C object CMakeFiles/graph_planner__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/graph_planner/_graph_planner_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.928s] [ 88%] [32mBuilding C object CMakeFiles/graph_planner__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/graph_planner/_graph_planner_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.929s] [ 90%] [32mBuilding C object CMakeFiles/graph_planner__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/graph_planner/_graph_planner_s.ep.rosidl_typesupport_c.c.o[0m
+[13.009s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/graph_planner/graph_planner_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.034s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/graph_planner/graph_planner_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.037s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/graph_planner/graph_planner_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.073s] [ 97%] Built target graph_planner__rosidl_typesupport_introspection_c__pyext
+[13.089s] [ 97%] Built target graph_planner__rosidl_typesupport_fastrtps_c__pyext
+[13.090s] [ 97%] Built target graph_planner__rosidl_typesupport_c__pyext
+[32.735s] [100%] [32m[1mLinking CXX executable graph_planner_exe[0m
+[33.203s] [100%] Built target graph_planner_exe
+[33.208s] Invoked command in '/home/freesix/far_planner_ws/build/graph_planner' returned '0': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/misc_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/graph_planner -- -j16 -l16
+[33.248s] Invoking command in '/home/freesix/far_planner_ws/build/graph_planner': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/misc_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/graph_planner
+[33.250s] -- Install configuration: "Release"
+[33.251s] -- Execute custom install script
+[33.251s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/ament_index/resource_index/rosidl_interfaces/graph_planner
+[33.254s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_command__functions.h
+[33.256s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_command__struct.h
+[33.257s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_command__type_support.h
+[33.259s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_status__functions.h
+[33.261s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_status__struct.h
+[33.262s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_status__type_support.h
+[33.264s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/graph_planner_command.h
+[33.266s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/graph_planner_status.h
+[33.267s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/rosidl_generator_c__visibility_control.h
+[33.269s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/environment/library_path.sh
+[33.271s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/environment/library_path.dsv
+[33.273s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_command__rosidl_typesupport_fastrtps_c.h
+[33.274s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_status__rosidl_typesupport_fastrtps_c.h
+[33.276s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[33.278s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_command__builder.hpp
+[33.279s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_command__struct.hpp
+[33.281s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_command__traits.hpp
+[33.283s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_status__builder.hpp
+[33.284s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_status__struct.hpp
+[33.286s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_status__traits.hpp
+[33.288s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/graph_planner_command.hpp
+[33.289s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/graph_planner_status.hpp
+[33.291s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_command__rosidl_typesupport_fastrtps_cpp.hpp
+[33.293s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_status__rosidl_typesupport_fastrtps_cpp.hpp
+[33.294s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[33.296s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_command__rosidl_typesupport_introspection_c.h
+[33.298s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_status__rosidl_typesupport_introspection_c.h
+[33.300s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[33.302s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_command__rosidl_typesupport_introspection_cpp.hpp
+[33.303s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/include/graph_planner/graph_planner/msg/detail/graph_planner_status__rosidl_typesupport_introspection_cpp.hpp
+[33.305s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/environment/pythonpath.sh
+[33.307s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/environment/pythonpath.dsv
+[33.309s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner-0.0.1-py3.10.egg-info/PKG-INFO
+[33.311s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner-0.0.1-py3.10.egg-info/SOURCES.txt
+[33.313s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner-0.0.1-py3.10.egg-info/dependency_links.txt
+[33.314s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner-0.0.1-py3.10.egg-info/top_level.txt
+[33.316s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/__init__.py
+[33.318s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/_graph_planner_s.ep.rosidl_typesupport_c.c
+[33.320s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/_graph_planner_s.ep.rosidl_typesupport_fastrtps_c.c
+[33.322s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/_graph_planner_s.ep.rosidl_typesupport_introspection_c.c
+[33.324s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/graph_planner_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[33.326s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/graph_planner_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[33.328s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/graph_planner_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[33.330s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/libgraph_planner__rosidl_generator_py.so
+[33.331s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/msg/__init__.py
+[33.333s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/msg/_graph_planner_command.py
+[33.335s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/msg/_graph_planner_command_s.c
+[33.337s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/msg/_graph_planner_status.py
+[33.338s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/msg/_graph_planner_status_s.c
+[33.340s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/graph_planner_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[33.340s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/graph_planner_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[33.341s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/graph_planner_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[33.341s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/msg/GraphPlannerCommand.idl
+[33.343s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/msg/GraphPlannerStatus.idl
+[33.344s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/msg/GraphPlannerCommand.msg
+[33.346s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/msg/GraphPlannerStatus.msg
+[33.348s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/launch/graph_planner.launch
+[33.350s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/launch/graph_planner_matterport.launch
+[33.352s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/config/default.yaml
+[33.354s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/config/matterport.yaml
+[33.356s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/lib/graph_planner/graph_planner_exe
+[33.357s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/ament_index/resource_index/package_run_dependencies/graph_planner
+[33.359s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/ament_index/resource_index/parent_prefix_path/graph_planner
+[33.361s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/environment/ament_prefix_path.sh
+[33.363s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/environment/ament_prefix_path.dsv
+[33.365s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/environment/path.sh
+[33.366s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/environment/path.dsv
+[33.368s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/local_setup.bash
+[33.370s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/local_setup.sh
+[33.372s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/local_setup.zsh
+[33.373s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/local_setup.dsv
+[33.375s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/package.dsv
+[33.377s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/ament_index/resource_index/packages/graph_planner
+[33.379s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/rosidl_cmake-extras.cmake
+[33.381s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.383s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.384s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[33.386s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/ament_cmake_export_targets-extras.cmake
+[33.388s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[33.390s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[33.392s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/graph_plannerConfig.cmake
+[33.394s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/graph_plannerConfig-version.cmake
+[33.396s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/package.xml
+[33.397s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_generator_c.so
+[33.398s] -- Set runtime path of "/home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_generator_c.so" to ""
+[33.398s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_typesupport_fastrtps_c.so
+[33.398s] -- Set runtime path of "/home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_typesupport_fastrtps_c.so" to ""
+[33.398s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_typesupport_fastrtps_cpp.so
+[33.398s] -- Set runtime path of "/home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_typesupport_fastrtps_cpp.so" to ""
+[33.398s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_typesupport_introspection_c.so
+[33.398s] -- Set runtime path of "/home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_typesupport_introspection_c.so" to ""
+[33.398s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_typesupport_c.so
+[33.398s] -- Set runtime path of "/home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_typesupport_c.so" to ""
+[33.399s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_typesupport_introspection_cpp.so
+[33.399s] -- Set runtime path of "/home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_typesupport_introspection_cpp.so" to ""
+[33.399s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_typesupport_cpp.so
+[33.399s] -- Set runtime path of "/home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_typesupport_cpp.so" to ""
+[33.420s] Listing '/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner'...
+[33.420s] Compiling '/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/__init__.py'...
+[33.420s] Listing '/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/msg'...
+[33.420s] Compiling '/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/msg/__init__.py'...
+[33.420s] Compiling '/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/msg/_graph_planner_command.py'...
+[33.420s] Compiling '/home/freesix/far_planner_ws/install/graph_planner/local/lib/python3.10/dist-packages/graph_planner/msg/_graph_planner_status.py'...
+[33.422s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_generator_py.so
+[33.423s] -- Set runtime path of "/home/freesix/far_planner_ws/install/graph_planner/lib/libgraph_planner__rosidl_generator_py.so" to ""
+[33.423s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/export_graph_planner__rosidl_generator_cExport.cmake
+[33.423s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/export_graph_planner__rosidl_generator_cExport-release.cmake
+[33.423s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/export_graph_planner__rosidl_typesupport_fastrtps_cExport.cmake
+[33.423s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/export_graph_planner__rosidl_typesupport_fastrtps_cExport-release.cmake
+[33.423s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/export_graph_planner__rosidl_generator_cppExport.cmake
+[33.423s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/export_graph_planner__rosidl_typesupport_fastrtps_cppExport.cmake
+[33.423s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/export_graph_planner__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[33.424s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/graph_planner__rosidl_typesupport_introspection_cExport.cmake
+[33.424s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/graph_planner__rosidl_typesupport_introspection_cExport-release.cmake
+[33.424s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/graph_planner__rosidl_typesupport_cExport.cmake
+[33.424s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/graph_planner__rosidl_typesupport_cExport-release.cmake
+[33.424s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/graph_planner__rosidl_typesupport_introspection_cppExport.cmake
+[33.424s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/graph_planner__rosidl_typesupport_introspection_cppExport-release.cmake
+[33.424s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/graph_planner__rosidl_typesupport_cppExport.cmake
+[33.424s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/graph_planner__rosidl_typesupport_cppExport-release.cmake
+[33.424s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/export_graph_planner__rosidl_generator_pyExport.cmake
+[33.424s] -- Installing: /home/freesix/far_planner_ws/install/graph_planner/share/graph_planner/cmake/export_graph_planner__rosidl_generator_pyExport-release.cmake
+[33.426s] Invoked command in '/home/freesix/far_planner_ws/build/graph_planner' returned '0': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/misc_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/graph_planner

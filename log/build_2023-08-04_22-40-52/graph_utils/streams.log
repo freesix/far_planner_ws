@@ -1,0 +1,160 @@
+[0.165s] Invoking command in '/home/freesix/far_planner_ws/build/graph_utils': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/waypoint_rviz_plugin:/home/freesix/far_planner_ws/install/waypoint_example:/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/volumetric_msgs:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/visualization_tools:/home/freesix/far_planner_ws/install/velodyne_simulator:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/home/freesix/far_planner_ws/install/vehicle_simulator:/home/freesix/far_planner_ws/install/terrain_analysis_ext:/home/freesix/far_planner_ws/install/terrain_analysis:/home/freesix/far_planner_ws/install/sensor_scan_generation:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/local_planner:/home/freesix/far_planner_ws/install/loam_interface:/home/freesix/far_planner_ws/install/kdtree:/home/freesix/far_planner_ws/install/joy:/home/freesix/far_planner_ws/install/dsvp_launch LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/kdtree/lib:/home/freesix/far_planner_ws/install/joy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/graph_utils -- -j16 -l16
+[0.187s] [  1%] Built target graph_utils__cpp
+[0.188s] [ 11%] Built target graph_utils__rosidl_generator_c
+[0.189s] [ 11%] Built target ament_cmake_python_symlink_graph_utils
+[0.202s] [ 21%] Built target graph_utils__rosidl_typesupport_cpp
+[0.203s] [ 40%] Built target graph_utils__rosidl_typesupport_fastrtps_cpp
+[0.203s] [ 40%] Built target graph_utils__rosidl_typesupport_introspection_c
+[0.206s] [ 61%] Built target graph_utils__rosidl_typesupport_fastrtps_c
+[0.206s] [ 61%] Built target graph_utils__rosidl_typesupport_c
+[0.207s] [ 69%] Built target graph_utils__rosidl_typesupport_introspection_cpp
+[0.219s] [ 69%] Built target graph_utils
+[0.224s] [ 73%] Built target graph_utils_lib
+[0.224s] [ 78%] Built target graph_visualization
+[0.225s] [ 80%] Built target graph_utils__py
+[0.237s] [ 88%] Built target graph_utils__rosidl_generator_py
+[0.244s] [ 92%] Built target graph_utils__rosidl_typesupport_c__pyext
+[0.245s] [100%] Built target graph_utils__rosidl_typesupport_fastrtps_c__pyext
+[0.245s] [100%] Built target graph_utils__rosidl_typesupport_introspection_c__pyext
+[0.365s] running egg_info
+[0.367s] writing graph_utils.egg-info/PKG-INFO
+[0.367s] writing dependency_links to graph_utils.egg-info/dependency_links.txt
+[0.367s] writing top-level names to graph_utils.egg-info/top_level.txt
+[0.368s] reading manifest file 'graph_utils.egg-info/SOURCES.txt'
+[0.368s] writing manifest file 'graph_utils.egg-info/SOURCES.txt'
+[0.389s] [100%] Built target ament_cmake_python_build_graph_utils_egg
+[0.396s] Invoked command in '/home/freesix/far_planner_ws/build/graph_utils' returned '0': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/waypoint_rviz_plugin:/home/freesix/far_planner_ws/install/waypoint_example:/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/volumetric_msgs:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/visualization_tools:/home/freesix/far_planner_ws/install/velodyne_simulator:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/home/freesix/far_planner_ws/install/vehicle_simulator:/home/freesix/far_planner_ws/install/terrain_analysis_ext:/home/freesix/far_planner_ws/install/terrain_analysis:/home/freesix/far_planner_ws/install/sensor_scan_generation:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/local_planner:/home/freesix/far_planner_ws/install/loam_interface:/home/freesix/far_planner_ws/install/kdtree:/home/freesix/far_planner_ws/install/joy:/home/freesix/far_planner_ws/install/dsvp_launch LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/kdtree/lib:/home/freesix/far_planner_ws/install/joy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/graph_utils -- -j16 -l16
+[0.482s] Invoking command in '/home/freesix/far_planner_ws/build/graph_utils': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/waypoint_rviz_plugin:/home/freesix/far_planner_ws/install/waypoint_example:/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/volumetric_msgs:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/visualization_tools:/home/freesix/far_planner_ws/install/velodyne_simulator:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/home/freesix/far_planner_ws/install/vehicle_simulator:/home/freesix/far_planner_ws/install/terrain_analysis_ext:/home/freesix/far_planner_ws/install/terrain_analysis:/home/freesix/far_planner_ws/install/sensor_scan_generation:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/local_planner:/home/freesix/far_planner_ws/install/loam_interface:/home/freesix/far_planner_ws/install/kdtree:/home/freesix/far_planner_ws/install/joy:/home/freesix/far_planner_ws/install/dsvp_launch LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/kdtree/lib:/home/freesix/far_planner_ws/install/joy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/graph_utils
+[0.485s] -- Install configuration: "Release"
+[0.485s] -- Execute custom install script
+[0.485s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/ament_index/resource_index/rosidl_interfaces/graph_utils
+[0.486s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/edge__functions.h
+[0.486s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/edge__struct.h
+[0.488s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/edge__type_support.h
+[0.488s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/topological_graph__functions.h
+[0.488s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/topological_graph__struct.h
+[0.488s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/topological_graph__type_support.h
+[0.489s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/vertex__functions.h
+[0.489s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/vertex__struct.h
+[0.489s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/vertex__type_support.h
+[0.489s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/edge.h
+[0.489s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/rosidl_generator_c__visibility_control.h
+[0.489s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/topological_graph.h
+[0.489s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/vertex.h
+[0.489s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/environment/library_path.sh
+[0.489s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/environment/library_path.dsv
+[0.490s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/edge__rosidl_typesupport_fastrtps_c.h
+[0.490s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/topological_graph__rosidl_typesupport_fastrtps_c.h
+[0.490s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/vertex__rosidl_typesupport_fastrtps_c.h
+[0.490s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.490s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/edge__builder.hpp
+[0.490s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/edge__struct.hpp
+[0.490s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/edge__traits.hpp
+[0.490s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/topological_graph__builder.hpp
+[0.490s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/topological_graph__struct.hpp
+[0.491s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/topological_graph__traits.hpp
+[0.491s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/vertex__builder.hpp
+[0.491s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/vertex__struct.hpp
+[0.491s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/vertex__traits.hpp
+[0.491s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/edge.hpp
+[0.491s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/topological_graph.hpp
+[0.491s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/vertex.hpp
+[0.491s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/edge__rosidl_typesupport_fastrtps_cpp.hpp
+[0.491s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/topological_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[0.491s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/vertex__rosidl_typesupport_fastrtps_cpp.hpp
+[0.491s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.491s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/edge__rosidl_typesupport_introspection_c.h
+[0.492s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/topological_graph__rosidl_typesupport_introspection_c.h
+[0.492s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/vertex__rosidl_typesupport_introspection_c.h
+[0.492s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.492s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/edge__rosidl_typesupport_introspection_cpp.hpp
+[0.492s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/topological_graph__rosidl_typesupport_introspection_cpp.hpp
+[0.492s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils/graph_utils/msg/detail/vertex__rosidl_typesupport_introspection_cpp.hpp
+[0.493s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/environment/pythonpath.sh
+[0.493s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/environment/pythonpath.dsv
+[0.493s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils-0.0.1-py3.10.egg-info/PKG-INFO
+[0.493s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils-0.0.1-py3.10.egg-info/SOURCES.txt
+[0.493s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils-0.0.1-py3.10.egg-info/dependency_links.txt
+[0.493s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils-0.0.1-py3.10.egg-info/top_level.txt
+[0.494s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/__init__.py
+[0.494s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/_graph_utils_s.ep.rosidl_typesupport_c.c
+[0.494s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/_graph_utils_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.494s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/_graph_utils_s.ep.rosidl_typesupport_introspection_c.c
+[0.495s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/graph_utils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.495s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/graph_utils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.495s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/graph_utils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.495s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/libgraph_utils__rosidl_generator_py.so
+[0.495s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/msg/__init__.py
+[0.495s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/msg/_edge.py
+[0.495s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/msg/_edge_s.c
+[0.496s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/msg/_topological_graph.py
+[0.496s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/msg/_topological_graph_s.c
+[0.496s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/msg/_vertex.py
+[0.496s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/msg/_vertex_s.c
+[0.496s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/graph_utils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.497s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/graph_utils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.497s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/graph_utils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.497s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/msg/Edge.idl
+[0.497s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/msg/Vertex.idl
+[0.497s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/msg/TopologicalGraph.idl
+[0.498s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/msg/Edge.msg
+[0.498s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/msg/Vertex.msg
+[0.498s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/msg/TopologicalGraph.msg
+[0.498s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_utils.h
+[0.498s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/include/graph_visualization.h
+[0.499s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/launch/graph_visualization.launch
+[0.499s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/config/default.yaml
+[0.499s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/lib/graph_utils/graph_visualization
+[0.499s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/ament_index/resource_index/package_run_dependencies/graph_utils
+[0.500s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/ament_index/resource_index/parent_prefix_path/graph_utils
+[0.500s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/environment/ament_prefix_path.sh
+[0.500s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/environment/ament_prefix_path.dsv
+[0.500s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/environment/path.sh
+[0.500s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/environment/path.dsv
+[0.501s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/local_setup.bash
+[0.501s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/local_setup.sh
+[0.501s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/local_setup.zsh
+[0.501s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/local_setup.dsv
+[0.501s] -- Symlinking: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/package.dsv
+[0.505s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/ament_index/resource_index/packages/graph_utils
+[0.505s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/rosidl_cmake-extras.cmake
+[0.506s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.506s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.506s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[0.506s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/ament_cmake_export_targets-extras.cmake
+[0.506s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.506s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.507s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/graph_utilsConfig.cmake
+[0.507s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/graph_utilsConfig-version.cmake
+[0.507s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/package.xml
+[0.507s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/lib/libgraph_utils__rosidl_generator_c.so
+[0.507s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/lib/libgraph_utils__rosidl_typesupport_fastrtps_c.so
+[0.508s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/lib/libgraph_utils__rosidl_typesupport_fastrtps_cpp.so
+[0.508s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/lib/libgraph_utils__rosidl_typesupport_introspection_c.so
+[0.508s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/lib/libgraph_utils__rosidl_typesupport_c.so
+[0.508s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/lib/libgraph_utils__rosidl_typesupport_introspection_cpp.so
+[0.508s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/lib/libgraph_utils__rosidl_typesupport_cpp.so
+[0.532s] Listing '/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils'...
+[0.532s] Listing '/home/freesix/far_planner_ws/install/graph_utils/local/lib/python3.10/dist-packages/graph_utils/msg'...
+[0.535s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/lib/libgraph_utils__rosidl_generator_py.so
+[0.535s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/lib/libgraph_utils_lib.so
+[0.535s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/export_graph_utils__rosidl_generator_cExport.cmake
+[0.535s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/export_graph_utils__rosidl_generator_cExport-release.cmake
+[0.536s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/export_graph_utils__rosidl_typesupport_fastrtps_cExport.cmake
+[0.536s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/export_graph_utils__rosidl_typesupport_fastrtps_cExport-release.cmake
+[0.536s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/export_graph_utils__rosidl_generator_cppExport.cmake
+[0.536s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/export_graph_utils__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.536s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/export_graph_utils__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[0.536s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/graph_utils__rosidl_typesupport_introspection_cExport.cmake
+[0.536s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/graph_utils__rosidl_typesupport_introspection_cExport-release.cmake
+[0.537s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/graph_utils__rosidl_typesupport_cExport.cmake
+[0.537s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/graph_utils__rosidl_typesupport_cExport-release.cmake
+[0.537s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/graph_utils__rosidl_typesupport_introspection_cppExport.cmake
+[0.537s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/graph_utils__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.537s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/graph_utils__rosidl_typesupport_cppExport.cmake
+[0.537s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/graph_utils__rosidl_typesupport_cppExport-release.cmake
+[0.537s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/export_graph_utils__rosidl_generator_pyExport.cmake
+[0.537s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/export_graph_utils__rosidl_generator_pyExport-release.cmake
+[0.537s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/graph_utils_libExport.cmake
+[0.538s] -- Up-to-date: /home/freesix/far_planner_ws/install/graph_utils/share/graph_utils/cmake/graph_utils_libExport-release.cmake
+[0.541s] Invoked command in '/home/freesix/far_planner_ws/build/graph_utils' returned '0': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/waypoint_rviz_plugin:/home/freesix/far_planner_ws/install/waypoint_example:/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/volumetric_msgs:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/visualization_tools:/home/freesix/far_planner_ws/install/velodyne_simulator:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/home/freesix/far_planner_ws/install/vehicle_simulator:/home/freesix/far_planner_ws/install/terrain_analysis_ext:/home/freesix/far_planner_ws/install/terrain_analysis:/home/freesix/far_planner_ws/install/sensor_scan_generation:/home/freesix/far_planner_ws/install/graph_planner:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/local_planner:/home/freesix/far_planner_ws/install/loam_interface:/home/freesix/far_planner_ws/install/kdtree:/home/freesix/far_planner_ws/install/joy:/home/freesix/far_planner_ws/install/dsvp_launch LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/kdtree/lib:/home/freesix/far_planner_ws/install/joy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/graph_utils

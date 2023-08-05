@@ -1,0 +1,121 @@
+[0.046s] Invoking command in '/home/freesix/far_planner_ws/build/vehicle_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/vehicle_simulator -- -j16 -l16
+[0.166s] [100%] Built target vehicleSimulator
+[0.215s] Invoked command in '/home/freesix/far_planner_ws/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/vehicle_simulator -- -j16 -l16
+[0.271s] Invoking command in '/home/freesix/far_planner_ws/build/vehicle_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/vehicle_simulator
+[0.282s] -- Install configuration: "Release"
+[0.282s] -- Execute custom install script
+[0.282s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/lib/vehicle_simulator/vehicleSimulator
+[0.283s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/launch/system_campus.launch
+[0.283s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/launch/system_forest.launch
+[0.283s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/launch/system_garage.launch
+[0.283s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/launch/system_indoor.launch
+[0.283s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/launch/system_real_robot.launch
+[0.283s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/launch/system_tunnel.launch
+[0.283s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/launch/vehicle_simulator.launch
+[0.283s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/log/readme.txt
+[0.284s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/meshes/bark1.jpg
+[0.286s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/meshes/campus.dae
+[0.289s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/meshes/leaf3.png.002.png
+[0.291s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/meshes/photo_2020-11-01_11-54-02.jpg
+[0.294s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/meshes/photo_2020-11-01_11-56-17.jpg
+[0.299s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/meshes/texture_1001.png.001.png
+[0.303s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/meshes/texture_1002.png.001.png
+[0.304s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/meshes/texture_1003.png.001.png
+[0.307s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/meshes/texture_1004.png.001.png
+[0.310s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/meshes/texture_1005.png.001.png
+[0.314s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/model.config
+[0.318s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/model.sdf
+[0.319s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/preview/overview.png
+[0.321s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/campus/preview/pointcloud.ply
+[0.324s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/download_environments.sh
+[0.324s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/grey_wall/materials/scripts/grey_wall.material
+[0.327s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/grey_wall/materials/textures/grey_wall.png
+[0.332s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/grey_wall/model-1_3.sdf
+[0.332s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/grey_wall/model-1_4.sdf
+[0.338s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/grey_wall/model.config
+[0.339s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/grey_wall/model.sdf
+[0.339s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_1/materials/scripts/house_1.material
+[0.342s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_1/materials/textures/House_1_Diffuse.png
+[0.344s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_1/materials/textures/House_1_Normal.png
+[0.347s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_1/materials/textures/House_1_Spec.png
+[0.350s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_1/meshes/house_1.dae
+[0.352s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_1/model-1_3.sdf
+[0.354s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_1/model-1_4.sdf
+[0.358s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_1/model.config
+[0.360s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_1/model.sdf
+[0.366s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_2/materials/scripts/house_2.material
+[0.367s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_2/materials/textures/House_2_Diffuse.png
+[0.371s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_2/meshes/house_2.dae
+[0.375s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_2/model-1_3.sdf
+[0.377s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_2/model-1_4.sdf
+[0.383s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_2/model.config
+[0.385s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/house_2/model.sdf
+[0.388s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/oak_tree/materials/scripts/caster_fp.glsl
+[0.391s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/oak_tree/materials/scripts/caster_vp.glsl
+[0.394s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/oak_tree/materials/scripts/oak_tree.material
+[0.398s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/oak_tree/materials/textures/bark_diffuse.png
+[0.399s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/oak_tree/materials/textures/branch_diffuse.png
+[0.401s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/oak_tree/meshes/oak_tree.dae
+[0.404s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/oak_tree/model.config
+[0.405s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/oak_tree/model.sdf
+[0.408s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/pine_tree/materials/scripts/pine_tree.material
+[0.410s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/pine_tree/materials/textures/bark_diffuse.png
+[0.413s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/pine_tree/materials/textures/branch_2_diffuse.png
+[0.414s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/pine_tree/meshes/pine_tree.dae
+[0.417s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/pine_tree/model.config
+[0.419s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/pine_tree/model.sdf
+[0.423s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/preview/overview.png
+[0.425s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/preview/pointcloud.ply
+[0.429s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/vrc_driving_terrain/materials/scripts/grass.material
+[0.435s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/vrc_driving_terrain/materials/textures/grass_dry.png
+[0.435s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/vrc_driving_terrain/materials/textures/heightmap.png
+[0.437s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/vrc_driving_terrain/model.config
+[0.440s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/forest/vrc_driving_terrain/model.sdf
+[0.445s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/blue-concrete-texture-3.jpg
+[0.446s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/garage.dae
+[0.447s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/imgonline-com-ua-tile-RySXiqZBriXUB4J.jpg
+[0.451s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/imgonline-com-ua-tile-pLFAF53NCY1Spr.jpg
+[0.451s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/meshes/imgonline-com-ua-tile-turvdQ7ZY0r.jpg
+[0.454s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/model.config
+[0.458s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/model.sdf
+[0.460s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/preview/overview.png
+[0.467s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/garage/preview/pointcloud.ply
+[0.467s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/indoor/meshes/imgonline-com-ua-tile-K49qRoCnvbl.jpg
+[0.469s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/indoor/meshes/imgonline-com-ua-tile-PQCma89EHs3BX1.jpg
+[0.473s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/indoor/meshes/imgonline-com-ua-tile-RySXiqZBriXUB4J.jpg
+[0.474s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/indoor/meshes/indoor.dae
+[0.481s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/indoor/model.config
+[0.481s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/indoor/model.sdf
+[0.484s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/indoor/preview/overview.png
+[0.486s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/indoor/preview/pointcloud.ply
+[0.488s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/tunnel/meshes/tunnel.dae
+[0.494s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/tunnel/meshes/wall_texture.jpg
+[0.494s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/tunnel/model.config
+[0.499s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/tunnel/model.sdf
+[0.501s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/tunnel/preview/overview.png
+[0.507s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/mesh/tunnel/preview/pointcloud.ply
+[0.507s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/rviz/vehicle_simulator.rviz
+[0.508s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/urdf/camera.urdf.xacro
+[0.508s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/urdf/lidar.urdf.xacro
+[0.509s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/urdf/robot.sdf
+[0.511s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/world/campus.world
+[0.511s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/world/forest.world
+[0.511s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/world/garage.world
+[0.511s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/world/indoor.world
+[0.511s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/world/tunnel.world
+[0.512s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/ament_index/resource_index/package_run_dependencies/vehicle_simulator
+[0.512s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/ament_index/resource_index/parent_prefix_path/vehicle_simulator
+[0.513s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/environment/ament_prefix_path.sh
+[0.513s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/environment/ament_prefix_path.dsv
+[0.516s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/environment/path.sh
+[0.516s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/environment/path.dsv
+[0.516s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/local_setup.bash
+[0.517s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/local_setup.sh
+[0.517s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/local_setup.zsh
+[0.517s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/local_setup.dsv
+[0.517s] -- Symlinking: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/package.dsv
+[0.523s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/ament_index/resource_index/packages/vehicle_simulator
+[0.523s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/cmake/vehicle_simulatorConfig.cmake
+[0.523s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/cmake/vehicle_simulatorConfig-version.cmake
+[0.523s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/vehicle_simulator/share/vehicle_simulator/package.xml
+[0.535s] Invoked command in '/home/freesix/far_planner_ws/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/vehicle_simulator

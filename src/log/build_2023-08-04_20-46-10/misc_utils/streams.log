@@ -1,0 +1,120 @@
+[0.063s] Invoking command in '/home/freesix/far_planner_ws/src/build/misc_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/dsvplanner/misc_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/misc_utils
+[0.292s] -- The C compiler identification is GNU 11.4.0
+[0.627s] -- The CXX compiler identification is GNU 11.4.0
+[0.836s] -- Detecting C compiler ABI info
+[1.010s] -- Detecting C compiler ABI info - done
+[1.020s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.021s] -- Detecting C compile features
+[1.021s] -- Detecting C compile features - done
+[1.025s] -- Detecting CXX compiler ABI info
+[1.244s] -- Detecting CXX compiler ABI info - done
+[1.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.256s] -- Detecting CXX compile features
+[1.257s] -- Detecting CXX compile features - done
+[1.259s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.097s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.192s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.217s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[3.429s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.435s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.447s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.607s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.610s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.622s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.515s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.623s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.636s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.788s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.789s] -- Found Threads: TRUE  
+[9.038s] -- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)
+[9.135s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[9.284s] -- Checking for module 'eigen3'
+[9.295s] --   Found eigen3, version 3.4.0
+[9.325s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[9.325s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.349s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[9.404s] -- Checking for module 'libusb-1.0'
+[9.415s] --   Found libusb-1.0, version 1.0.25
+[9.538s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[9.540s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[9.540s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.724s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[9.724s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.724s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[9.724s] [0m** WARNING ** io features related to png will be disabled[0m
+[9.782s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[9.860s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[10.169s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[10.170s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[10.174s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[10.588s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[11.036s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[11.052s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[12.301s] -- Found X11: /usr/include   
+[12.301s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[12.459s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[12.459s] -- Looking for gethostbyname
+[12.637s] -- Looking for gethostbyname - found
+[12.637s] -- Looking for connect
+[12.771s] -- Looking for connect - found
+[12.771s] -- Looking for remove
+[12.911s] -- Looking for remove - found
+[12.911s] -- Looking for shmat
+[13.045s] -- Looking for shmat - found
+[13.047s] -- Looking for IceConnectionNumber in ICE
+[13.207s] -- Looking for IceConnectionNumber in ICE - found
+[14.129s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[14.132s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[14.136s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[14.140s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[14.278s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[14.412s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[14.418s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[14.426s] -- Found utf8cpp: /usr/include/utf8cpp  
+[14.475s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[14.475s] -- looking for PCL_COMMON
+[14.476s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[14.476s] -- looking for PCL_OCTREE
+[14.477s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[14.478s] -- looking for PCL_IO
+[14.479s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[14.479s] -- Found PCL: pcl_common;pcl_octree;pcl_io;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt  
+[14.563s] -- Configuring done (14.5s)
+[14.597s] -- Generating done (0.0s)
+[14.599s] -- Build files have been written to: /home/freesix/far_planner_ws/src/build/misc_utils
+[14.627s] Invoked command in '/home/freesix/far_planner_ws/src/build/misc_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/dsvplanner/misc_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/misc_utils
+[14.633s] Invoking command in '/home/freesix/far_planner_ws/src/build/misc_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/src/build/misc_utils -- -j16 -l16
+[23.178s] [ 50%] [32mBuilding CXX object CMakeFiles/misc_utils.dir/src/misc_utils.cpp.o[0m
+[23.179s] [100%] [32m[1mLinking CXX shared library libmisc_utils.so[0m
+[23.181s] [100%] Built target misc_utils
+[23.185s] Invoked command in '/home/freesix/far_planner_ws/src/build/misc_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/src/build/misc_utils -- -j16 -l16
+[23.200s] Invoking command in '/home/freesix/far_planner_ws/src/build/misc_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/src/build/misc_utils
+[23.588s] -- Install configuration: "Release"
+[23.588s] -- Execute custom install script
+[23.589s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/environment/library_path.sh
+[23.589s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/environment/library_path.dsv
+[23.589s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/include/misc_utils/misc_utils.h
+[23.589s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/ament_index/resource_index/package_run_dependencies/misc_utils
+[23.589s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/ament_index/resource_index/parent_prefix_path/misc_utils
+[23.589s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/environment/ament_prefix_path.sh
+[23.589s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/environment/ament_prefix_path.dsv
+[23.589s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/environment/path.sh
+[23.589s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/environment/path.dsv
+[23.589s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/local_setup.bash
+[23.589s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/local_setup.sh
+[23.589s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/local_setup.zsh
+[23.589s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/local_setup.dsv
+[23.590s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/package.dsv
+[23.590s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/ament_index/resource_index/packages/misc_utils
+[23.590s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/cmake/ament_cmake_export_targets-extras.cmake
+[23.591s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.591s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/cmake/misc_utilsConfig.cmake
+[23.591s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/cmake/misc_utilsConfig-version.cmake
+[23.592s] -- Symlinking: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/package.xml
+[23.592s] -- Installing: /home/freesix/far_planner_ws/src/install/misc_utils/lib/libmisc_utils.so
+[23.593s] -- Set runtime path of "/home/freesix/far_planner_ws/src/install/misc_utils/lib/libmisc_utils.so" to ""
+[23.593s] -- Installing: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/cmake/misc_utilsExport.cmake
+[23.593s] -- Installing: /home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/cmake/misc_utilsExport-release.cmake
+[23.604s] Invoked command in '/home/freesix/far_planner_ws/src/build/misc_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/src/build/misc_utils

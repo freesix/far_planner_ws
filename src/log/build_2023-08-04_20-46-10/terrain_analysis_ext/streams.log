@@ -1,0 +1,101 @@
+[0.053s] Invoking command in '/home/freesix/far_planner_ws/src/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/terrain_analysis_ext
+[3.581s] -- The C compiler identification is GNU 11.4.0
+[3.582s] -- The CXX compiler identification is GNU 11.4.0
+[3.582s] -- Detecting C compiler ABI info
+[3.582s] -- Detecting C compiler ABI info - done
+[3.582s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.582s] -- Detecting C compile features
+[3.583s] -- Detecting C compile features - done
+[3.583s] -- Detecting CXX compiler ABI info
+[3.583s] -- Detecting CXX compiler ABI info - done
+[3.583s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.583s] -- Detecting CXX compile features
+[3.583s] -- Detecting CXX compile features - done
+[3.584s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.584s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.584s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.584s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[3.584s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.584s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.585s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.588s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.588s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.328s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.397s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.975s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.987s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.124s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.126s] -- Found Threads: TRUE  
+[8.359s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.522s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.642s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[9.158s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[9.203s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.205s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.205s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.222s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[9.422s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[9.628s] -- Checking for module 'eigen3'
+[9.638s] --   Found eigen3, version 3.4.0
+[9.664s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[9.664s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.781s] -- Checking for module 'flann'
+[10.792s] --   Found flann, version 1.9.1
+[11.057s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[11.057s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[15.903s] -- Checking for module 'libusb-1.0'
+[15.912s] --   Found libusb-1.0, version 1.0.25
+[15.980s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[15.981s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[16.128s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[17.887s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[17.894s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[17.900s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[19.526s] -- Found Qhull version 8.0.2
+[21.399s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[23.242s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[23.244s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[23.246s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[23.247s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[23.249s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[23.251s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[23.252s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[23.252s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[23.254s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[23.256s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[23.258s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[23.260s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[23.261s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[23.262s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[23.264s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[23.266s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[23.267s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[23.269s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[23.271s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[23.273s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[23.274s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[23.275s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[23.278s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[23.300s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[23.301s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[23.402s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[23.544s] -- Added test 'copyright' to check source files copyright and LICENSE
+[23.544s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[23.544s] -- Configured cppcheck include dirs: 
+[23.545s] -- Configured cppcheck exclude dirs and/or files: 
+[23.545s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[23.545s] -- Configured cpplint exclude dirs and/or files: 
+[23.545s] -- Added test 'lint_cmake' to check CMake code style
+[23.546s] -- Added test 'uncrustify' to check C / C++ code style
+[23.547s] -- Configured uncrustify additional arguments: 
+[23.548s] -- Added test 'xmllint' to check XML markup files
+[23.550s] -- Configuring done (23.5s)
+[23.626s] -- Generating done (0.0s)
+[23.634s] -- Build files have been written to: /home/freesix/far_planner_ws/src/build/terrain_analysis_ext
+[23.723s] Invoked command in '/home/freesix/far_planner_ws/src/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/terrain_analysis_ext
+[23.727s] Invoking command in '/home/freesix/far_planner_ws/src/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/src/build/terrain_analysis_ext -- -j16 -l16
+[24.530s] [ 50%] [32mBuilding CXX object CMakeFiles/terrainAnalysisExt.dir/src/terrainAnalysisExt.cpp.o[0m
+[409.521s] [100%] [32m[1mLinking CXX executable terrainAnalysisExt[0m
+[410.055s] [100%] Built target terrainAnalysisExt

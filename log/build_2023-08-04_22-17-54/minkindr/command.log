@@ -1,0 +1,4 @@
+Invoking command in '/home/freesix/far_planner_ws/build/minkindr': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/minkindr -- -j16 -l16
+Invoked command in '/home/freesix/far_planner_ws/build/minkindr' returned '0': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/minkindr -- -j16 -l16
+Invoking command in '/home/freesix/far_planner_ws/build/minkindr': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/minkindr
+Invoked command in '/home/freesix/far_planner_ws/build/minkindr' returned '0': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/minkindr

@@ -1,0 +1,101 @@
+[0.059s] Invoking command in '/home/freesix/far_planner_ws/src/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/sensor_scan_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/sensor_scan_generation
+[0.261s] -- The C compiler identification is GNU 11.4.0
+[0.555s] -- The CXX compiler identification is GNU 11.4.0
+[0.720s] -- Detecting C compiler ABI info
+[0.889s] -- Detecting C compiler ABI info - done
+[0.904s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.904s] -- Detecting C compile features
+[0.905s] -- Detecting C compile features - done
+[0.909s] -- Detecting CXX compiler ABI info
+[1.112s] -- Detecting CXX compiler ABI info - done
+[1.124s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.124s] -- Detecting CXX compile features
+[1.125s] -- Detecting CXX compile features - done
+[1.128s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.989s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.091s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.124s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[3.298s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.304s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.317s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.363s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.471s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.473s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.549s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.567s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.420s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.430s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.596s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.597s] -- Found Threads: TRUE  
+[8.823s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[9.032s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.160s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[9.706s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[9.755s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.759s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.759s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.804s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[10.341s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[10.851s] -- Checking for module 'eigen3'
+[10.867s] --   Found eigen3, version 3.4.0
+[10.892s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[10.892s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[12.071s] -- Checking for module 'flann'
+[12.084s] --   Found flann, version 1.9.1
+[12.396s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[12.396s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[16.728s] -- Checking for module 'libusb-1.0'
+[16.748s] --   Found libusb-1.0, version 1.0.25
+[16.826s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[16.828s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[17.008s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[18.802s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[18.809s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[18.815s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[20.561s] -- Found Qhull version 8.0.2
+[22.356s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[24.742s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[24.746s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[24.750s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[24.752s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[24.754s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[24.756s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[24.757s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[24.757s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[24.759s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[24.759s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[24.761s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[24.763s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[24.765s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[24.767s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[24.768s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[24.770s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[24.773s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[24.774s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[24.776s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[24.777s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[24.778s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[24.779s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[24.780s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[24.782s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[24.784s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[24.913s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[25.145s] -- Added test 'copyright' to check source files copyright and LICENSE
+[25.145s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[25.146s] -- Configured cppcheck include dirs: 
+[25.146s] -- Configured cppcheck exclude dirs and/or files: 
+[25.147s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[25.147s] -- Configured cpplint exclude dirs and/or files: 
+[25.148s] -- Added test 'lint_cmake' to check CMake code style
+[25.149s] -- Added test 'uncrustify' to check C / C++ code style
+[25.149s] -- Configured uncrustify additional arguments: 
+[25.150s] -- Added test 'xmllint' to check XML markup files
+[25.153s] -- Configuring done (25.1s)
+[25.234s] -- Generating done (0.1s)
+[25.242s] -- Build files have been written to: /home/freesix/far_planner_ws/src/build/sensor_scan_generation
+[25.303s] Invoked command in '/home/freesix/far_planner_ws/src/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/sensor_scan_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/sensor_scan_generation
+[25.303s] Invoking command in '/home/freesix/far_planner_ws/src/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/src/build/sensor_scan_generation -- -j16 -l16
+[42.912s] [ 50%] [32mBuilding CXX object CMakeFiles/sensorScanGeneration.dir/src/sensorScanGeneration.cpp.o[0m
+[400.421s] [100%] [32m[1mLinking CXX executable sensorScanGeneration[0m
+[401.107s] [100%] Built target sensorScanGeneration

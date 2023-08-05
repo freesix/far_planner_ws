@@ -1,0 +1,6 @@
+Invoking command in '/home/freesix/far_planner_ws/src/build/kdtree': /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/kdtree -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/kdtree
+Invoked command in '/home/freesix/far_planner_ws/src/build/kdtree' returned '0': /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/kdtree -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/kdtree
+Invoking command in '/home/freesix/far_planner_ws/src/build/kdtree': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/src/build/kdtree -- -j16 -l16
+Invoked command in '/home/freesix/far_planner_ws/src/build/kdtree' returned '0': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/src/build/kdtree -- -j16 -l16
+Invoking command in '/home/freesix/far_planner_ws/src/build/kdtree': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/src/build/kdtree
+Invoked command in '/home/freesix/far_planner_ws/src/build/kdtree' returned '0': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/src/build/kdtree

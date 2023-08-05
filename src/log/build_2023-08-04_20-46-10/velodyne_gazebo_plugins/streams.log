@@ -1,0 +1,109 @@
+[0.059s] Invoking command in '/home/freesix/far_planner_ws/src/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/velodyne_gazebo_plugins
+[0.281s] -- The C compiler identification is GNU 11.4.0
+[0.633s] -- The CXX compiler identification is GNU 11.4.0
+[0.898s] -- Detecting C compiler ABI info
+[1.064s] -- Detecting C compiler ABI info - done
+[1.087s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.087s] -- Detecting C compile features
+[1.087s] -- Detecting C compile features - done
+[1.087s] -- Detecting CXX compiler ABI info
+[1.271s] -- Detecting CXX compiler ABI info - done
+[1.279s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.279s] -- Detecting CXX compile features
+[1.279s] -- Detecting CXX compile features - done
+[1.282s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.534s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.922s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.946s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[3.957s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.961s] -- Checking for module 'bullet>=2.82'
+[3.974s] --   Found bullet, version 3.05
+[4.130s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[4.167s] -- Found assimp: /usr/include (found version "5.2.0") 
+[4.199s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.380s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[4.948s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.959s] -- Looking for ignition-math6 -- found version 6.12.0
+[4.972s] -- Searching for dependencies of ignition-math6
+[4.977s] -- Looking for OGRE...
+[4.977s] -- OGRE_PREFIX_WATCH changed.
+[4.983s] -- Checking for module 'OGRE'
+[4.992s] --   Found OGRE, version 1.9.0
+[5.015s] -- Found Ogre Ghadamon (1.9.0)
+[5.405s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.417s] -- Looking for OGRE_Paging...
+[5.854s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.854s] -- Looking for OGRE_Terrain...
+[6.362s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[6.362s] -- Looking for OGRE_Property...
+[7.433s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[7.433s] -- Looking for OGRE_RTShaderSystem...
+[7.860s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[7.860s] -- Looking for OGRE_Volume...
+[8.190s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[8.190s] -- Looking for OGRE_Overlay...
+[8.542s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[24.885s] -- Looking for ignition-math6 -- found version 6.12.0
+[24.890s] -- Looking for ignition-transport8 -- found version 8.2.1
+[24.890s] -- Searching for dependencies of ignition-transport8
+[26.390s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[27.893s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[27.901s] -- Checking for module 'libzmq >= 4'
+[27.923s] --   Found libzmq , version 4.3.4
+[27.968s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[28.019s] -- Checking for module 'uuid'
+[28.033s] --   Found uuid, version 2.37.2
+[28.062s] -- Found UUID: TRUE  
+[28.068s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[28.069s] -- Searching for dependencies of ignition-msgs5
+[29.378s] -- Looking for ignition-math6 -- found version 6.12.0
+[29.387s] -- Checking for module 'tinyxml2'
+[29.403s] --   Found tinyxml2, version 9.0.0
+[29.432s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[29.438s] -- Looking for ignition-common3 -- found version 3.14.0
+[29.438s] -- Searching for dependencies of ignition-common3
+[29.486s] -- Looking for dlfcn.h - found
+[29.528s] -- Looking for libdl - found
+[29.530s] -- Found DL: TRUE  
+[29.622s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[29.623s] -- Searching for <ignition-common3> component [graphics]
+[29.628s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[29.628s] -- Searching for dependencies of ignition-common3-graphics
+[29.629s] -- Looking for ignition-math6 -- found version 6.12.0
+[29.636s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[29.637s] -- Searching for dependencies of ignition-fuel_tools4
+[31.099s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[31.119s] -- Checking for module 'jsoncpp'
+[31.132s] --   Found jsoncpp, version 1.9.5
+[31.162s] -- Found JSONCPP: TRUE  
+[31.171s] -- Checking for module 'libzip'
+[31.185s] --   Found libzip, version 1.7.3
+[31.215s] -- Found ZIP: TRUE  
+[31.216s] -- Looking for ignition-common3 -- found version 3.14.0
+[31.218s] -- Looking for ignition-math6 -- found version 6.12.0
+[31.219s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[31.226s] -- Gazebo version: 11.10
+[31.227s] -- Checking for module 'tbb'
+[31.241s] --   Found tbb, version 2021.5.0
+[31.269s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[31.361s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[31.367s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[31.381s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[31.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[31.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[31.541s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[31.545s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[32.841s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[33.723s] -- Found FastRTPS: /opt/ros/humble/include  
+[36.192s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[36.196s] -- Found Threads: TRUE  
+[36.428s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[36.971s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[37.456s] -- Configuring done (37.4s)
+[37.766s] -- Generating done (0.2s)
+[37.768s] -- Build files have been written to: /home/freesix/far_planner_ws/src/build/velodyne_gazebo_plugins
+[38.153s] Invoked command in '/home/freesix/far_planner_ws/src/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/velodyne_gazebo_plugins
+[38.154s] Invoking command in '/home/freesix/far_planner_ws/src/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/src/build/velodyne_gazebo_plugins -- -j16 -l16
+[66.460s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o[0m
+[400.593s] [100%] [32m[1mLinking CXX shared library libgazebo_ros_velodyne_laser.so[0m
+[401.055s] [100%] Built target gazebo_ros_velodyne_laser

@@ -1,0 +1,99 @@
+[0.123s] Invoking command in '/home/freesix/far_planner_ws/src/build/graph_utils': AMENT_PREFIX_PATH=/home/freesix/far_planner_ws/src/install/misc_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/src/install/misc_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/freesix/far_planner_ws/src/install/misc_utils/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/dsvplanner/graph_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/graph_utils
+[12.301s] -- The C compiler identification is GNU 11.4.0
+[12.304s] -- The CXX compiler identification is GNU 11.4.0
+[12.305s] -- Detecting C compiler ABI info
+[12.305s] -- Detecting C compiler ABI info - done
+[12.305s] -- Check for working C compiler: /usr/bin/cc - skipped
+[12.305s] -- Detecting C compile features
+[12.305s] -- Detecting C compile features - done
+[12.305s] -- Detecting CXX compiler ABI info
+[12.305s] -- Detecting CXX compiler ABI info - done
+[12.305s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[12.305s] -- Detecting CXX compile features
+[12.305s] -- Detecting CXX compile features - done
+[12.305s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[12.305s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[12.305s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[12.305s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[12.306s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.306s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.306s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.306s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.306s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.306s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.306s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.306s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.315s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.344s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.370s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.371s] -- Found Threads: TRUE  
+[12.371s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[12.371s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[12.372s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[12.485s] -- Found misc_utils: 0.0.1 (/home/freesix/far_planner_ws/src/install/misc_utils/share/misc_utils/cmake)
+[12.491s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[12.492s] -- Checking for module 'eigen3'
+[12.493s] --   Found eigen3, version 3.4.0
+[12.493s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[12.493s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[12.493s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[12.601s] -- Checking for module 'libusb-1.0'
+[12.620s] --   Found libusb-1.0, version 1.0.25
+[12.719s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[12.721s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[12.722s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.910s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[12.911s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.918s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[12.922s] [0m** WARNING ** io features related to png will be disabled[0m
+[13.014s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[13.085s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[13.594s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[13.595s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[13.600s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[14.129s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[14.528s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[14.588s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[19.363s] -- Found X11: /usr/include   
+[19.386s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[19.556s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[19.557s] -- Looking for gethostbyname
+[19.668s] -- Looking for gethostbyname - found
+[19.668s] -- Looking for connect
+[19.771s] -- Looking for connect - found
+[19.771s] -- Looking for remove
+[19.888s] -- Looking for remove - found
+[19.888s] -- Looking for shmat
+[20.046s] -- Looking for shmat - found
+[20.046s] -- Looking for IceConnectionNumber in ICE
+[20.174s] -- Looking for IceConnectionNumber in ICE - found
+[20.670s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[20.675s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[20.680s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[20.686s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[20.809s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[20.886s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[20.892s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[20.902s] -- Found utf8cpp: /usr/include/utf8cpp  
+[20.966s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[20.967s] -- looking for PCL_COMMON
+[20.971s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[20.972s] -- looking for PCL_OCTREE
+[20.974s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[20.975s] -- looking for PCL_IO
+[20.976s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[20.977s] -- Found PCL: pcl_common;pcl_octree;pcl_io;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt  
+[21.587s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[22.055s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[41.978s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[42.044s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[42.056s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[42.250s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[42.250s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[42.250s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[42.250s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[42.282s] -- Found PythonExtra: .so  
+[42.461s] -- Configuring done (42.3s)
+[42.657s] -- Generating done (0.1s)
+[42.663s] -- Build files have been written to: /home/freesix/far_planner_ws/src/build/graph_utils

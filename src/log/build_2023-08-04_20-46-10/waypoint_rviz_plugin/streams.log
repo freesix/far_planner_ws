@@ -1,0 +1,96 @@
+[0.041s] Invoking command in '/home/freesix/far_planner_ws/src/build/waypoint_rviz_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/waypoint_rviz_plugin
+[14.579s] -- The C compiler identification is GNU 11.4.0
+[14.580s] -- The CXX compiler identification is GNU 11.4.0
+[14.580s] -- Detecting C compiler ABI info
+[14.580s] -- Detecting C compiler ABI info - done
+[14.580s] -- Check for working C compiler: /usr/bin/cc - skipped
+[14.580s] -- Detecting C compile features
+[14.580s] -- Detecting C compile features - done
+[14.581s] -- Detecting CXX compiler ABI info
+[14.581s] -- Detecting CXX compiler ABI info - done
+[14.581s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[14.581s] -- Detecting CXX compile features
+[14.581s] -- Detecting CXX compile features - done
+[14.581s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[14.581s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[14.581s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[14.581s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[14.581s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[14.581s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[14.581s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[14.581s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[14.581s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.581s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[14.581s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.581s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[14.582s] -- Found FastRTPS: /opt/ros/humble/include  
+[14.582s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.582s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.582s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.582s] -- Found Threads: TRUE  
+[14.582s] -- Found rviz2: 11.2.6 (/opt/ros/humble/share/rviz2/cmake)
+[14.582s] -- Found rviz_common: 11.2.6 (/opt/ros/humble/share/rviz_common/cmake)
+[14.582s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[14.582s] -- Found OGRE
+[14.582s] --   static     : OFF
+[14.582s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[14.582s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[14.582s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[14.582s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[14.582s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[14.582s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[14.583s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[14.583s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[14.583s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[14.583s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[14.583s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[14.583s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[14.583s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[15.630s] -- Found X11: /usr/include   
+[15.630s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[15.751s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[15.751s] -- Looking for gethostbyname
+[15.855s] -- Looking for gethostbyname - found
+[15.855s] -- Looking for connect
+[15.952s] -- Looking for connect - found
+[15.952s] -- Looking for remove
+[16.108s] -- Looking for remove - found
+[16.108s] -- Looking for shmat
+[16.220s] -- Looking for shmat - found
+[16.220s] -- Looking for IceConnectionNumber in ICE
+[16.335s] -- Looking for IceConnectionNumber in ICE - found
+[16.367s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[16.367s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[17.487s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[17.766s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[17.766s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[18.513s] -- Found rviz_default_plugins: 11.2.6 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[19.218s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.298s] -- Added test 'copyright' to check source files copyright and LICENSE
+[19.299s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.299s] -- Configured cppcheck include dirs: /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin/include
+[19.299s] -- Configured cppcheck exclude dirs and/or files: 
+[19.300s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[19.300s] -- Configured cpplint exclude dirs and/or files: 
+[19.301s] -- Added test 'lint_cmake' to check CMake code style
+[19.301s] -- Added test 'uncrustify' to check C / C++ code style
+[19.302s] -- Configured uncrustify additional arguments: 
+[19.302s] -- Added test 'xmllint' to check XML markup files
+[19.303s] -- Configuring done (19.2s)
+[19.340s] -- Generating done (0.0s)
+[19.343s] -- Build files have been written to: /home/freesix/far_planner_ws/src/build/waypoint_rviz_plugin
+[19.366s] Invoked command in '/home/freesix/far_planner_ws/src/build/waypoint_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/waypoint_rviz_plugin
+[19.386s] Invoking command in '/home/freesix/far_planner_ws/src/build/waypoint_rviz_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/src/build/waypoint_rviz_plugin -- -j16 -l16
+[23.134s] [ 16%] [34m[1mAutomatic MOC for target waypoint_rviz_plugin[0m
+[23.134s] [ 16%] Built target waypoint_rviz_plugin_autogen
+[23.134s] [ 33%] [34m[1mGenerating include/moc_waypoint_tool.cpp[0m
+[23.134s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_rviz_plugin.dir/waypoint_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[23.134s] [ 66%] [32mBuilding CXX object CMakeFiles/waypoint_rviz_plugin.dir/src/waypoint_tool.cpp.o[0m
+[23.134s] [ 83%] [32mBuilding CXX object CMakeFiles/waypoint_rviz_plugin.dir/include/moc_waypoint_tool.cpp.o[0m
+[25.249s] [01m[K/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin/src/waypoint_tool.cpp:[m[K In member function ‘[01m[Kvirtual void waypoint_rviz_plugin::WaypointTool::onPoseSet(double, double, double)[m[K’:
+[25.250s] [01m[K/home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin/src/waypoint_tool.cpp:52:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.250s]    52 | void WaypointTool::onPoseSet(double x, double y, [01;35m[Kdouble theta[m[K)
+[25.250s]       |                                                  [01;35m[K~~~~~~~^~~~~[m[K
+[78.749s] [100%] [32m[1mLinking CXX shared library libwaypoint_rviz_plugin.so[0m
+[79.690s] [100%] Built target waypoint_rviz_plugin

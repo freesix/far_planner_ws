@@ -1,0 +1,41 @@
+[0.048s] Invoking command in '/home/freesix/far_planner_ws/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/visualization_tools -- -j16 -l16
+[0.169s] [  0%] Built target ament_cmake_python_symlink_visualization_tools
+[0.169s] [100%] Built target visualizationTools
+[0.349s] running egg_info
+[0.350s] writing visualization_tools.egg-info/PKG-INFO
+[0.350s] writing dependency_links to visualization_tools.egg-info/dependency_links.txt
+[0.352s] writing top-level names to visualization_tools.egg-info/top_level.txt
+[0.353s] reading manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[0.354s] writing manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[0.386s] [100%] Built target ament_cmake_python_build_visualization_tools_egg
+[0.465s] Invoked command in '/home/freesix/far_planner_ws/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/visualization_tools -- -j16 -l16
+[0.532s] Invoking command in '/home/freesix/far_planner_ws/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/visualization_tools
+[0.538s] -- Install configuration: "Release"
+[0.538s] -- Execute custom install script
+[0.542s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/lib/visualization_tools/visualizationTools
+[0.542s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/launch/visualization_tools.launch
+[0.543s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/environment/pythonpath.sh
+[0.543s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/environment/pythonpath.dsv
+[0.546s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/PKG-INFO
+[0.547s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/SOURCES.txt
+[0.547s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/dependency_links.txt
+[0.547s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/top_level.txt
+[0.547s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools/__init__.py
+[0.547s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/lib/visualization_tools/realTimePlot.py
+[0.547s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/ament_index/resource_index/package_run_dependencies/visualization_tools
+[0.548s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/ament_index/resource_index/parent_prefix_path/visualization_tools
+[0.548s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/environment/ament_prefix_path.sh
+[0.549s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/environment/ament_prefix_path.dsv
+[0.549s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/environment/path.sh
+[0.549s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/environment/path.dsv
+[0.550s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/local_setup.bash
+[0.550s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/local_setup.sh
+[0.550s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/local_setup.zsh
+[0.551s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/local_setup.dsv
+[0.551s] -- Symlinking: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/package.dsv
+[0.559s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/ament_index/resource_index/packages/visualization_tools
+[0.559s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/cmake/visualization_toolsConfig.cmake
+[0.559s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/cmake/visualization_toolsConfig-version.cmake
+[0.559s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/visualization_tools/share/visualization_tools/package.xml
+[0.582s] Listing '/home/freesix/far_planner_ws/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools'...
+[0.589s] Invoked command in '/home/freesix/far_planner_ws/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/visualization_tools

@@ -1,0 +1,4 @@
+Invoking command in '/home/freesix/far_planner_ws/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/visualization_tools -- -j16 -l16
+Invoked command in '/home/freesix/far_planner_ws/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/visualization_tools -- -j16 -l16
+Invoking command in '/home/freesix/far_planner_ws/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/visualization_tools
+Invoked command in '/home/freesix/far_planner_ws/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/visualization_tools

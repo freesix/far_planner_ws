@@ -1,0 +1,118 @@
+[0.048s] Invoking command in '/home/freesix/far_planner_ws/src/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/visualization_tools -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/visualization_tools
+[5.076s] -- The C compiler identification is GNU 11.4.0
+[5.077s] -- The CXX compiler identification is GNU 11.4.0
+[5.077s] -- Detecting C compiler ABI info
+[5.077s] -- Detecting C compiler ABI info - done
+[5.077s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.077s] -- Detecting C compile features
+[5.077s] -- Detecting C compile features - done
+[5.077s] -- Detecting CXX compiler ABI info
+[5.078s] -- Detecting CXX compiler ABI info - done
+[5.078s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.078s] -- Detecting CXX compile features
+[5.078s] -- Detecting CXX compile features - done
+[5.078s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.078s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.078s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.079s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[5.079s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.079s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.079s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.079s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.079s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.080s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.080s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.080s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.356s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.888s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.899s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.038s] -- Found Threads: TRUE  
+[8.298s] -- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)
+[8.299s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.488s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.602s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[9.102s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[9.157s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.158s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.159s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.175s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[9.379s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[9.588s] -- Checking for module 'eigen3'
+[9.600s] --   Found eigen3, version 3.4.0
+[9.628s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[9.628s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.642s] -- Checking for module 'flann'
+[10.653s] --   Found flann, version 1.9.1
+[10.960s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[10.960s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[15.339s] -- Checking for module 'libusb-1.0'
+[15.350s] --   Found libusb-1.0, version 1.0.25
+[15.434s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[15.435s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.622s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[17.327s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[17.333s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[17.342s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[19.060s] -- Found Qhull version 8.0.2
+[20.835s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[22.701s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[22.703s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[22.704s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[22.705s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[22.706s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[22.707s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[22.707s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[22.708s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[22.709s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[22.710s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[22.711s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[22.712s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[22.713s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[22.715s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[22.716s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[22.717s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[22.718s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[22.719s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[22.720s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[22.722s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[22.723s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[22.723s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[22.724s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[22.726s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[22.727s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[22.929s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[23.021s] -- Added test 'copyright' to check source files copyright and LICENSE
+[23.022s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[23.022s] -- Configured cppcheck include dirs: 
+[23.022s] -- Configured cppcheck exclude dirs and/or files: 
+[23.023s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[23.024s] -- Configured cpplint exclude dirs and/or files: 
+[23.024s] -- Added test 'flake8' to check Python code syntax and style conventions
+[23.025s] -- Added test 'lint_cmake' to check CMake code style
+[23.026s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[23.027s] -- Added test 'uncrustify' to check C / C++ code style
+[23.028s] -- Configured uncrustify additional arguments: 
+[23.028s] -- Added test 'xmllint' to check XML markup files
+[23.030s] -- Configuring done (23.0s)
+[23.099s] -- Generating done (0.0s)
+[23.104s] -- Build files have been written to: /home/freesix/far_planner_ws/src/build/visualization_tools
+[23.142s] Invoked command in '/home/freesix/far_planner_ws/src/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/freesix/far_planner_ws/src/autonomous_exploration_development_environment/src/visualization_tools -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/visualization_tools
+[23.142s] Invoking command in '/home/freesix/far_planner_ws/src/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/src/build/visualization_tools -- -j16 -l16
+[23.379s] [ 50%] [32mBuilding CXX object CMakeFiles/visualizationTools.dir/src/visualizationTools.cpp.o[0m
+[23.379s] [ 50%] Built target ament_cmake_python_symlink_visualization_tools
+[23.504s] running egg_info
+[23.508s] creating visualization_tools.egg-info
+[23.509s] writing visualization_tools.egg-info/PKG-INFO
+[23.509s] writing dependency_links to visualization_tools.egg-info/dependency_links.txt
+[23.509s] writing top-level names to visualization_tools.egg-info/top_level.txt
+[23.509s] writing manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[23.512s] reading manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[23.512s] writing manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[23.585s] [ 50%] Built target ament_cmake_python_build_visualization_tools_egg
+[42.770s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[42.772s] compilation terminated.
+[42.779s] gmake[2]: *** [CMakeFiles/visualizationTools.dir/build.make:76: CMakeFiles/visualizationTools.dir/src/visualizationTools.cpp.o] Error 1
+[42.795s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/visualizationTools.dir/all] Error 2
+[42.814s] gmake: *** [Makefile:146: all] Error 2
+[42.913s] Invoked command in '/home/freesix/far_planner_ws/src/build/visualization_tools' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/freesix/far_planner_ws/src/build/visualization_tools -- -j16 -l16

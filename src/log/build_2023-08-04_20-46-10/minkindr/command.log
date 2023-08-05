@@ -1,0 +1,6 @@
+Invoking command in '/home/freesix/far_planner_ws/src/build/minkindr': /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/minkindr/minkindr -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/minkindr
+Invoked command in '/home/freesix/far_planner_ws/src/build/minkindr' returned '0': /usr/local/bin/cmake /home/freesix/far_planner_ws/src/dsv_planner/src/minkindr/minkindr -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/freesix/far_planner_ws/src/install/minkindr
+Invoking command in '/home/freesix/far_planner_ws/src/build/minkindr': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/src/build/minkindr -- -j16 -l16
+Invoked command in '/home/freesix/far_planner_ws/src/build/minkindr' returned '0': /usr/local/bin/cmake --build /home/freesix/far_planner_ws/src/build/minkindr -- -j16 -l16
+Invoking command in '/home/freesix/far_planner_ws/src/build/minkindr': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/src/build/minkindr
+Invoked command in '/home/freesix/far_planner_ws/src/build/minkindr' returned '0': /usr/local/bin/cmake --install /home/freesix/far_planner_ws/src/build/minkindr

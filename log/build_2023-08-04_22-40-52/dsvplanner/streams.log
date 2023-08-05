@@ -1,0 +1,142 @@
+[0.618s] Invoking command in '/home/freesix/far_planner_ws/build/dsvplanner': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree:/home/freesix/far_planner_ws/install/waypoint_rviz_plugin:/home/freesix/far_planner_ws/install/waypoint_example:/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/visualization_tools:/home/freesix/far_planner_ws/install/velodyne_simulator:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/home/freesix/far_planner_ws/install/vehicle_simulator:/home/freesix/far_planner_ws/install/terrain_analysis_ext:/home/freesix/far_planner_ws/install/terrain_analysis:/home/freesix/far_planner_ws/install/sensor_scan_generation:/home/freesix/far_planner_ws/install/local_planner:/home/freesix/far_planner_ws/install/loam_interface:/home/freesix/far_planner_ws/install/joy:/home/freesix/far_planner_ws/install/dsvp_launch LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:/home/freesix/far_planner_ws/install/joy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/dsvplanner -- -j16 -l16
+[0.642s] [  1%] Built target dsvplanner__cpp
+[0.642s] [  9%] Built target dsvplanner__rosidl_generator_c
+[0.644s] [  9%] Built target ament_cmake_python_symlink_dsvplanner
+[0.652s] [ 17%] Built target dsvplanner__rosidl_typesupport_c
+[0.652s] [ 25%] Built target dsvplanner__rosidl_typesupport_introspection_c
+[0.652s] [ 32%] Built target dsvplanner__rosidl_typesupport_cpp
+[0.653s] [ 40%] Built target dsvplanner__rosidl_typesupport_introspection_cpp
+[0.653s] [ 48%] Built target dsvplanner__rosidl_typesupport_fastrtps_cpp
+[0.654s] [ 55%] Built target dsvplanner__rosidl_typesupport_fastrtps_c
+[0.662s] [ 55%] Built target dsvplanner
+[0.670s] [ 57%] Built target dsvplanner__py
+[0.679s] [ 63%] Built target dsvplanner__rosidl_generator_py
+[0.681s] [ 75%] Built target dsvPlannerLib
+[0.683s] [ 88%] Built target dsvplanner_exe
+[0.689s] [ 92%] Built target dsvplanner__rosidl_typesupport_fastrtps_c__pyext
+[0.689s] [100%] Built target dsvplanner__rosidl_typesupport_c__pyext
+[0.689s] [ 98%] Built target dsvplanner__rosidl_typesupport_introspection_c__pyext
+[0.791s] running egg_info
+[0.791s] writing dsvplanner.egg-info/PKG-INFO
+[0.791s] writing dependency_links to dsvplanner.egg-info/dependency_links.txt
+[0.792s] writing top-level names to dsvplanner.egg-info/top_level.txt
+[0.793s] reading manifest file 'dsvplanner.egg-info/SOURCES.txt'
+[0.793s] writing manifest file 'dsvplanner.egg-info/SOURCES.txt'
+[0.808s] [100%] Built target ament_cmake_python_build_dsvplanner_egg
+[0.812s] Invoked command in '/home/freesix/far_planner_ws/build/dsvplanner' returned '0': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree:/home/freesix/far_planner_ws/install/waypoint_rviz_plugin:/home/freesix/far_planner_ws/install/waypoint_example:/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/visualization_tools:/home/freesix/far_planner_ws/install/velodyne_simulator:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/home/freesix/far_planner_ws/install/vehicle_simulator:/home/freesix/far_planner_ws/install/terrain_analysis_ext:/home/freesix/far_planner_ws/install/terrain_analysis:/home/freesix/far_planner_ws/install/sensor_scan_generation:/home/freesix/far_planner_ws/install/local_planner:/home/freesix/far_planner_ws/install/loam_interface:/home/freesix/far_planner_ws/install/joy:/home/freesix/far_planner_ws/install/dsvp_launch LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:/home/freesix/far_planner_ws/install/joy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/freesix/far_planner_ws/build/dsvplanner -- -j16 -l16
+[0.890s] Invoking command in '/home/freesix/far_planner_ws/build/dsvplanner': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree:/home/freesix/far_planner_ws/install/waypoint_rviz_plugin:/home/freesix/far_planner_ws/install/waypoint_example:/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/visualization_tools:/home/freesix/far_planner_ws/install/velodyne_simulator:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/home/freesix/far_planner_ws/install/vehicle_simulator:/home/freesix/far_planner_ws/install/terrain_analysis_ext:/home/freesix/far_planner_ws/install/terrain_analysis:/home/freesix/far_planner_ws/install/sensor_scan_generation:/home/freesix/far_planner_ws/install/local_planner:/home/freesix/far_planner_ws/install/loam_interface:/home/freesix/far_planner_ws/install/joy:/home/freesix/far_planner_ws/install/dsvp_launch LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:/home/freesix/far_planner_ws/install/joy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/dsvplanner
+[0.892s] -- Install configuration: "Release"
+[0.892s] -- Execute custom install script
+[0.893s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/ament_index/resource_index/rosidl_interfaces/dsvplanner
+[0.893s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/msg/rosidl_generator_c__visibility_control.h
+[0.893s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/clean_frontier.h
+[0.894s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__functions.h
+[0.894s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__struct.h
+[0.894s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__type_support.h
+[0.894s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__functions.h
+[0.894s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__struct.h
+[0.894s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__type_support.h
+[0.894s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/dsvplanner.h
+[0.895s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/library_path.sh
+[0.895s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/library_path.dsv
+[0.895s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.895s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__rosidl_typesupport_fastrtps_c.h
+[0.895s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__rosidl_typesupport_fastrtps_c.h
+[0.895s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/clean_frontier.hpp
+[0.895s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__builder.hpp
+[0.895s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__struct.hpp
+[0.895s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__traits.hpp
+[0.896s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__builder.hpp
+[0.896s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__struct.hpp
+[0.896s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__traits.hpp
+[0.896s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/dsvplanner.hpp
+[0.896s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.896s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__rosidl_typesupport_fastrtps_cpp.hpp
+[0.897s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__rosidl_typesupport_fastrtps_cpp.hpp
+[0.897s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.897s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__rosidl_typesupport_introspection_c.h
+[0.897s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__rosidl_typesupport_introspection_c.h
+[0.897s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/clean_frontier__rosidl_typesupport_introspection_cpp.hpp
+[0.897s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/include/dsvplanner/dsvplanner/srv/detail/dsvplanner__rosidl_typesupport_introspection_cpp.hpp
+[0.897s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/pythonpath.sh
+[0.897s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/pythonpath.dsv
+[0.898s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner-0.0.1-py3.10.egg-info/PKG-INFO
+[0.898s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner-0.0.1-py3.10.egg-info/SOURCES.txt
+[0.898s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner-0.0.1-py3.10.egg-info/dependency_links.txt
+[0.898s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner-0.0.1-py3.10.egg-info/top_level.txt
+[0.898s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/__init__.py
+[0.898s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/_dsvplanner_s.ep.rosidl_typesupport_c.c
+[0.898s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/_dsvplanner_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.899s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/_dsvplanner_s.ep.rosidl_typesupport_introspection_c.c
+[0.899s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/dsvplanner_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.899s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/dsvplanner_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.899s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/dsvplanner_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.899s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/libdsvplanner__rosidl_generator_py.so
+[0.899s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv/__init__.py
+[0.899s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv/_clean_frontier.py
+[0.900s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv/_clean_frontier_s.c
+[0.900s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv/_dsvplanner.py
+[0.900s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv/_dsvplanner_s.c
+[0.900s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/dsvplanner_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.900s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/dsvplanner_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.900s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/dsvplanner_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.900s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/Dsvplanner.idl
+[0.900s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/CleanFrontier.idl
+[0.901s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/Dsvplanner.srv
+[0.901s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/Dsvplanner_Request.msg
+[0.901s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/Dsvplanner_Response.msg
+[0.901s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/CleanFrontier.srv
+[0.901s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/CleanFrontier_Request.msg
+[0.901s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/srv/CleanFrontier_Response.msg
+[0.901s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/lib/dsvplanner/dsvplanner_exe
+[0.902s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/ament_index/resource_index/package_run_dependencies/dsvplanner
+[0.902s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/ament_index/resource_index/parent_prefix_path/dsvplanner
+[0.902s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/ament_prefix_path.sh
+[0.902s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/ament_prefix_path.dsv
+[0.902s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/path.sh
+[0.902s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/environment/path.dsv
+[0.902s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/local_setup.bash
+[0.902s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/local_setup.sh
+[0.903s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/local_setup.zsh
+[0.903s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/local_setup.dsv
+[0.903s] -- Symlinking: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/package.dsv
+[0.904s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/ament_index/resource_index/packages/dsvplanner
+[0.905s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/rosidl_cmake-extras.cmake
+[0.905s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.905s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.905s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/ament_cmake_export_libraries-extras.cmake
+[0.905s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/ament_cmake_export_targets-extras.cmake
+[0.906s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.906s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.906s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplannerConfig.cmake
+[0.906s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplannerConfig-version.cmake
+[0.906s] -- Up-to-date symlink: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/package.xml
+[0.906s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_generator_c.so
+[0.906s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_fastrtps_c.so
+[0.906s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_fastrtps_cpp.so
+[0.907s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_introspection_c.so
+[0.907s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_c.so
+[0.907s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_introspection_cpp.so
+[0.907s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_typesupport_cpp.so
+[0.931s] Listing '/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner'...
+[0.931s] Listing '/home/freesix/far_planner_ws/install/dsvplanner/local/lib/python3.10/dist-packages/dsvplanner/srv'...
+[0.934s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvplanner__rosidl_generator_py.so
+[0.934s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/lib/libdsvPlannerLib.so
+[0.934s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_generator_cExport.cmake
+[0.934s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_generator_cExport-release.cmake
+[0.935s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_typesupport_fastrtps_cExport.cmake
+[0.935s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_typesupport_fastrtps_cExport-release.cmake
+[0.935s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_generator_cppExport.cmake
+[0.935s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.935s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[0.935s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_introspection_cExport.cmake
+[0.935s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_introspection_cExport-release.cmake
+[0.936s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_cExport.cmake
+[0.936s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_cExport-release.cmake
+[0.936s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_introspection_cppExport.cmake
+[0.936s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.936s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_cppExport.cmake
+[0.936s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/dsvplanner__rosidl_typesupport_cppExport-release.cmake
+[0.936s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_generator_pyExport.cmake
+[0.936s] -- Up-to-date: /home/freesix/far_planner_ws/install/dsvplanner/share/dsvplanner/cmake/export_dsvplanner__rosidl_generator_pyExport-release.cmake
+[0.939s] Invoked command in '/home/freesix/far_planner_ws/build/dsvplanner' returned '0': CMAKE_PREFIX_PATH=/home/freesix/far_planner_ws/install/octomap_world:/home/freesix/far_planner_ws/install/graph_planner:/opt/ros/humble:/home/freesix/far_planner_ws/install/volumetric_map_base:/home/freesix/far_planner_ws/install/minkindr_conversions:/home/freesix/far_planner_ws/install/graph_utils:/home/freesix/far_planner_ws/install/volumetric_msgs:/home/freesix/far_planner_ws/install/misc_utils:/home/freesix/far_planner_ws/install/minkindr:/home/freesix/far_planner_ws/install/kdtree:/home/freesix/far_planner_ws/install/waypoint_rviz_plugin:/home/freesix/far_planner_ws/install/waypoint_example:/home/freesix/far_planner_ws/install/dsvplanner:/home/freesix/far_planner_ws/install/visualization_tools:/home/freesix/far_planner_ws/install/velodyne_simulator:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins:/home/freesix/far_planner_ws/install/velodyne_description:/home/freesix/far_planner_ws/install/vehicle_simulator:/home/freesix/far_planner_ws/install/terrain_analysis_ext:/home/freesix/far_planner_ws/install/terrain_analysis:/home/freesix/far_planner_ws/install/sensor_scan_generation:/home/freesix/far_planner_ws/install/local_planner:/home/freesix/far_planner_ws/install/loam_interface:/home/freesix/far_planner_ws/install/joy:/home/freesix/far_planner_ws/install/dsvp_launch LD_LIBRARY_PATH=/home/freesix/far_planner_ws/install/octomap_world/lib:/home/freesix/far_planner_ws/install/graph_planner/lib:/home/freesix/far_planner_ws/install/volumetric_map_base/lib:/home/freesix/far_planner_ws/install/minkindr_conversions/lib:/home/freesix/far_planner_ws/install/graph_utils/lib:/home/freesix/far_planner_ws/install/volumetric_msgs/lib:/home/freesix/far_planner_ws/install/misc_utils/lib:/home/freesix/far_planner_ws/install/kdtree/lib:/home/freesix/far_planner_ws/install/dsvplanner/lib:/home/freesix/far_planner_ws/install/velodyne_gazebo_plugins/lib:/home/freesix/far_planner_ws/install/joy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/freesix/far_planner_ws/build/dsvplanner
