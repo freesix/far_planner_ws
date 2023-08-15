@@ -45,11 +45,11 @@ public:
             std::bind(&FeatureExtraction::laserCloudInfoHandler, this, std::placeholders::_1));
 
         pubLaserCloudInfo = create_publisher<lio_sam::msg::CloudInfo>(
-            "lio_sam/feature/cloud_info", qos);
+            "lio_sam/feature/cloud_info", qos); // 发布点云
         pubCornerPoints = create_publisher<sensor_msgs::msg::PointCloud2>(
-            "lio_sam/feature/cloud_corner", 1);
+            "lio_sam/feature/cloud_corner", 1);  // 发布边缘类型点云
         pubSurfacePoints = create_publisher<sensor_msgs::msg::PointCloud2>(
-            "lio_sam/feature/cloud_surface", 1);
+            "lio_sam/feature/cloud_surface", 1);  // 发布平面类型点云
 
         initializationValue();
     }
@@ -87,14 +87,14 @@ public:
     void calculateSmoothness()
     {
         int cloudSize = extractedCloud->points.size();
-        for (int i = 5; i < cloudSize - 5; i++)
+        for (int i = 5; i < cloudSize - 5; i++) // 计算每个点左右共十个点对此点的曲率(平滑度)
         {
             float diffRange = cloudInfo.point_range[i-5] + cloudInfo.point_range[i-4]
                             + cloudInfo.point_range[i-3] + cloudInfo.point_range[i-2]
                             + cloudInfo.point_range[i-1] - cloudInfo.point_range[i] * 10
                             + cloudInfo.point_range[i+1] + cloudInfo.point_range[i+2]
                             + cloudInfo.point_range[i+3] + cloudInfo.point_range[i+4]
-                            + cloudInfo.point_range[i+5];
+                            + cloudInfo.point_range[i+5]; // 方差
 
             cloudCurvature[i] = diffRange*diffRange;//diffX * diffX + diffY * diffY + diffZ * diffZ;
 
@@ -110,6 +110,7 @@ public:
     {
         int cloudSize = extractedCloud->points.size();
         // mark occluded points and parallel beam points
+        // 标记遮挡点和平行光束点
         for (int i = 5; i < cloudSize - 6; ++i)
         {
             // occluded points
@@ -163,7 +164,7 @@ public:
 
                 if (sp >= ep)
                     continue;
-
+                // 基于by_value()对迭代器之间的数进行排序
                 std::sort(cloudSmoothness.begin()+sp, cloudSmoothness.begin()+ep, by_value());
 
                 int largestPickedNum = 0;

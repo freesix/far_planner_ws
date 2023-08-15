@@ -129,7 +129,7 @@ public:
         allocateMemory();
         resetParameters();
 
-        pcl::console::setVerbosityLevel(pcl::console::L_ERROR);
+        pcl::console::setVerbosityLevel(pcl::console::L_ERROR); // 管理pcl日志输出等级
     }
 
     void allocateMemory()

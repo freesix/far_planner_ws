@@ -150,7 +150,7 @@ public:
     Eigen::Affine3f incrementalOdometryAffineBack;
 
     std::unique_ptr<tf2_ros::TransformBroadcaster> br;
-
+    // 构造函数，并初始化ParamServer类
     mapOptimization(const rclcpp::NodeOptions & options) : ParamServer("lio_sam_mapOptimization", options)
     {
         ISAM2Params parameters;
@@ -1756,11 +1756,12 @@ int main(int argc, char** argv)
 {   
     rclcpp::init(argc, argv);
 
-    rclcpp::NodeOptions options;
-    options.use_intra_process_comms(true);
-    rclcpp::executors::SingleThreadedExecutor exec;
+    rclcpp::NodeOptions options; // 用于配置和自定义节点属性
+    options.use_intra_process_comms(true); // 开启消息topics的进程内通信
+    rclcpp::executors::SingleThreadedExecutor exec; // 执行器，驱动节点的回调函数，
+                                                    // 这个是在单线程中驱动不同节点回调函数
 
-    auto MO = std::make_shared<mapOptimization>(options);
+    auto MO = std::make_shared<mapOptimization>(options); 
     exec.add_node(MO);
 
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "\033[1;32m----> Map Optimization Started.\033[0m");

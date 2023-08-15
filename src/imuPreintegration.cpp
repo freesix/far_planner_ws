@@ -225,17 +225,17 @@ public:
             ParamServer("lio_sam_imu_preintegration", options)
     {
         callbackGroupImu = create_callback_group(
-            rclcpp::CallbackGroupType::MutuallyExclusive);
+            rclcpp::CallbackGroupType::MutuallyExclusive); // 创建一个回调组
         callbackGroupOdom = create_callback_group(
             rclcpp::CallbackGroupType::MutuallyExclusive);
 
-        auto imuOpt = rclcpp::SubscriptionOptions();
+        auto imuOpt = rclcpp::SubscriptionOptions(); // 定义可配置的订阅者类
         imuOpt.callback_group = callbackGroupImu;
         auto odomOpt = rclcpp::SubscriptionOptions();
         odomOpt.callback_group = callbackGroupOdom;
 
         subImu = create_subscription<sensor_msgs::msg::Imu>(
-            imuTopic, qos_imu,
+            imuTopic, qos_imu,  // qos_imu类用于控制消息传递的服务质量
             std::bind(&IMUPreintegration::imuHandler, this, std::placeholders::_1),
             imuOpt);
         subOdometry = create_subscription<nav_msgs::msg::Odometry>(
@@ -287,7 +287,7 @@ public:
     {
         std::lock_guard<std::mutex> lock(mtx);
 
-        double currentCorrectionTime = stamp2Sec(odomMsg->header.stamp);
+        double currentCorrectionTime = stamp2Sec(odomMsg->header.stamp); // 消息队列时间戳
 
         // make sure we have imu data to integrate
         if (imuQueOpt.empty())
@@ -296,7 +296,7 @@ public:
         float p_x = odomMsg->pose.pose.position.x;
         float p_y = odomMsg->pose.pose.position.y;
         float p_z = odomMsg->pose.pose.position.z;
-        float r_x = odomMsg->pose.pose.orientation.x;
+        float r_x = odomMsg->pose.pose.orientation.x;  // 旋转信息，四元数方式存储
         float r_y = odomMsg->pose.pose.orientation.y;
         float r_z = odomMsg->pose.pose.orientation.z;
         float r_w = odomMsg->pose.pose.orientation.w;
