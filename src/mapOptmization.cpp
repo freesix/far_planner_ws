@@ -176,7 +176,9 @@ public:
             "lio_loop/loop_closure_detection", qos,
             std::bind(&mapOptimization::loopInfoHandler, this, std::placeholders::_1));
 
-        auto saveMapService = [this](const std::shared_ptr<rmw_request_id_t> request_header, const std::shared_ptr<lio_sam::srv::SaveMap::Request> req, std::shared_ptr<lio_sam::srv::SaveMap::Response> res) -> void {
+        auto saveMapService = [this](const std::shared_ptr<rmw_request_id_t> request_header, 
+                            const std::shared_ptr<lio_sam::srv::SaveMap::Request> req, 
+                            std::shared_ptr<lio_sam::srv::SaveMap::Response> res) -> void {
             (void)request_header;
             string saveMapDirectory;
             cout << "****************************************************" << endl;

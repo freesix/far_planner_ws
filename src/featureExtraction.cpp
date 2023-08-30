@@ -95,14 +95,15 @@ public:
                             + cloudInfo.point_range[i+1] + cloudInfo.point_range[i+2]
                             + cloudInfo.point_range[i+3] + cloudInfo.point_range[i+4]
                             + cloudInfo.point_range[i+5]; // 方差
-
+            // 平方差(曲率的一种计算)
             cloudCurvature[i] = diffRange*diffRange;//diffX * diffX + diffY * diffY + diffZ * diffZ;
 
             cloudNeighborPicked[i] = 0;
             cloudLabel[i] = 0;
             // cloudSmoothness for sorting
-            cloudSmoothness[i].value = cloudCurvature[i];
-            cloudSmoothness[i].ind = i;
+            // cloudSmoothness一个结构体类型的容器，包含平滑度值和索引
+            cloudSmoothness[i].value = cloudCurvature[i]; // 平滑度
+            cloudSmoothness[i].ind = i;  // 对应点索引
         }
     }
 
@@ -111,6 +112,7 @@ public:
         int cloudSize = extractedCloud->points.size();
         // mark occluded points and parallel beam points
         // 标记遮挡点和平行光束点
+        // 给标记成遮挡点和平行光束点的点打上标签，不作为特征点
         for (int i = 5; i < cloudSize - 6; ++i)
         {
             // occluded points
@@ -152,36 +154,40 @@ public:
         pcl::PointCloud<PointType>::Ptr surfaceCloudScan(new pcl::PointCloud<PointType>());
         pcl::PointCloud<PointType>::Ptr surfaceCloudScanDS(new pcl::PointCloud<PointType>());
 
-        for (int i = 0; i < N_SCAN; i++)
+        for (int i = 0; i < N_SCAN; i++) // 对多线激光每一线内点循环
         {
             surfaceCloudScan->clear();
 
             for (int j = 0; j < 6; j++)
             {
-
+                // 计算每一线中每一段的开始点和结束点
                 int sp = (cloudInfo.start_ring_index[i] * (6 - j) + cloudInfo.end_ring_index[i] * j) / 6;
                 int ep = (cloudInfo.start_ring_index[i] * (5 - j) + cloudInfo.end_ring_index[i] * (j + 1)) / 6 - 1;
 
                 if (sp >= ep)
                     continue;
                 // 基于by_value()对迭代器之间的数进行排序
+                // 对每一段内平滑度排序
                 std::sort(cloudSmoothness.begin()+sp, cloudSmoothness.begin()+ep, by_value());
 
                 int largestPickedNum = 0;
                 for (int k = ep; k >= sp; k--)
                 {
                     int ind = cloudSmoothness[k].ind;
-                    if (cloudNeighborPicked[ind] == 0 && cloudCurvature[ind] > edgeThreshold)
+                    // 判断cloudNeighborPicked中是否标记为遮挡点，平滑度是否大于阈值
+                    // 角点判断
+                    if (cloudNeighborPicked[ind] == 0 && cloudCurvature[ind] > edgeThreshold) 
                     {
                         largestPickedNum++;
-                        if (largestPickedNum <= 20){
+                        if (largestPickedNum <= 20){ // 每段存储20个角点
                             cloudLabel[ind] = 1;
                             cornerCloud->push_back(extractedCloud->points[ind]);
                         } else {
                             break;
                         }
 
-                        cloudNeighborPicked[ind] = 1;
+                        cloudNeighborPicked[ind] = 1; // 标记此点已经被处理过了，已经标记为角点了
+                        // 判角点前后各五个点是否与其相差过大，是则标记为已经处理过了，防止焦点聚集
                         for (int l = 1; l <= 5; l++)
                         {
                             int columnDiff = std::abs(int(cloudInfo.point_col_ind[ind + l] - cloudInfo.point_col_ind[ind + l - 1]));
@@ -198,16 +204,16 @@ public:
                         }
                     }
                 }
-
+                // 每一段内判断平面点，从前往后循环，从曲率小往大判断
                 for (int k = sp; k <= ep; k++)
                 {
                     int ind = cloudSmoothness[k].ind;
                     if (cloudNeighborPicked[ind] == 0 && cloudCurvature[ind] < surfThreshold)
                     {
 
-                        cloudLabel[ind] = -1;
-                        cloudNeighborPicked[ind] = 1;
-
+                        cloudLabel[ind] = -1; // 打上平面点的标签
+                        cloudNeighborPicked[ind] = 1; // 表示点已经被处理过了
+                        // 同理防止聚集
                         for (int l = 1; l <= 5; l++) {
                             int columnDiff = std::abs(int(cloudInfo.point_col_ind[ind + l] - cloudInfo.point_col_ind[ind + l - 1]));
                             if (columnDiff > 10)
@@ -232,7 +238,7 @@ public:
                     }
                 }
             }
-
+            // 对平面点降采样
             surfaceCloudScanDS->clear();
             downSizeFilter.setInputCloud(surfaceCloudScan);
             downSizeFilter.filter(*surfaceCloudScanDS);
